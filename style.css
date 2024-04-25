@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  color: white;
+}
+* body {
+  background-color: black;
+}
+* body .whole_page {
+  height: 200vh;
+  background-color: darkblue;
+}
+* body .whole_page nav {
+  background-color: rgb(114, 98, 79);
+  height: 4%;
+}
+* body .whole_page nav .nav_contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* body .whole_page .top_page {
+  height: 30%;
+  background-color: darkred;
+}
+* body .whole_page .mid_page {
+  height: 35%;
+  background-color: rgb(55, 28, 82);
+}
+* body .whole_page .bottom_page {
+  height: 35%;
+  background-color: darkgreen;
+}
+* body .whole_page footer {
+  height: 10%;
+  background-color: rgb(114, 98, 79);
+}/*# sourceMappingURL=style.css.map */
