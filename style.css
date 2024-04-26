@@ -136,6 +136,7 @@
 * body .whole_page .insight_section .insight_contents .insight_squares {
   display: flex;
   gap: 5em;
+  height: 100%;
 }
 * body .whole_page .insight_section .insight_contents .insight_squares .square {
   display: flex;
