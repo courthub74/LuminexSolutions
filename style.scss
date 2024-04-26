@@ -153,7 +153,6 @@ $borderfont: #dad3d35b;
                 // justify-content: center;
                 align-items: center;
                 font-family: 'Inter', sans-serif;
-              
                 .insight_contents {
                     display: flex;
                     flex-direction: column;
@@ -175,8 +174,53 @@ $borderfont: #dad3d35b;
                             // background-image: url("./img/operations_light.png");
                             height: 32em;
                             width: 21em;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            // Square Content
                             .square_content {
-                                margin: 3em 0 0 0;
+                                display: flex;
+                                flex-direction: column;
+                                margin: 3em 0 0 5em;
+                                // justify-content: left;
+                                button {
+                                    background: none;
+                                    border: none;
+                                    text-align: left;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 1.1rem;
+                                    font-weight: bold;
+                                    position: absolute;
+                                    cursor: pointer;
+                                }
+                                button::before {
+                                    content: '';
+                                    position: absolute;
+                                    bottom: -8px;
+                                    left: 0;
+                                    right: 0;
+                                    height: 4px;
+                                    width: 105%;
+                                    background-color: $bluetext;
+                                    opacity: 0;  
+                                    margin: 0 0 0 .4em;
+                                }
+                                button:hover:before {
+                                    opacity: 1;
+                                    transition: .3s all ease-in;
+                                    z-index: 1;
+                                }
+                                .hover_boxes {
+                                    display: flex;
+                                    flex-direction: column;
+                                    line-height: 15px;
+                                    align-items: center;
+                                    height: 100%;
+                                    width: 60%;
+                                    margin: 3em 0 0 .4em;
+                                    p {
+                                        font-size: small;
+                                    }
+                                }
                             }
                         }
                         #square_one {
@@ -197,7 +241,7 @@ $borderfont: #dad3d35b;
             }
             footer {
                 height: 150px;
-                background-color: rgb(114, 98, 79);
+                background-color: $newnav;
 
             }
         }

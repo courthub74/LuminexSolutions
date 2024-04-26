@@ -143,9 +143,52 @@
   border: 1px solid #06183A;
   height: 32em;
   width: 21em;
+  border-radius: 5px;
+  cursor: pointer;
 }
 * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
-  margin: 3em 0 0 0;
+  display: flex;
+  flex-direction: column;
+  margin: 3em 0 0 5em;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content button {
+  background: none;
+  border: none;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  position: absolute;
+  cursor: pointer;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content button::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  width: 105%;
+  background-color: #66C7E5;
+  opacity: 0;
+  margin: 0 0 0 0.4em;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content button:hover:before {
+  opacity: 1;
+  transition: 0.3s all ease-in;
+  z-index: 1;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
+  display: flex;
+  flex-direction: column;
+  line-height: 15px;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  margin: 3em 0 0 0.4em;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes p {
+  font-size: small;
 }
 * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
   background-image: url("./img/office_lights.png");
@@ -162,5 +205,5 @@
 }
 * body .whole_page footer {
   height: 150px;
-  background-color: rgb(114, 98, 79);
+  background-color: #06183A;
 }/*# sourceMappingURL=style.css.map */
