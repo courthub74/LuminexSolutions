@@ -186,9 +186,14 @@
   height: 100%;
   width: 60%;
   margin: 3em 0 0 0.4em;
+  opacity: 0;
 }
 * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes p {
   font-size: small;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes.appear {
+  opacity: 1;
+  transition: 0.3s all ease-in;
 }
 * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
   background-image: url("./img/office_lights.png");

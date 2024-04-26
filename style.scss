@@ -217,9 +217,14 @@ $borderfont: #dad3d35b;
                                     height: 100%;
                                     width: 60%;
                                     margin: 3em 0 0 .4em;
+                                    opacity: 0;
                                     p {
                                         font-size: small;
                                     }
+                                }
+                                .hover_boxes.appear {
+                                    opacity: 1;
+                                    transition: .3s all ease-in;
                                 }
                             }
                         }
