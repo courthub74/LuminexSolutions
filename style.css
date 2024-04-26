@@ -78,6 +78,7 @@
 }
 * body .whole_page .exec_summary {
   height: 28%;
+  height: 400px;
   background-color: #F0F5FF;
   display: flex;
   flex-direction: column;
