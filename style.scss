@@ -98,7 +98,7 @@ $borderfont: #dad3d35b;
             }
             // Middle
             .exec_summary {
-                height: 35%;
+                height: 28%;
                 background-color: $backgroundwhite;
                 display: flex;
                 flex-direction: column;
@@ -108,11 +108,37 @@ $borderfont: #dad3d35b;
                     margin: 7em 0 0 5em;
                     width: 60%;
                     line-height: 2em;
+                    font-size: 1rem;
                     b {
                         color: $newnav;
                     }
                     p {
                         color: $newnav;
+                    }
+                }
+                // Line and Bulb
+                .ul_bulb {
+                    // background-color: #668CF6;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    margin: 5em 0 0 0;
+                    ul {
+                        width: 85%;
+                        height: 2px;
+                        margin: 0em 0 0 -2em;
+                        // margin-left: auto;
+                        // margin-right: auto;
+                        background-color: $newnav;
+                        border: 0 none;
+                    }
+                    #bulb {
+                        width: 2em;
+                        height: 2em;
+                        position: relative;
+                        right: -15px;
+                        // margin-left: -11em;
                     }
                 }
             }

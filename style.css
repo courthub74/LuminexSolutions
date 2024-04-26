@@ -77,7 +77,7 @@
   color: #66C7E5;
 }
 * body .whole_page .exec_summary {
-  height: 35%;
+  height: 28%;
   background-color: #F0F5FF;
   display: flex;
   flex-direction: column;
@@ -87,12 +87,33 @@
   margin: 7em 0 0 5em;
   width: 60%;
   line-height: 2em;
+  font-size: 1rem;
 }
 * body .whole_page .exec_summary .exec_words b {
   color: #06183A;
 }
 * body .whole_page .exec_summary .exec_words p {
   color: #06183A;
+}
+* body .whole_page .exec_summary .ul_bulb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5em 0 0 0;
+}
+* body .whole_page .exec_summary .ul_bulb ul {
+  width: 85%;
+  height: 2px;
+  margin: 0em 0 0 -2em;
+  background-color: #06183A;
+  border: 0 none;
+}
+* body .whole_page .exec_summary .ul_bulb #bulb {
+  width: 2em;
+  height: 2em;
+  position: relative;
+  right: -15px;
 }
 * body .whole_page .bottom_page {
   height: 40%;
