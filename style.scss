@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// COLORS
+$headerfont: #DAD3D3;
+$bluetext: #66C7E5;
+
+$newnav: #06183A;
+$supportblue: #668CF6;
+$backgroundwhite: #F0F5FF;
+
+// BORDERS
+$borderfont: #dad3d35b;
+
 * {
     margin: 0;
     color: white;
@@ -7,19 +20,60 @@
             // 100
             height: 200vh;
             background-color: darkblue;
+            // The NavBar
             nav {
                 background-color: rgb(114, 98, 79);
                 height: 4%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
                 .nav_contents {
+                    margin: 0 5em 0 5em;
                     display: flex;
                     align-items: center;
-                    justify-content: center;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+                .title_nav {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 2rem;
+                }
+                .list_nav {
+                    font-family: 'Roboto', sans-serif;
+                    display: flex;
+                    gap: 1em;
+                    a {
+                        text-decoration: none;
+                        font-size: 1.2rem;
+                    }
                 }
             }
             // Top
             .top_page {
-                height: 30%;
+                height: 20%;
                 background-color: darkred;
+                // position: relative;
+                background-image: url("./img/banner_one.png");
+                .top_banner {
+                    // background-image: url("./img/banner_one.png");
+                    height: 100%;
+                    width: 100%;
+                    // set to the bottom of top page div
+                    // position: absolute;
+                    // bottom: 0;
+                    margin: 10em 5em 0 5em;
+                    .banner_words {
+                        font-family: 'Roboto', sans-serif;
+                        // margin: 0 5em 0 5em;
+                        display: flex;
+                        align-items: center;
+                        height: 100%;
+                        font-size: 2rem;
+                        font-weight: bold;
+                        // background-color: aqua;
+                    }
+                }
             }
             // Middle
             .mid_page {
@@ -28,7 +82,7 @@
             }
             // Bottom
             .bottom_page {
-                height: 35%;
+                height: 40%;
                 background-color: darkgreen;
             }
             footer {

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
 * {
   margin: 0;
   color: white;
@@ -12,22 +13,55 @@
 * body .whole_page nav {
   background-color: rgb(114, 98, 79);
   height: 4%;
-}
-* body .whole_page nav .nav_contents {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+}
+* body .whole_page nav .nav_contents {
+  margin: 0 5em 0 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+* body .whole_page nav .title_nav {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+}
+* body .whole_page nav .list_nav {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  gap: 1em;
+}
+* body .whole_page nav .list_nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 * body .whole_page .top_page {
-  height: 30%;
+  height: 20%;
   background-color: darkred;
+  background-image: url("./img/banner_one.png");
+}
+* body .whole_page .top_page .top_banner {
+  height: 100%;
+  width: 100%;
+  margin: 10em 5em 0 5em;
+}
+* body .whole_page .top_page .top_banner .banner_words {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 2rem;
+  font-weight: bold;
 }
 * body .whole_page .mid_page {
   height: 35%;
   background-color: rgb(55, 28, 82);
 }
 * body .whole_page .bottom_page {
-  height: 35%;
+  height: 40%;
   background-color: darkgreen;
 }
 * body .whole_page footer {
