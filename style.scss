@@ -165,7 +165,7 @@ $borderfont: #dad3d35b;
                     }
                     .insight_squares {
                         display: flex;
-                        gap: 4em;
+                        gap: 5em;
                         .square {
                             display: flex;
                             // align-items: center;
@@ -173,8 +173,10 @@ $borderfont: #dad3d35b;
                             border: 1px solid $newnav;
                             // background-image: url("./img/operations_light.png");
                             height: 32em;
-                            width: 21em;
+                            width: 23em;
                             border-radius: 5px;
+                            // height: 100%;
+                            // width: 100%;
                             cursor: pointer;
                             // Square Content
                             .square_content {
