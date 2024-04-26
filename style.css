@@ -8,11 +8,12 @@
 }
 * body .whole_page {
   height: 200vh;
-  background-color: darkblue;
+  background-color: #F0F5FF;
 }
 * body .whole_page nav {
-  background-color: rgb(114, 98, 79);
+  background-color: #06183A;
   height: 4%;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +28,7 @@
 }
 * body .whole_page nav .title_nav {
   font-family: "Inter", sans-serif;
-  font-size: 2rem;
+  font-size: 1.1rem;
 }
 * body .whole_page nav .list_nav {
   font-family: "Roboto", sans-serif;
@@ -36,29 +37,62 @@
 }
 * body .whole_page nav .list_nav a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 * body .whole_page .top_page {
-  height: 20%;
-  background-color: darkred;
-  background-image: url("./img/banner_one.png");
-}
-* body .whole_page .top_page .top_banner {
-  height: 100%;
+  background-color: #06183A;
   width: 100%;
-  margin: 10em 5em 0 5em;
+  height: 250px;
+  margin-top: 6em;
 }
-* body .whole_page .top_page .top_banner .banner_words {
-  font-family: "Roboto", sans-serif;
+* body .whole_page .top_page .right_square {
   display: flex;
   align-items: center;
-  height: 100%;
-  font-size: 2rem;
-  font-weight: bold;
+  background-color: black;
+  background-image: url("./img/top_banner.png");
+  width: 100%;
+  height: 17em;
 }
-* body .whole_page .mid_page {
+* body .whole_page .top_page .right_square .solutions {
+  color: #66C7E5;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 0.7em;
+  left: 3em;
+  width: 55%;
+}
+* body .whole_page .top_page .right_square .solutions::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  height: 6px;
+  width: 45%;
+  background-color: white;
+}
+* body .whole_page .top_page .right_square p {
+  color: #66C7E5;
+}
+* body .whole_page .exec_summary {
   height: 35%;
-  background-color: rgb(55, 28, 82);
+  background-color: #F0F5FF;
+  display: flex;
+  flex-direction: column;
+}
+* body .whole_page .exec_summary .exec_words {
+  font-family: "Inter", sans-serif;
+  margin: 7em 0 0 5em;
+  width: 60%;
+  line-height: 2em;
+}
+* body .whole_page .exec_summary .exec_words b {
+  color: #06183A;
+}
+* body .whole_page .exec_summary .exec_words p {
+  color: #06183A;
 }
 * body .whole_page .bottom_page {
   height: 40%;
