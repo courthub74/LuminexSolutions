@@ -116,11 +116,51 @@
   position: relative;
   right: -15px;
 }
-* body .whole_page .bottom_page {
+* body .whole_page .insight_section {
   height: 40%;
-  background-color: darkgreen;
+  height: 725px;
+  background-color: #F0F5FF;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+* body .whole_page .insight_section .insight_contents {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+  margin: 0em 5em 0 5em;
+}
+* body .whole_page .insight_section .insight_contents .insight_title b {
+  color: #06183A;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares {
+  display: flex;
+  gap: 4em;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #06183A;
+  height: 32em;
+  width: 21em;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
+  margin: 3em 0 0 0;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares #square_one {
+  background-image: url("./img/office_lights.png");
+  margin: 0 0 0 0em;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares #square_two {
+  background-image: url("./img/operations_light.png");
+}
+* body .whole_page .insight_section .insight_contents .insight_squares #square_three {
+  background-image: url("./img/environ_light.png");
+}
+* body .whole_page .insight_section .insight_contents .insight_squares #square_four {
+  background-image: url("./img/hand_light.png");
 }
 * body .whole_page footer {
-  height: 10%;
+  height: 150px;
   background-color: rgb(114, 98, 79);
 }/*# sourceMappingURL=style.css.map */

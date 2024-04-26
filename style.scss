@@ -145,12 +145,58 @@ $borderfont: #dad3d35b;
                 }
             }
             // Bottom
-            .bottom_page {
+            .insight_section {
                 height: 40%;
-                background-color: darkgreen;
+                height: 725px;
+                background-color: $backgroundwhite;
+                display: flex;
+                // justify-content: center;
+                align-items: center;
+                font-family: 'Inter', sans-serif;
+              
+                .insight_contents {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.1em;
+                    margin: 0em 5em 0 5em;
+                    .insight_title {
+                        b {
+                            color: $newnav;
+                        }
+                    }
+                    .insight_squares {
+                        display: flex;
+                        gap: 4em;
+                        .square {
+                            display: flex;
+                            // align-items: center;
+                            justify-content: center;
+                            border: 1px solid $newnav;
+                            // background-image: url("./img/operations_light.png");
+                            height: 32em;
+                            width: 21em;
+                            .square_content {
+                                margin: 3em 0 0 0;
+                            }
+                        }
+                        #square_one {
+                            background-image: url("./img/office_lights.png");
+                            margin: 0 0 0 0em;
+                        }
+                        #square_two {
+                            background-image: url("./img/operations_light.png");
+                        }
+                        #square_three {
+                            background-image: url("./img/environ_light.png");
+                        }
+                        #square_four {
+                            background-image: url("./img/hand_light.png");
+                        }
+                    }
+                }
             }
             footer {
-                height: 10%;
+                height: 150px;
                 background-color: rgb(114, 98, 79);
 
             }
