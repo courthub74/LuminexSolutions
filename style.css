@@ -118,8 +118,10 @@
 }
 * body .whole_page .insight_section {
   height: 50%;
+  height: 650px;
   background-color: #F0F5FF;
   display: flex;
+  padding: 2em 0 2em 0;
   align-items: center;
   font-family: "Inter", sans-serif;
 }
@@ -127,7 +129,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.1em;
-  margin: -15em 5em 0 5em;
+  margin: -7em 5em 0 5em;
 }
 * body .whole_page .insight_section .insight_contents .insight_title b {
   color: #06183A;
@@ -137,6 +139,28 @@
   gap: 5em;
   height: 100%;
   background-color: #668CF6;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square {
+  background-color: #06183A;
+  width: 60%;
+  position: relative;
+  cursor: pointer;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button {
+  background-color: #06183A;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  border: none;
+  font-weight: bold;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
+  width: 70%;
+}
+* body .whole_page .insight_section .insight_contents .insight_squares .square::after {
+  content: "";
+  display: block;
+  padding-bottom: 30%;
 }
 * body .whole_page footer {
   height: 150px;

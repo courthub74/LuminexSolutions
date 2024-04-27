@@ -147,17 +147,19 @@ $borderfont: #dad3d35b;
             // Bottom
             .insight_section {
                 height: 50%;
-                
+                height: 650px;
                 background-color: $backgroundwhite;
                 display: flex;
                 // justify-content: center;
+                padding: 2em 0 2em 0;
                 align-items: center;
                 font-family: 'Inter', sans-serif;
                 .insight_contents {
                     display: flex;
                     flex-direction: column;
                     gap: 1.1em;
-                    margin: -15em 5em 0 5em;
+                    margin: -7em 5em 0 5em;
+                    // margin: 0 5em 0 5em;
                     .insight_title {
                         b {
                             color: $newnav;
@@ -168,8 +170,36 @@ $borderfont: #dad3d35b;
                         display: flex;
                         gap: 5em;
                         height: 100%;
+                        // width: 50%;
                         background-color: #668CF6;
-                        
+                        .square {
+                            background-color: #06183A;
+                            width: 60%;
+                            position: relative;
+                            cursor: pointer;
+                            .square_content {
+                                // width: 100%;
+                                // height: 100%;
+                                // margin: 6em 0 0 9em;
+                                // position: absolute;
+                                .insight_button {
+                                    background-color: $newnav;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 1rem;
+                                    border: none;
+                                    font-weight: bold;
+                                }
+                                .hover_boxes {
+                                    width: 70%;
+                                }
+                            }
+                        }
+                        .square::after {
+                            content: "";
+                            display: block;
+                            padding-bottom: 30%;
+                       }
                     }
                 }
             }
