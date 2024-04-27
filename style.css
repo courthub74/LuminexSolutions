@@ -7,12 +7,12 @@
   background-color: black;
 }
 * body .whole_page {
-  height: 200vh;
+  height: 150vh;
   background-color: #F0F5FF;
 }
 * body .whole_page nav {
   background-color: #06183A;
-  height: 4%;
+  height: 5%;
   height: 65px;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@
 }
 * body .whole_page nav .title_nav {
   font-family: "Inter", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 * body .whole_page nav .list_nav {
   font-family: "Roboto", sans-serif;
@@ -37,7 +37,7 @@
 }
 * body .whole_page nav .list_nav a {
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 * body .whole_page .top_page {
   background-color: #06183A;
@@ -117,8 +117,7 @@
   right: -15px;
 }
 * body .whole_page .insight_section {
-  height: 40%;
-  height: 725px;
+  height: 50%;
   background-color: #F0F5FF;
   display: flex;
   align-items: center;
@@ -128,7 +127,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.1em;
-  margin: 0em 5em 0 5em;
+  margin: -15em 5em 0 5em;
 }
 * body .whole_page .insight_section .insight_contents .insight_title b {
   color: #06183A;
@@ -137,77 +136,7 @@
   display: flex;
   gap: 5em;
   height: 100%;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares .square {
-  display: flex;
-  justify-content: center;
-  border: 1px solid #06183A;
-  height: 32em;
-  width: 23em;
-  border-radius: 5px;
-  cursor: pointer;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
-  display: flex;
-  flex-direction: column;
-  margin: 3em 0 0 5em;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content button {
-  background: none;
-  border: none;
-  text-align: left;
-  font-family: "Inter", sans-serif;
-  font-size: 1.1rem;
-  font-weight: bold;
-  position: absolute;
-  cursor: pointer;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content button::before {
-  content: "";
-  position: absolute;
-  bottom: -8px;
-  left: 0;
-  right: 0;
-  height: 4px;
-  width: 105%;
-  background-color: #66C7E5;
-  opacity: 0;
-  margin: 0 0 0 0.4em;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content button:hover:before {
-  opacity: 1;
-  transition: 0.3s all ease-in;
-  z-index: 1;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
-  display: flex;
-  flex-direction: column;
-  line-height: 15px;
-  align-items: center;
-  height: 100%;
-  width: 60%;
-  margin: 3em 0 0 0.4em;
-  opacity: 0;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes p {
-  font-size: small;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes.appear {
-  opacity: 1;
-  transition: 0.3s all ease-in;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares #square_one {
-  background-image: url("./img/office_lights.png");
-  margin: 0 0 0 0em;
-}
-* body .whole_page .insight_section .insight_contents .insight_squares #square_two {
-  background-image: url("./img/operations_light.png");
-}
-* body .whole_page .insight_section .insight_contents .insight_squares #square_three {
-  background-image: url("./img/environ_light.png");
-}
-* body .whole_page .insight_section .insight_contents .insight_squares #square_four {
-  background-image: url("./img/hand_light.png");
+  background-color: #668CF6;
 }
 * body .whole_page footer {
   height: 150px;

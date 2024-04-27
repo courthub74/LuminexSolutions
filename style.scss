@@ -18,12 +18,12 @@ $borderfont: #dad3d35b;
         background-color: black;
         .whole_page {
             // 100
-            height: 200vh;
+            height: 150vh;
             background-color: $backgroundwhite;
             // The NavBar
             nav {
                 background-color: $newnav;
-                height: 4%;
+                height: 5%;
                 height: 65px;
                 display: flex;
                 align-items: center;
@@ -38,7 +38,7 @@ $borderfont: #dad3d35b;
                 }
                 .title_nav {
                     font-family: 'Inter', sans-serif;
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                 }
                 .list_nav {
                     font-family: 'Roboto', sans-serif;
@@ -46,7 +46,7 @@ $borderfont: #dad3d35b;
                     gap: 1em;
                     a {
                         text-decoration: none;
-                        font-size: .8rem;
+                        font-size: 1rem;
                     }
                 }
             }
@@ -146,8 +146,8 @@ $borderfont: #dad3d35b;
             }
             // Bottom
             .insight_section {
-                height: 40%;
-                height: 725px;
+                height: 50%;
+                
                 background-color: $backgroundwhite;
                 display: flex;
                 // justify-content: center;
@@ -157,93 +157,19 @@ $borderfont: #dad3d35b;
                     display: flex;
                     flex-direction: column;
                     gap: 1.1em;
-                    margin: 0em 5em 0 5em;
+                    margin: -15em 5em 0 5em;
                     .insight_title {
                         b {
                             color: $newnav;
                         }
                     }
+                    // ALL THE SQUARES
                     .insight_squares {
                         display: flex;
                         gap: 5em;
                         height: 100%;
-                        .square {
-                            display: flex;
-                            // align-items: center;
-                            justify-content: center;
-                            border: 1px solid $newnav;
-                            // background-image: url("./img/operations_light.png");
-                            height: 32em;
-                            width: 23em;
-                            border-radius: 5px;
-                            // height: 100%;
-                            // width: 100%;
-                            cursor: pointer;
-                            // Square Content
-                            .square_content {
-                                display: flex;
-                                flex-direction: column;
-                                margin: 3em 0 0 5em;
-                                // justify-content: left;
-                                button {
-                                    background: none;
-                                    border: none;
-                                    text-align: left;
-                                    font-family: 'Inter', sans-serif;
-                                    font-size: 1.1rem;
-                                    font-weight: bold;
-                                    position: absolute;
-                                    cursor: pointer;
-                                }
-                                button::before {
-                                    content: '';
-                                    position: absolute;
-                                    bottom: -8px;
-                                    left: 0;
-                                    right: 0;
-                                    height: 4px;
-                                    width: 105%;
-                                    background-color: $bluetext;
-                                    opacity: 0;  
-                                    margin: 0 0 0 .4em;
-                                }
-                                button:hover:before {
-                                    opacity: 1;
-                                    transition: .3s all ease-in;
-                                    z-index: 1;
-                                }
-                                .hover_boxes {
-                                    display: flex;
-                                    flex-direction: column;
-                                    line-height: 15px;
-                                    align-items: center;
-                                    height: 100%;
-                                    width: 60%;
-                                    margin: 3em 0 0 .4em;
-                                    opacity: 0;
-                                    p {
-                                        font-size: small;
-                                    }
-                                }
-                                .hover_boxes.appear {
-                                    opacity: 1;
-                                    transition: .3s all ease-in;
-                                }
-                            }
-                        }
-                        #square_one {
-                            background-image: url("./img/office_lights.png");
-                            margin: 0 0 0 0em;
-                        }
-                        #square_two {
-                            background-image: url("./img/operations_light.png");
-                        }
-                        #square_three {
-                            background-image: url("./img/environ_light.png");
-                        }
-                        #square_four {
-                            background-image: url("./img/hand_light.png");
-                        }
+                        background-color: #668CF6;
+                        
                     }
                 }
             }
@@ -255,3 +181,50 @@ $borderfont: #dad3d35b;
         }
     }
 }
+
+
+// .lil_squares {
+//     display: flex;
+//     gap: 5em;
+//     height: 50%;
+//     .lil_square {
+//       border: 2px solid rgb(89, 89, 216);
+//       background-color: rgb(21, 21, 215);
+//       width: 25%;
+//       // for the content positioning
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       position: relative;
+//       cursor: pointer;
+//       .square_content {
+//         width: 40%;
+//         width: 100%;
+//         height: 100%;
+//         margin: 6em 0 0 9em;
+//         position: absolute;
+//         // BUTTON
+//         .square_head {
+//           background: none;
+//           color: aliceblue;
+//           border: none;
+//           font-size: 1rem;
+//           font-weight: bold;
+//           // background-color: red;
+//           margin: 0 0 0 -.3rem;
+//           // width: 100%;
+//         }
+//         p {
+//           color: white;
+//           font-size: small;
+//           // background-color: rebeccapurple;
+//           width: 50%;
+//         }
+//       }
+//     }
+//     .lil_square::after {
+//       content: "";
+//       display: block;
+//       padding-bottom: 100%;
+//     }
+//   }
