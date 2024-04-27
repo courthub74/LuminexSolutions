@@ -168,19 +168,19 @@ $borderfont: #dad3d35b;
                     // ALL THE SQUARES
                     .insight_squares {
                         display: flex;
-                        gap: 5em;
+                        gap: 2em;
                         height: 100%;
                         // width: 50%;
-                        background-color: #668CF6;
+                        // background-color: #668CF6;
                         .square {
                             background-color: #06183A;
-                            width: 60%;
+                            width: 85%;
                             position: relative;
                             cursor: pointer;
                             .square_content {
                                 // width: 100%;
                                 // height: 100%;
-                                // margin: 6em 0 0 9em;
+                                margin: 2em 0 0 4em;
                                 // position: absolute;
                                 .insight_button {
                                     background-color: $newnav;
@@ -189,9 +189,12 @@ $borderfont: #dad3d35b;
                                     font-size: 1rem;
                                     border: none;
                                     font-weight: bold;
+                                    cursor: pointer;
                                 }
                                 .hover_boxes {
-                                    width: 70%;
+                                    width: 75%;
+                                    font-size: .9rem;
+                                    margin: 1em 0 0 .3em;
                                 }
                             }
                         }
