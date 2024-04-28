@@ -67,8 +67,8 @@ $borderfont: #dad3d35b;
                         font-size: 1.3rem;
                         margin-left: -.7em;
                         #lightbulb {
-                            width: 1.2em;
-                            height: 1.2em;
+                            width: 1em;
+                            height: 1em;
                         }
                     }
                     .list_nav {
@@ -168,7 +168,7 @@ $borderfont: #dad3d35b;
                             margin: 7em 0 0 5em;
                             width: 60%;
                             line-height: 2em;
-                            font-size: 1rem;
+                            font-size: .9rem;
                             b {
                                 color: $newnav;
                             }
@@ -180,7 +180,7 @@ $borderfont: #dad3d35b;
                             display: flex;
                             margin: 9em 0 0 0;
                             position: relative;
-                            left: 85px;
+                            left: 10px;
                             .led_one {
                                 margin: 0 0 0 3em;
                                 z-index: 1;
@@ -189,22 +189,21 @@ $borderfont: #dad3d35b;
                                     border-radius: 50%;
                                     border-radius: 15px;
                                     box-shadow: 2px 2px 2px 1px $bluetext;
-                                    width: 14em;
-                                    height: 14em;
+                                    width: 10em;
+                                    height: 10em;
                                 }
                             }
                             .led_two {
                                 // background-color: $newnav;
                                 border-radius: 50%;
                                 // border-radius: 15px;
-                                
                                 margin: -3em 0 0 -3em;
                                 #led_two {
                                     border-radius: 15px;
                                     filter: brightness(70%);
                                     box-shadow: 2px 2px 2px 2px $bluetext;
-                                    width: 14em;
-                                    height: 14em;
+                                    width: 10em;
+                                    height: 10em;
                                     border-radius: 15px;
                                 }
                             }
@@ -220,7 +219,7 @@ $borderfont: #dad3d35b;
                         margin: 5em 0 0 0;
                         ul {
                             width: 85%;
-                            width: 86%;
+                            width: 80%;
                             height: 2px;
                             margin: 0em 0 0 -.5em;
                             // margin-left: auto;
@@ -275,7 +274,7 @@ $borderfont: #dad3d35b;
                                 .square_content {
                                     // width: 100%;
                                     // height: 100%;
-                                    margin: 2em 0 0 4em;
+                                    margin: 2em 0 0 3em;
                                     // position: absolute;
                                     .insight_button {
                                         background: none;
@@ -307,7 +306,7 @@ $borderfont: #dad3d35b;
                                     }
                                     .hover_boxes {
                                         width: 75%;
-                                        font-size: .9rem;
+                                        font-size: .8rem;
                                         margin: 2em 0 0 .3em;
                                         opacity: 0;
                                     }
@@ -354,7 +353,8 @@ $borderfont: #dad3d35b;
                         // background-color: #668CF6;
                         
                         // margin sizing below
-                        gap: 15vw;
+                        gap: 5vw;
+                        // gap: 7vw;
                         .co_name_logo {
                             display: flex;
                             // Logo and Name
@@ -362,7 +362,8 @@ $borderfont: #dad3d35b;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                        
+                                position: relative;
+                                right: 50px;
                                 #lightbulb {
                                     width: 1em;
                                     height: 1em;
@@ -371,7 +372,7 @@ $borderfont: #dad3d35b;
                                     color: $headerfont;
                                     color: white;
                                     font-family: 'Inter', sans-serif;
-                                    font-size: 1rem;
+                                    font-size: .9rem;
                                 }
                             }
     
@@ -383,9 +384,9 @@ $borderfont: #dad3d35b;
                                     display: flex;
                                     flex-direction: column;
                                     gap: 1em;
-                                    margin: 0 0 0 7em;
+                                    margin: 0 0 0 5em;
                                     position: relative;
-                                    left: 2em;
+                                    right: 4em;
                                     a {
                                         color: white;
                                         font-family: 'Inter', sans-serif;
@@ -401,7 +402,7 @@ $borderfont: #dad3d35b;
                             flex-direction: column;
                             gap: .5em;
                             // Margins and positions below
-                            margin: -3em 0 0 -4em;
+                            margin: -2.5em 0 0 -2em;
                             small {
                                 color: $bluetext;
                                 font-family: 'Inter', sans-serif;
@@ -416,8 +417,8 @@ $borderfont: #dad3d35b;
                                     border-bottom-left-radius: 5px;
                                     border-top-right-radius: 0px;
                                     border-bottom-right-radius: 0px;
-                                    width: 26em;
-                                    height: 3em;
+                                    width: 17em;
+                                    height: 2em;
                                     border: none;
                                 }
                                 button {
@@ -432,8 +433,8 @@ $borderfont: #dad3d35b;
                                     // color: $newnav;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
-                                    width: 10em;
-                                    height: 3.15em;
+                                    width: 7em;
+                                    height: 2.15em;
                                     // border-radius: 0px;
                                     // border: none;
                                     cursor: pointer;
@@ -457,7 +458,7 @@ $borderfont: #dad3d35b;
                             gap: .5em;
                             // Positions and margins below
                             position: relative;
-                            right: 100px;
+                            left: 25px;
                             bottom: 20px;
                             small {
                                 color: white;
@@ -472,14 +473,14 @@ $borderfont: #dad3d35b;
                                 #twitter {
                                     width: 1.5em;
                                     height: 1.5em;
-                                    width: 2.2em;
-                                    height: 2.2em;
+                                    // width: 2.2em;
+                                    // height: 2.2em;
                                 }
                                 .soc_icon {
                                     width: 1.8em;
                                     height: 1.8em;
-                                    width: 2.6em;
-                                    height: 2.6em;
+                                    // width: 2.6em;
+                                    // height: 2.6em;
                                 }
                                 
                             }
@@ -492,7 +493,7 @@ $borderfont: #dad3d35b;
                         align-items: center;
                         color: $bluetext;
                         color: white;
-                        font-size: small;
+                        font-size: x-small;
                         font-family: 'Inter', sans-serif;
                         // font-weight: bold;
                         gap: .5em;
@@ -512,6 +513,8 @@ $borderfont: #dad3d35b;
     }
 }
 
+
+// 1500
 @media only screen and (min-width: 1500px) and (max-width: 1699px) {
     * {
         margin: 0;
@@ -546,8 +549,8 @@ $borderfont: #dad3d35b;
                         font-size: 1.3rem;
                         margin-left: -.7em;
                         #lightbulb {
-                            width: 1.2em;
-                            height: 1.2em;
+                            width: 1em;
+                            height: 1em;
                         }
                     }
                     .list_nav {
@@ -659,7 +662,7 @@ $borderfont: #dad3d35b;
                             display: flex;
                             margin: 9em 0 0 0;
                             position: relative;
-                            left: 85px;
+                            left: 55px;
                             .led_one {
                                 margin: 0 0 0 3em;
                                 z-index: 1;
@@ -668,8 +671,8 @@ $borderfont: #dad3d35b;
                                     border-radius: 50%;
                                     border-radius: 15px;
                                     box-shadow: 2px 2px 2px 1px $bluetext;
-                                    width: 14em;
-                                    height: 14em;
+                                    width: 12em;
+                                    height: 12em;
                                 }
                             }
                             .led_two {
@@ -682,8 +685,8 @@ $borderfont: #dad3d35b;
                                     border-radius: 15px;
                                     filter: brightness(70%);
                                     box-shadow: 2px 2px 2px 2px $bluetext;
-                                    width: 14em;
-                                    height: 14em;
+                                    width: 12em;
+                                    height: 12em;
                                     border-radius: 15px;
                                 }
                             }
@@ -699,7 +702,7 @@ $borderfont: #dad3d35b;
                         margin: 5em 0 0 0;
                         ul {
                             width: 85%;
-                            width: 86%;
+                            width: 84%;
                             height: 2px;
                             margin: 0em 0 0 -.5em;
                             // margin-left: auto;
@@ -833,7 +836,8 @@ $borderfont: #dad3d35b;
                         // background-color: #668CF6;
                         
                         // margin sizing below
-                        gap: 15vw;
+                        gap: 10vw;
+                        // gap: 7vw;
                         .co_name_logo {
                             display: flex;
                             // Logo and Name
@@ -864,7 +868,7 @@ $borderfont: #dad3d35b;
                                     gap: 1em;
                                     margin: 0 0 0 7em;
                                     position: relative;
-                                    left: 2em;
+                                    left: 0em;
                                     a {
                                         color: white;
                                         font-family: 'Inter', sans-serif;
@@ -880,7 +884,7 @@ $borderfont: #dad3d35b;
                             flex-direction: column;
                             gap: .5em;
                             // Margins and positions below
-                            margin: -3em 0 0 -4em;
+                            margin: -2.5em 0 0 -2em;
                             small {
                                 color: $bluetext;
                                 font-family: 'Inter', sans-serif;
@@ -936,7 +940,7 @@ $borderfont: #dad3d35b;
                             gap: .5em;
                             // Positions and margins below
                             position: relative;
-                            right: 100px;
+                            right: 40px;
                             bottom: 20px;
                             small {
                                 color: white;
@@ -991,6 +995,8 @@ $borderfont: #dad3d35b;
     }
 }
 
+
+// 1700
 @media only screen and (min-width: 1700px) {
     * {
         margin: 0;
@@ -1025,8 +1031,8 @@ $borderfont: #dad3d35b;
                         font-size: 1.3rem;
                         margin-left: -.7em;
                         #lightbulb {
-                            width: 1.2em;
-                            height: 1.2em;
+                            width: 1em;
+                            height: 1em;
                         }
                     }
                     .list_nav {
@@ -1378,6 +1384,7 @@ $borderfont: #dad3d35b;
                                     border-top-right-radius: 0px;
                                     border-bottom-right-radius: 0px;
                                     width: 26em;
+                                    // width: 30em;
                                     height: 3em;
                                     border: none;
                                 }
@@ -1418,7 +1425,7 @@ $borderfont: #dad3d35b;
                             gap: .5em;
                             // Positions and margins below
                             position: relative;
-                            right: 100px;
+                            right: 10px;
                             bottom: 20px;
                             small {
                                 color: white;

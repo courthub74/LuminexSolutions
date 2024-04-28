@@ -53,8 +53,8 @@
     margin-left: -0.7em;
   }
   * body .whole_page nav .title_nav #lightbulb {
-    width: 1.2em;
-    height: 1.2em;
+    width: 1em;
+    height: 1em;
   }
   * body .whole_page nav .list_nav {
     font-family: "Roboto", sans-serif;
@@ -142,7 +142,7 @@
     margin: 7em 0 0 5em;
     width: 60%;
     line-height: 2em;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .exec_words b {
     color: #06183A;
@@ -154,7 +154,7 @@
     display: flex;
     margin: 9em 0 0 0;
     position: relative;
-    left: 85px;
+    left: 10px;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one {
     margin: 0 0 0 3em;
@@ -164,8 +164,8 @@
     border-radius: 50%;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 1px #66C7E5;
-    width: 14em;
-    height: 14em;
+    width: 10em;
+    height: 10em;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two {
     border-radius: 50%;
@@ -175,8 +175,8 @@
     border-radius: 15px;
     filter: brightness(70%);
     box-shadow: 2px 2px 2px 2px #66C7E5;
-    width: 14em;
-    height: 14em;
+    width: 10em;
+    height: 10em;
     border-radius: 15px;
   }
   * body .whole_page .exec_summary .ul_bulb {
@@ -188,7 +188,7 @@
   }
   * body .whole_page .exec_summary .ul_bulb ul {
     width: 85%;
-    width: 86%;
+    width: 80%;
     height: 2px;
     margin: 0em 0 0 -0.5em;
     background-color: #06183A;
@@ -232,7 +232,7 @@
     cursor: pointer;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
-    margin: 2em 0 0 4em;
+    margin: 2em 0 0 3em;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button {
     background: none;
@@ -263,7 +263,7 @@
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     width: 75%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 2em 0 0 0.3em;
     opacity: 0;
   }
@@ -303,7 +303,7 @@
     justify-content: center;
     align-items: center;
     margin: 2vw 0 0 0vw;
-    gap: 15vw;
+    gap: 5vw;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo {
     display: flex;
@@ -312,6 +312,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    right: 50px;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
     width: 1em;
@@ -321,7 +323,7 @@
     color: #DAD3D3;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list {
     display: flex;
@@ -330,9 +332,9 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin: 0 0 0 7em;
+    margin: 0 0 0 5em;
     position: relative;
-    left: 2em;
+    right: 4em;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
     color: white;
@@ -344,7 +346,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin: -3em 0 0 -4em;
+    margin: -2.5em 0 0 -2em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div small {
     color: #66C7E5;
@@ -357,8 +359,8 @@
     border-bottom-left-radius: 5px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    width: 26em;
-    height: 3em;
+    width: 17em;
+    height: 2em;
     border: none;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div .email_input button {
@@ -372,8 +374,8 @@
     border-bottom-right-radius: 5px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    width: 10em;
-    height: 3.15em;
+    width: 7em;
+    height: 2.15em;
     cursor: pointer;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div .email_input button:hover {
@@ -390,7 +392,7 @@
     flex-direction: column;
     gap: 0.5em;
     position: relative;
-    right: 100px;
+    left: 25px;
     bottom: 20px;
   }
   * body .whole_page footer .top_footer_contents .connect_with small {
@@ -407,14 +409,10 @@
   * body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
     width: 1.5em;
     height: 1.5em;
-    width: 2.2em;
-    height: 2.2em;
   }
   * body .whole_page footer .top_footer_contents .connect_with .socials .soc_icon {
     width: 1.8em;
     height: 1.8em;
-    width: 2.6em;
-    height: 2.6em;
   }
   * body .whole_page footer .copyrights {
     display: flex;
@@ -422,7 +420,7 @@
     align-items: center;
     color: #66C7E5;
     color: white;
-    font-size: small;
+    font-size: x-small;
     font-family: "Inter", sans-serif;
     gap: 0.5em;
     position: relative;
@@ -471,8 +469,8 @@
     margin-left: -0.7em;
   }
   * body .whole_page nav .title_nav #lightbulb {
-    width: 1.2em;
-    height: 1.2em;
+    width: 1em;
+    height: 1em;
   }
   * body .whole_page nav .list_nav {
     font-family: "Roboto", sans-serif;
@@ -572,7 +570,7 @@
     display: flex;
     margin: 9em 0 0 0;
     position: relative;
-    left: 85px;
+    left: 55px;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one {
     margin: 0 0 0 3em;
@@ -582,8 +580,8 @@
     border-radius: 50%;
     border-radius: 15px;
     box-shadow: 2px 2px 2px 1px #66C7E5;
-    width: 14em;
-    height: 14em;
+    width: 12em;
+    height: 12em;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two {
     border-radius: 50%;
@@ -593,8 +591,8 @@
     border-radius: 15px;
     filter: brightness(70%);
     box-shadow: 2px 2px 2px 2px #66C7E5;
-    width: 14em;
-    height: 14em;
+    width: 12em;
+    height: 12em;
     border-radius: 15px;
   }
   * body .whole_page .exec_summary .ul_bulb {
@@ -606,7 +604,7 @@
   }
   * body .whole_page .exec_summary .ul_bulb ul {
     width: 85%;
-    width: 86%;
+    width: 84%;
     height: 2px;
     margin: 0em 0 0 -0.5em;
     background-color: #06183A;
@@ -721,7 +719,7 @@
     justify-content: center;
     align-items: center;
     margin: 2vw 0 0 0vw;
-    gap: 15vw;
+    gap: 10vw;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo {
     display: flex;
@@ -750,7 +748,7 @@
     gap: 1em;
     margin: 0 0 0 7em;
     position: relative;
-    left: 2em;
+    left: 0em;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
     color: white;
@@ -762,7 +760,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin: -3em 0 0 -4em;
+    margin: -2.5em 0 0 -2em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div small {
     color: #66C7E5;
@@ -808,7 +806,7 @@
     flex-direction: column;
     gap: 0.5em;
     position: relative;
-    right: 100px;
+    right: 40px;
     bottom: 20px;
   }
   * body .whole_page footer .top_footer_contents .connect_with small {
@@ -889,8 +887,8 @@
     margin-left: -0.7em;
   }
   * body .whole_page nav .title_nav #lightbulb {
-    width: 1.2em;
-    height: 1.2em;
+    width: 1em;
+    height: 1em;
   }
   * body .whole_page nav .list_nav {
     font-family: "Roboto", sans-serif;
@@ -1226,7 +1224,7 @@
     flex-direction: column;
     gap: 0.5em;
     position: relative;
-    right: 100px;
+    right: 10px;
     bottom: 20px;
   }
   * body .whole_page footer .top_footer_contents .connect_with small {
