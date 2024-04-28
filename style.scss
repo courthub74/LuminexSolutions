@@ -997,7 +997,7 @@ $borderfont: #dad3d35b;
 
 
 // 1700
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 1700px) and (max-width: 1899px) {
     * {
         margin: 0;
         color: white;
@@ -1466,6 +1466,496 @@ $borderfont: #dad3d35b;
                         gap: .5em;
                         position: relative;
                         bottom: 0em;
+                        right: .5em;
+                        left: 1.5em;
+                        // margin-top: 15em;
+                        #courdevelops {
+                            width: 2em;
+                            height: 2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 1900
+@media only screen and (min-width: 1900px) {
+    * {
+        margin: 0;
+        color: white;
+        body {
+            background-color: black;
+            .whole_page {
+                // 100
+                height: 150vh;
+                background-color: $backgroundwhite;
+                // The NavBar
+                nav {
+                    background-color: $newnav;
+                    // background-color: rebeccapurple;
+                    height: 6%;
+                    height: 65px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    .nav_contents {
+                        margin: 0 5em 0 5em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+                    }
+                    .title_nav {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.3rem;
+                        font-size: 1.5rem;
+                        margin-left: -.7em;
+                        #lightbulb {
+                            width: 1em;
+                            height: 1em;
+                        }
+                    }
+                    .list_nav {
+                        font-family: 'Roboto', sans-serif;
+                        display: flex;
+                        align-items: center;
+                        gap: 1em;
+                        a {
+                            text-decoration: none;
+                            font-size: 1.2rem;
+                        }
+                        .home {
+                            display: flex;
+                            align-items: center;
+                            gap: .5em;
+                            #home {
+                                width: 1.4em;
+                            }
+                        }
+                        .insights {
+                            display: flex;
+                            align-items: center;
+                            gap: .5em;
+                            #insights {
+                                width: 1.4em;
+                            }
+                        }
+                        .contact {
+                            display: flex;
+                            align-items: center;
+                            gap: .5em;
+                            #contact {
+                                width: 1.3em;
+                            }
+                        }
+                    }
+                }
+                // Top 
+                .top_page {
+                    background-color: #06183A;
+                    width: 100%;
+                    
+                    // height: 15%;
+                    height: 250px;
+                    margin-top: 6em;
+                    // TOP SQUARE
+                    // Content
+                    .right_square {
+                        display: flex;
+                        align-items: center;
+                        // justify-content: center;
+                        background-color: black;
+                        background-image: url("./img/top_banner.png");
+                        // width: 65em;
+                        width: 100%;
+                        // width: 70%;
+                        height: 17em;
+                        // margin-top: -1em;
+                        // height: 250px;
+                        // margin: 0 5em 0 5em;
+                        .solutions {
+                            color: $bluetext;
+                            font-size: 1.5rem;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            position: relative;
+                            bottom: .7em;
+                            left: 3em;
+                            width: 55%;
+                        }
+                        .solutions::before {
+                            content: '';
+                            position: absolute;
+                            bottom: -10px;
+                            left: 0;
+                            right: 0;
+                            height: 6px;
+                            width: 45%;
+                            background-color: white;
+                        }
+                        // Color the P tag
+                        p {
+                            color: $bluetext;
+                        }
+                    }
+                }
+                // Middle
+                .exec_summary {
+                    height: 28%;
+                    height: 400px;
+                    background-color: $backgroundwhite;
+                    display: flex;
+                    flex-direction: column;
+                    // margin: 10px 0 10px 0;
+                    .exec_words_and_lights {
+                        display: flex;
+                        .exec_words {
+                            // background-color: #668CF6;
+                            font-family: 'Inter', sans-serif;
+                            margin: 7em 0 0 5em;
+                            width: 60%;
+                            line-height: 2em;
+                            font-size: 1.2rem;
+                            b {
+                                color: $newnav;
+                                font-size: 1.2rem;
+                            }
+                            p {
+                                color: $newnav;
+                            }
+                        }
+                        .leds {
+                            display: flex;
+                            margin: 9em 0 0 0;
+                            position: relative;
+                            left: 135px;
+                            .led_one {
+                                margin: 0 0 0 3em;
+                                z-index: 1;
+                                
+                                #led_one {
+                                    border-radius: 50%;
+                                    border-radius: 15px;
+                                    box-shadow: 2px 2px 2px 1px $bluetext;
+                                    width: 14em;
+                                    height: 14em;
+                                }
+                            }
+                            .led_two {
+                                // background-color: $newnav;
+                                border-radius: 50%;
+                                // border-radius: 15px;
+                                
+                                margin: -3em 0 0 -3em;
+                                #led_two {
+                                    border-radius: 15px;
+                                    filter: brightness(70%);
+                                    box-shadow: 2px 2px 2px 2px $bluetext;
+                                    width: 14em;
+                                    height: 14em;
+                                    border-radius: 15px;
+                                }
+                            }
+                        }
+                    }
+                    // Line and Bulb
+                    .ul_bulb {
+                        // background-color: #668CF6;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        margin: 5em 0 0 0;
+                        ul {
+                            width: 85%;
+                            width: 87%;
+                            height: 2px;
+                            margin: 0em 0 0 -.5em;
+                            // margin-left: auto;
+                            // margin-right: auto;
+                            background-color: $newnav;
+                            border: 0 none;
+                        }
+                        #bulb {
+                            width: 2em;
+                            height: 2em;
+                            position: relative;
+                            right: -17px;
+                            // margin-left: -11em;
+                        }
+                    }
+                }
+                // Bottom
+                .insight_section {
+                    height: 50%;
+                    height: 650px;
+                    height: 840px;
+                    background-color: $backgroundwhite;
+                    display: flex;
+                    // justify-content: center;
+                    padding: 2em 0 2em 0;
+                    align-items: center;
+                    font-family: 'Inter', sans-serif;
+                    .insight_contents {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1.1em;
+                        margin: 1em 5em 0 5em;
+                        // margin: 0 5em 0 5em;
+                        .insight_title {
+                            b {
+                                color: $newnav;
+                                font-size: 1.2rem;
+                            }
+                        }
+                        // ALL THE SQUARES
+                        .insight_squares {
+                            display: flex;
+                            gap: 2em;
+                            height: 100%;
+                            // width: 50%;
+                            // background-color: #668CF6;
+                            .square {
+                                background-color: #06183A;
+                                width: 85%;
+                                height: 30em;
+                                position: relative;
+                                border-radius: 5px;
+                                cursor: pointer;
+                                .square_content {
+                                    margin: 2em 0 0 4em;
+                                    // position: absolute;
+                                    .insight_button {
+                                        background: none;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1.3rem;
+                                        border: none;
+                                        font-weight: bold;
+                                        position: relative;
+                                        cursor: pointer;
+                                    }
+                                    // UnderLine Button
+                                    .insight_button::before {
+                                        content: '';
+                                        position: absolute;
+                                        bottom: -8px;
+                                        left: 0;
+                                        right: 0;
+                                        height: 4px;
+                                        width: 105%;
+                                        background-color: $bluetext;
+                                        opacity: 0;  
+                                        margin: 0 0 0 .4em;
+                                    }
+                                    .insight_button:hover:before {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                        z-index: 1;
+                                    }
+                                    .hover_boxes {
+                                        width: 75%;
+                                        font-size: 1rem;
+                                        margin: 2em 0 0 .3em;
+                                        opacity: 0;
+                                    }
+                                    .hover_boxes.appear {
+                                        transition: .4s all ease-in;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                            .square::after {
+                                content: "";
+                                display: block;
+                                padding-bottom: 30%;
+                                padding-bottom: 60px;
+                           }
+                           #square_one {
+                                background-image: url("./img/office_lights.png");
+                            }
+                            #square_two {
+                                background-image: url("./img/operations_light.png");
+                            }
+                            #square_three {
+                                background-image: url("./img/environ_light.png");
+                            }
+                            #square_four {
+                                background-image: url("./img/hand_light.png");
+                            }
+                        }
+                    }
+                }
+                footer {
+                    height: 215px;
+                    background-color: $newnav;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0 2em 0 2em;
+                    .top_footer_contents {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 2vw 0 0 -4vw;
+                        // background-color: #668CF6;
+                        
+                        // margin sizing below
+                        gap: 15vw;
+                        .co_name_logo {
+                            display: flex;
+                            // Logo and Name
+                            .logo_name {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                        
+                                #lightbulb {
+                                    width: 1.3em;
+                                    height: 1.3em;
+                                }
+                                p {
+                                    color: $headerfont;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 1.3em;
+                                }
+                            }
+    
+                            // Footer List
+                            .footer_list {
+                                display: flex;
+                                // set gap and relatives etc below
+                                .footer_list_contents {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 1em;
+                                    margin: 0 0 0 7em;
+                                    position: relative;
+                                    left: 2em;
+                                    a {
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                        // Email and Sign Up
+                        .sign_up_div {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            // Margins and positions below
+                            margin: -3em 0 0 -4em;
+                            small {
+                                color: $bluetext;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: 1.1rem;
+                            }
+                            .email_input {
+                                // any measurements below
+                                input {
+                                    background-color: $backgroundwhite;
+                                    // background-color: #66C7E5;
+                                    border-top-left-radius: 5px;
+                                    border-bottom-left-radius: 5px;
+                                    border-top-right-radius: 0px;
+                                    border-bottom-right-radius: 0px;
+                                    width: 26em;
+                                    // width: 30em;
+                                    height: 3em;
+                                    border: none;
+                                }
+                                button {
+                                    background-color: $backgroundwhite;
+                                    background-color: $newnav;
+                                    border: 2px solid $bluetext;
+                                    color: $bluetext;
+                                    border-top-left-radius: 0px;
+                                    border-bottom-left-radius: 0px;
+                                    border-top-right-radius: 5px;
+                                    border-bottom-right-radius: 5px;
+                                    // color: $newnav;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    // font-size: 1rem;
+                                    width: 10em;
+                                    height: 3.15em;
+                                    // height: 3.4em;
+                                    // border-radius: 0px;
+                                    // border: none;
+                                    cursor: pointer;
+                                }
+                                button:hover {
+                                    background-color: $newnav;
+                                    background-color: $backgroundwhite;
+                                    color: $bluetext;
+                                    color: $newnav;
+                                    transition: .1s all ease-in;
+                                    border: 2px solid $bluetext;
+                                    border: none;
+                                }
+                            }
+                        }
+                        // Socials
+                        .connect_with {
+                            // background-color: yellow;
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            // Positions and margins below
+                            position: relative;
+                            right: 10px;
+                            bottom: 20px;
+                            small {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: 1.1rem;
+                            }
+                            .socials {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 1.8em;
+                                #twitter {
+                                    width: 1.5em;
+                                    height: 1.5em;
+                                    width: 2.4em;
+                                    height: 2.4em;
+                                }
+                                .soc_icon {
+                                    width: 1.8em;
+                                    height: 1.8em;
+                                    width: 2.8em;
+                                    height: 2.8em;
+                                }
+                                
+                            }
+                        }
+                    }
+                    // Copyrights
+                    .copyrights {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: $bluetext;
+                        color: white;
+                        font-size: .9rem;
+                        font-family: 'Inter', sans-serif;
+                        // font-weight: bold;
+                        gap: .5em;
+                        position: relative;
+                        bottom: 1em;
                         right: .5em;
                         left: 1.5em;
                         // margin-top: 15em;
