@@ -175,7 +175,9 @@ $borderfont: #dad3d35b;
                         .square {
                             background-color: #06183A;
                             width: 85%;
+                            height: 30em;
                             position: relative;
+                            border-radius: 5px;
                             cursor: pointer;
                             .square_content {
                                 // width: 100%;
@@ -183,18 +185,42 @@ $borderfont: #dad3d35b;
                                 margin: 2em 0 0 4em;
                                 // position: absolute;
                                 .insight_button {
-                                    background-color: $newnav;
+                                    background: none;
                                     color: white;
                                     font-family: 'Inter', sans-serif;
                                     font-size: 1rem;
                                     border: none;
                                     font-weight: bold;
+                                    position: relative;
                                     cursor: pointer;
+                                }
+                                // UnderLine Button
+                                .insight_button::before {
+                                    content: '';
+                                    position: absolute;
+                                    bottom: -8px;
+                                    left: 0;
+                                    right: 0;
+                                    height: 4px;
+                                    width: 105%;
+                                    background-color: $bluetext;
+                                    opacity: 0;  
+                                    margin: 0 0 0 .4em;
+                                }
+                                .insight_button:hover:before {
+                                    opacity: 1;
+                                    transition: .3s all ease-in;
+                                    z-index: 1;
                                 }
                                 .hover_boxes {
                                     width: 75%;
                                     font-size: .9rem;
-                                    margin: 1em 0 0 .3em;
+                                    margin: 2em 0 0 .3em;
+                                    opacity: 0;
+                                }
+                                .hover_boxes.appear {
+                                    transition: .4s all ease-in;
+                                    opacity: 1;
                                 }
                             }
                         }
@@ -202,7 +228,20 @@ $borderfont: #dad3d35b;
                             content: "";
                             display: block;
                             padding-bottom: 30%;
+                            padding-bottom: 60px;
                        }
+                       #square_one {
+                            background-image: url("./img/office_lights.png");
+                        }
+                        #square_two {
+                            background-image: url("./img/operations_light.png");
+                        }
+                        #square_three {
+                            background-image: url("./img/environ_light.png");
+                        }
+                        #square_four {
+                            background-image: url("./img/hand_light.png");
+                        }
                     }
                 }
             }
