@@ -23,7 +23,7 @@ $borderfont: #dad3d35b;
             // The NavBar
             nav {
                 background-color: $newnav;
-                height: 5%;
+                height: 6%;
                 height: 65px;
                 display: flex;
                 align-items: center;
@@ -37,8 +37,15 @@ $borderfont: #dad3d35b;
                     width: 100%;
                 }
                 .title_nav {
+                    display: flex;
+                    align-items: center;
                     font-family: 'Inter', sans-serif;
                     font-size: 1.3rem;
+                    margin-left: -.7em;
+                    #lightbulb {
+                        width: 1.2em;
+                        height: 1.2em;
+                    }
                 }
                 .list_nav {
                     font-family: 'Roboto', sans-serif;
@@ -104,18 +111,52 @@ $borderfont: #dad3d35b;
                 display: flex;
                 flex-direction: column;
                 // margin: 10px 0 10px 0;
-                .exec_words {
-                    // background-color: #668CF6;
-                    font-family: 'Inter', sans-serif;
-                    margin: 7em 0 0 5em;
-                    width: 60%;
-                    line-height: 2em;
-                    font-size: 1rem;
-                    b {
-                        color: $newnav;
+                .exec_words_and_lights {
+                    display: flex;
+                    .exec_words {
+                        // background-color: #668CF6;
+                        font-family: 'Inter', sans-serif;
+                        margin: 7em 0 0 5em;
+                        width: 60%;
+                        line-height: 2em;
+                        font-size: 1rem;
+                        b {
+                            color: $newnav;
+                        }
+                        p {
+                            color: $newnav;
+                        }
                     }
-                    p {
-                        color: $newnav;
+                    .leds {
+                        display: flex;
+                        margin: 9em 0 0 0;
+                        position: relative;
+                        left: 60px;
+                        .led_one {
+                            margin: 0 0 0 3em;
+                            z-index: 1;
+                            
+                            #led_one {
+                                border-radius: 50%;
+                                border-radius: 15px;
+                                box-shadow: 2px 2px 2px 1px $backgroundwhite;
+                                width: 12em;
+                                height: 12em;
+                            }
+                        }
+                        .led_two {
+                            // background-color: $newnav;
+                            border-radius: 50%;
+                            border-radius: 15px;
+                            margin: -3em 0 0 -3em;
+                            #led_two {
+                                border-radius: 15px;
+                                filter: brightness(70%);
+                                box-shadow: 2px 2px 2px 2px $bluetext;
+                                width: 12em;
+                                height: 12em;
+                            }
+                        }
                     }
                 }
                 // Line and Bulb
@@ -158,7 +199,7 @@ $borderfont: #dad3d35b;
                     display: flex;
                     flex-direction: column;
                     gap: 1.1em;
-                    margin: -7em 5em 0 5em;
+                    margin: 0em 5em 0 5em;
                     // margin: 0 5em 0 5em;
                     .insight_title {
                         b {

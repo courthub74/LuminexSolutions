@@ -12,7 +12,7 @@
 }
 * body .whole_page nav {
   background-color: #06183A;
-  height: 5%;
+  height: 6%;
   height: 65px;
   display: flex;
   align-items: center;
@@ -27,8 +27,15 @@
   width: 100%;
 }
 * body .whole_page nav .title_nav {
+  display: flex;
+  align-items: center;
   font-family: "Inter", sans-serif;
   font-size: 1.3rem;
+  margin-left: -0.7em;
+}
+* body .whole_page nav .title_nav #lightbulb {
+  width: 1.2em;
+  height: 1.2em;
 }
 * body .whole_page nav .list_nav {
   font-family: "Roboto", sans-serif;
@@ -83,18 +90,50 @@
   display: flex;
   flex-direction: column;
 }
-* body .whole_page .exec_summary .exec_words {
+* body .whole_page .exec_summary .exec_words_and_lights {
+  display: flex;
+}
+* body .whole_page .exec_summary .exec_words_and_lights .exec_words {
   font-family: "Inter", sans-serif;
   margin: 7em 0 0 5em;
   width: 60%;
   line-height: 2em;
   font-size: 1rem;
 }
-* body .whole_page .exec_summary .exec_words b {
+* body .whole_page .exec_summary .exec_words_and_lights .exec_words b {
   color: #06183A;
 }
-* body .whole_page .exec_summary .exec_words p {
+* body .whole_page .exec_summary .exec_words_and_lights .exec_words p {
   color: #06183A;
+}
+* body .whole_page .exec_summary .exec_words_and_lights .leds {
+  display: flex;
+  margin: 9em 0 0 0;
+  position: relative;
+  left: 60px;
+}
+* body .whole_page .exec_summary .exec_words_and_lights .leds .led_one {
+  margin: 0 0 0 3em;
+  z-index: 1;
+}
+* body .whole_page .exec_summary .exec_words_and_lights .leds .led_one #led_one {
+  border-radius: 50%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px #F0F5FF;
+  width: 12em;
+  height: 12em;
+}
+* body .whole_page .exec_summary .exec_words_and_lights .leds .led_two {
+  border-radius: 50%;
+  border-radius: 15px;
+  margin: -3em 0 0 -3em;
+}
+* body .whole_page .exec_summary .exec_words_and_lights .leds .led_two #led_two {
+  border-radius: 15px;
+  filter: brightness(70%);
+  box-shadow: 2px 2px 2px 2px #66C7E5;
+  width: 12em;
+  height: 12em;
 }
 * body .whole_page .exec_summary .ul_bulb {
   display: flex;
@@ -129,7 +168,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.1em;
-  margin: -7em 5em 0 5em;
+  margin: 0em 5em 0 5em;
 }
 * body .whole_page .insight_section .insight_contents .insight_title b {
   color: #06183A;
