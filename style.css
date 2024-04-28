@@ -40,11 +40,36 @@
 * body .whole_page nav .list_nav {
   font-family: "Roboto", sans-serif;
   display: flex;
+  align-items: center;
   gap: 1em;
 }
 * body .whole_page nav .list_nav a {
   text-decoration: none;
   font-size: 1rem;
+}
+* body .whole_page nav .list_nav .home {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+* body .whole_page nav .list_nav .home #home {
+  width: 1.2em;
+}
+* body .whole_page nav .list_nav .insights {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+* body .whole_page nav .list_nav .insights #insights {
+  width: 1.3em;
+}
+* body .whole_page nav .list_nav .contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+* body .whole_page nav .list_nav .contact #contact {
+  width: 1em;
 }
 * body .whole_page .top_page {
   background-color: #06183A;
@@ -144,6 +169,7 @@
 }
 * body .whole_page .exec_summary .ul_bulb ul {
   width: 85%;
+  width: 83%;
   height: 2px;
   margin: 0em 0 0 -2em;
   background-color: #06183A;
@@ -153,7 +179,7 @@
   width: 2em;
   height: 2em;
   position: relative;
-  right: -15px;
+  right: -27px;
 }
 * body .whole_page .insight_section {
   height: 50%;

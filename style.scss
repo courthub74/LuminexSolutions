@@ -50,10 +50,35 @@ $borderfont: #dad3d35b;
                 .list_nav {
                     font-family: 'Roboto', sans-serif;
                     display: flex;
+                    align-items: center;
                     gap: 1em;
                     a {
                         text-decoration: none;
                         font-size: 1rem;
+                    }
+                    .home {
+                        display: flex;
+                        align-items: center;
+                        gap: .5em;
+                        #home {
+                            width: 1.2em;
+                        }
+                    }
+                    .insights {
+                        display: flex;
+                        align-items: center;
+                        gap: .5em;
+                        #insights {
+                            width: 1.3em;
+                        }
+                    }
+                    .contact {
+                        display: flex;
+                        align-items: center;
+                        gap: .5em;
+                        #contact {
+                            width: 1em;
+                        }
                     }
                 }
             }
@@ -169,6 +194,7 @@ $borderfont: #dad3d35b;
                     margin: 5em 0 0 0;
                     ul {
                         width: 85%;
+                        width: 83%;
                         height: 2px;
                         margin: 0em 0 0 -2em;
                         // margin-left: auto;
@@ -180,7 +206,7 @@ $borderfont: #dad3d35b;
                         width: 2em;
                         height: 2em;
                         position: relative;
-                        right: -15px;
+                        right: -27px;
                         // margin-left: -11em;
                     }
                 }
