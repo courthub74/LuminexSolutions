@@ -2,9 +2,44 @@
 @media only screen and (orientation: portrait) {
   * {
     margin: 0;
-    background-color: darkblue;
+    color: white;
   }
   * body {
+    background-color: black;
+  }
+  * body .whole_page {
+    height: 100vh;
+    background-color: #F0F5FF;
+  }
+  * body .whole_page nav {
+    background-color: #06183A;
+    height: 6%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  * body .whole_page nav .nav_contents {
+    margin: 0 5em 0 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  * body .whole_page nav .title_nav {
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    font-size: 1rem;
+    margin-left: -4em;
+  }
+  * body .whole_page nav .title_nav #lightbulb {
+    width: 1em;
+    height: 1em;
+  }
+  * body .whole_page nav .list_nav {
     display: none;
   }
 }

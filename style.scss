@@ -15,9 +15,47 @@ $borderfont: #dad3d35b;
 @media only screen and (orientation: portrait) {
     * {
         margin: 0;
-        background-color: darkblue;
+        color: white;
+        // background-color: darkblue;
         body {
-            display: none;
+            background-color: black;
+            .whole_page {
+                height: 100vh;
+                background-color: $backgroundwhite;
+                nav {
+                    background-color: $newnav;
+                    height: 6%;
+                    height: 65px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    .nav_contents {
+                        margin: 0 5em 0 5em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+                    }
+                    .title_nav {
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.3rem;
+                        font-size: 1rem;
+                        // margin-left: -.7em;
+                        margin-left: -4em;
+                        #lightbulb {
+                            width: 1em;
+                            height: 1em;
+                        }
+                    }
+                    .list_nav {
+                        display: none;
+                    }
+                    
+                }
+            }
         }
     }
 }
