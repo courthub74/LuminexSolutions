@@ -178,7 +178,6 @@
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two {
     border-radius: 50%;
-    border-radius: 15px;
     margin: -3em 0 0 -3em;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two #led_two {
@@ -187,6 +186,7 @@
     box-shadow: 2px 2px 2px 2px #66C7E5;
     width: 12em;
     height: 12em;
+    border-radius: 15px;
   }
   * body .whole_page .exec_summary .ul_bulb {
     display: flex;
@@ -389,6 +389,12 @@
     height: 3.15em;
     border: none;
     cursor: pointer;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_input button:hover {
+    background-color: #06183A;
+    color: #66C7E5;
+    transition: 0.1s all ease-in;
+    border: 2px solid #66C7E5;
   }
   * body .whole_page footer .connect_with {
     display: flex;

@@ -207,7 +207,8 @@ $borderfont: #dad3d35b;
                             .led_two {
                                 // background-color: $newnav;
                                 border-radius: 50%;
-                                border-radius: 15px;
+                                // border-radius: 15px;
+                                
                                 margin: -3em 0 0 -3em;
                                 #led_two {
                                     border-radius: 15px;
@@ -215,6 +216,7 @@ $borderfont: #dad3d35b;
                                     box-shadow: 2px 2px 2px 2px $bluetext;
                                     width: 12em;
                                     height: 12em;
+                                    border-radius: 15px;
                                 }
                             }
                         }
@@ -446,6 +448,12 @@ $borderfont: #dad3d35b;
                                     // border-radius: 0px;
                                     border: none;
                                     cursor: pointer;
+                                }
+                                button:hover {
+                                    background-color: $newnav;
+                                    color: $bluetext;
+                                    transition: .1s all ease-in;
+                                    border: 2px solid $bluetext;
                                 }
                             }
                             
