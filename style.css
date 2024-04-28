@@ -232,7 +232,7 @@
     cursor: pointer;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
-    margin: 2em 0 0 4em;
+    margin: 2em 0 0 2.5em;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button {
     background: none;
@@ -262,7 +262,7 @@
     z-index: 1;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
-    width: 80%;
+    width: 78%;
     font-size: 0.7rem;
     margin: 2em 0 0 0.4em;
     opacity: 0;
@@ -811,7 +811,7 @@
     justify-content: center;
     gap: 0.8em;
     position: relative;
-    left: 290px;
+    left: 260px;
   }
   * body .whole_page footer .connect_with small {
     color: white;
@@ -844,6 +844,7 @@
     position: relative;
     bottom: 2em;
     right: 0.5em;
+    left: 0.7em;
   }
   * body .whole_page footer .copyrights #courdevelops {
     width: 2em;

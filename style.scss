@@ -277,7 +277,8 @@ $borderfont: #dad3d35b;
                                 .square_content {
                                     // width: 100%;
                                     // height: 100%;
-                                    margin: 2em 0 0 4em;
+                                    margin: 2em 0 0 2.5em;
+                                    // background-color: red;
                                     // position: absolute;
                                     .insight_button {
                                         background: none;
@@ -308,10 +309,11 @@ $borderfont: #dad3d35b;
                                         z-index: 1;
                                     }
                                     .hover_boxes {
-                                        width: 80%;
+                                        width: 78%;
                                         font-size: .7rem;
                                         margin: 2em 0 0 .4em;
                                         opacity: 0;
+                                        // background-color: red;
                                     }
                                     .hover_boxes.appear {
                                         transition: .4s all ease-in;
@@ -933,7 +935,8 @@ $borderfont: #dad3d35b;
                         justify-content: center;
                         gap: .8em;
                         position: relative;
-                        left: 290px;
+                        left: 260px;
+                        // left: 350px;
                         // margin: 3em 0 0 15em;
                         small {
                             color: white;
@@ -970,6 +973,7 @@ $borderfont: #dad3d35b;
                         position: relative;
                         bottom: 2em;
                         right: .5em;
+                        left: .7em;
                         #courdevelops {
                             width: 2em;
                             height: 2em;
