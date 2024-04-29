@@ -20,7 +20,7 @@ $borderfont: #dad3d35b;
         body {
             background-color: black;
             .whole_page {
-                height: 250vh;
+                height: 350vh;
                 background-color: $backgroundwhite;
                 nav {
                     background-color: $newnav;
@@ -46,8 +46,11 @@ $borderfont: #dad3d35b;
                         // margin-left: -.7em;
                         margin-left: -4em;
                         #lightbulb {
-                            width: 1em;
-                            height: 1em;
+                            width: 2em;
+                            height: 2em;
+                        }
+                        p {
+                            display: none;
                         }
                     }
                     .list_nav {
@@ -122,10 +125,10 @@ $borderfont: #dad3d35b;
                         // Leds
                         .leds {
                             // display: none;
-                            // height: 20%;
+                            height: 20%;
                             display: flex;
                             margin: 7em 0 0 -9em;
-                            margin: 7em 0 0 0em;
+                            margin: 7em 0 0 8em;
                             justify-content: center;
                             // align-items: center;
                             // position: relative;
@@ -167,11 +170,87 @@ $borderfont: #dad3d35b;
                     // display: none;
                     height: 50%;
                     font-family: 'Inter', sans-serif;
+                    margin: -12em 0 0 0;
                     .insight_contents {
                         display: flex;
                         flex-direction: column;
+                        // justify-content: center;
                         gap: 1.1em;
-                        // margin: 0em 5em 0 5em;
+                        margin: 0em 2em 0 2em;
+                        width: 100%;
+                        .insight_title {
+                            b {
+                                color: $newnav;
+                                font-size: .9rem;
+                            }
+                        }
+                        // ALL THE SQUARES (MAYBE ACCORDION)
+                        .insight_squares {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 3em;
+                            height: 80%;
+                            width: 100%;
+                            position: relative;
+                            right: 2em;
+                            .square {
+                                width: 100%;
+                                height: 20em;
+                                border-radius: 5px;
+                                .square_content {
+                                    position: relative;
+                                    left: 1.8em;
+                                    top: 2.5em;
+                                    // display: flex;
+                                    // // flex-direction: column;
+                                    // justify-content: center;
+                                    .insight_button {
+                                        background: none;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .9rem;
+                                        border: none;
+                                        font-weight: bold;
+                                        position: relative;
+                                    }
+                                    // UnderLine Button
+                                    .insight_button::before {
+                                        content: '';
+                                        position: absolute;
+                                        bottom: -8px;
+                                        left: 0;
+                                        right: 0;
+                                        height: 4px;
+                                        width: 105%;
+                                        background-color: $bluetext;
+                                        // opacity: 0;  
+                                        margin: 0 0 0 .4em;
+                                    }
+                                    .hover_boxes {
+                                        width: 75%;
+                                        font-size: .8rem;
+                                        margin: 2em 0 0 .3em;
+                                        opacity: 1;
+                                    }
+                                    // .hover_boxes.appear {
+                                    //     transition: .4s all ease-in;
+                                    //     opacity: 1;
+                                    // }
+                                }
+                            }
+                            #square_one {
+                                background-image: url("./img/office_lights.png");
+                            }
+                            #square_two {
+                                background-image: url("./img/operations_light.png");
+                            }
+                            #square_three {
+                                background-image: url("./img/environ_light.png");
+                            }
+                            #square_four {
+                                background-image: url("./img/hand_light.png");
+                            }
+                        }
                     }
                 }
                 // Footer 
