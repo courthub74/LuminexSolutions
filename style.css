@@ -160,18 +160,19 @@
   * body .whole_page .insight_section .insight_contents .insight_squares .square {
     width: 100%;
     height: 20em;
+    height: 5em;
     border-radius: 5px;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
     position: relative;
     left: 1.8em;
-    top: 2.5em;
+    top: 1.8em;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button {
     background: none;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     border: none;
     font-weight: bold;
     position: relative;
@@ -185,12 +186,22 @@
     height: 4px;
     width: 105%;
     background-color: #66C7E5;
+    opacity: 0;
     margin: 0 0 0 0.4em;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button:hover:before {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+    z-index: 1;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     width: 75%;
     font-size: 0.8rem;
     margin: 2em 0 0 0.3em;
+    opacity: 0;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes.appear {
+    transition: 0.4s all ease-in;
     opacity: 1;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
