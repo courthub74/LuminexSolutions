@@ -78,7 +78,7 @@
     bottom: -10px;
     left: 0;
     right: 0;
-    height: 4px;
+    height: 3px;
     width: 68%;
     background-color: white;
   }
@@ -111,40 +111,68 @@
     color: #06183A;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds {
+    position: relative;
+    left: 1em;
     height: 20%;
     display: flex;
-    margin: 7em 0 0 -9em;
-    margin: 7em 0 0 8em;
+    margin: 7em 0 0 -12em;
     justify-content: center;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds ul {
+    width: 85%;
+    width: 21%;
+    height: 2px;
+    margin: 0em 1em 0 10em;
+    background-color: #06183A;
+    border: 0 none;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one {
     z-index: 1;
+    margin: -1em 0 0 0;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one #led_one {
     border-radius: 50%;
     border-radius: 15px;
     box-shadow: 1px 1px 1px 1px #66C7E5;
-    width: 7em;
-    height: 7em;
+    width: 5em;
+    height: 5em;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two {
-    margin: -3em 0 0 -3em;
+    margin: -3em 0 0 -1em;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two #led_two {
     border-radius: 15px;
     filter: brightness(70%);
-    box-shadow: 2px 2px 2px 2px #66C7E5;
-    width: 7em;
-    height: 7em;
+    box-shadow: 1px 1px 1px 1px #66C7E5;
+    width: 5em;
+    height: 5em;
     border-radius: 15px;
   }
   * body .whole_page .exec_summary .ul_bulb {
+    display: flex;
     display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  * body .whole_page .exec_summary .ul_bulb ul {
+    width: 85%;
+    width: 80%;
+    height: 2px;
+    margin: 0em 0 0 -2em;
+    background-color: #06183A;
+    border: 0 none;
+  }
+  * body .whole_page .exec_summary .ul_bulb #bulb {
+    width: 2em;
+    height: 2em;
+    position: relative;
+    right: -17px;
   }
   * body .whole_page .insight_section {
     height: 50%;
     font-family: "Inter", sans-serif;
-    margin: 0em 2em 0 2em;
+    margin: -4em 2em 0 2em;
   }
   * body .whole_page .insight_section .insight_contents {
     display: flex;
@@ -194,7 +222,7 @@
     bottom: -8px;
     left: 0;
     right: 0;
-    height: 4px;
+    height: 3px;
     width: 105%;
     background-color: #66C7E5;
     opacity: 1;

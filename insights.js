@@ -93,3 +93,11 @@ square_four.addEventListener('mouseover', () => {
 button_four.addEventListener('mouseout', () => {
     box_four.classList.remove('appear');
 });
+
+// to click on phone 
+w_square_four.addEventListener('pointerdown', () => {
+    // Make words appear
+    box_four.classList.toggle('appear');
+    // Make box expand
+    w_square_four.classList.toggle('pressed');
+});

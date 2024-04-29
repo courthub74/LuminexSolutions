@@ -98,7 +98,7 @@ $borderfont: #dad3d35b;
                             bottom: -10px;
                             left: 0;
                             right: 0;
-                            height: 4px;
+                            height: 3px;
                             width: 68%;
                             background-color: white;
                         }
@@ -135,11 +135,26 @@ $borderfont: #dad3d35b;
                         }
                         // Leds
                         .leds {
+                            // display: flex;
+                            // gap: 1em;
+                            position: relative;
+                            left: 1em;
+                            // background-color: #668CF6;
+                            ul {
+                                width: 85%;
+                                width: 21%;
+                                height: 2px;
+                                margin: 0em 1em 0 10em;
+                                // margin-left: auto;
+                                // margin-right: auto;
+                                background-color: $newnav;
+                                border: 0 none;
+                            }
                             // display: none;
                             height: 20%;
                             display: flex;
-                            margin: 7em 0 0 -9em;
-                            margin: 7em 0 0 8em;
+                            margin: 7em 0 0 -12em;
+                            // margin: 5em 0 0 8em;
                             justify-content: center;
                             // align-items: center;
                             // position: relative;
@@ -147,33 +162,55 @@ $borderfont: #dad3d35b;
                             // background-color: #668CF6;
                             .led_one {
                                 z-index: 1;
+                                margin: -1em 0 0 0;
                                 #led_one {
                                     border-radius: 50%;
                                     border-radius: 15px;
                                     box-shadow: 1px 1px 1px 1px $bluetext;
-                                    width: 7em;
-                                    height: 7em;
+                                    width: 5em;
+                                    height: 5em;
                                 }
                             }
                             .led_two {
                                 // background-color: $newnav;
                                 // border-radius: 50%;
                                 // border-radius: 15px;
-                                margin: -3em 0 0 -3em;
+                                margin: -3em 0 0 -1em;
                                 // display: none;
                                 #led_two {
                                     border-radius: 15px;
                                     filter: brightness(70%);
-                                    box-shadow: 2px 2px 2px 2px $bluetext;
-                                    width: 7em;
-                                    height: 7em;
+                                    box-shadow: 1px 1px 1px 1px $bluetext;
+                                    width: 5em;
+                                    height: 5em;
                                     border-radius: 15px;
                                 }
                             }
                         }
                     }
                     .ul_bulb {
+                        display: flex;
                         display: none;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        ul {
+                            width: 85%;
+                            width: 80%;
+                            height: 2px;
+                            margin: 0em 0 0 -2em;
+                            // margin-left: auto;
+                            // margin-right: auto;
+                            background-color: $newnav;
+                            border: 0 none;
+                        }
+                        #bulb {
+                            width: 2em;
+                            height: 2em;
+                            position: relative;
+                            right: -17px;
+                            // margin-left: -11em;
+                        }
                     }
                 }
                 // Insights
@@ -181,7 +218,7 @@ $borderfont: #dad3d35b;
                     // display: none;
                     height: 50%;
                     font-family: 'Inter', sans-serif;
-                    margin: 0em 2em 0 2em;
+                    margin: -4em 2em 0 2em;
                     .insight_contents {
                         display: flex;
                         flex-direction: column;
@@ -234,7 +271,7 @@ $borderfont: #dad3d35b;
                                         bottom: -8px;
                                         left: 0;
                                         right: 0;
-                                        height: 4px;
+                                        height: 3px;
                                         width: 105%;
                                         background-color: $bluetext;
                                         opacity: 1;  
