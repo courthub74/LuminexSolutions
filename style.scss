@@ -20,7 +20,7 @@ $borderfont: #dad3d35b;
         body {
             background-color: black;
             .whole_page {
-                height: 350vh;
+                height: 250vh;
                 background-color: $backgroundwhite;
                 nav {
                     background-color: $newnav;
@@ -53,8 +53,19 @@ $borderfont: #dad3d35b;
                             display: none;
                         }
                     }
+                    // DESKTOP NAV
                     .list_nav {
                         display: none;
+                    }
+                    // MOBILE NAV
+                    .mobile_menu {
+                        position: relative;
+                        left: 3.5em;
+                        top: .1em;
+                        #hamburger {
+                            width: 2.5em;
+                            height: 2.5em;
+                        }
                     }
                     
                 }
@@ -139,7 +150,7 @@ $borderfont: #dad3d35b;
                                 #led_one {
                                     border-radius: 50%;
                                     border-radius: 15px;
-                                    box-shadow: 2px 2px 2px 1px $bluetext;
+                                    box-shadow: 1px 1px 1px 1px $bluetext;
                                     width: 7em;
                                     height: 7em;
                                 }
@@ -170,7 +181,7 @@ $borderfont: #dad3d35b;
                     // display: none;
                     height: 50%;
                     font-family: 'Inter', sans-serif;
-                    margin: -12em 0 0 0;
+                    margin: 0em 0 0 0;
                     .insight_contents {
                         display: flex;
                         flex-direction: column;
