@@ -20,7 +20,7 @@ $borderfont: #dad3d35b;
         body {
             background-color: black;
             .whole_page {
-                height: 230vh;
+                height: 190vh;
                 background-color: $backgroundwhite;
                 nav {
                     background-color: $newnav;
@@ -218,7 +218,7 @@ $borderfont: #dad3d35b;
                     // display: none;
                     height: 50%;
                     font-family: 'Inter', sans-serif;
-                    margin: -4em 2em 0 2em;
+                    margin: 3em 2em 0 2em;
                     .insight_contents {
                         display: flex;
                         flex-direction: column;
@@ -369,7 +369,7 @@ $borderfont: #dad3d35b;
                 // Footer 
                 footer {
                     // display: none;
-                    height: 30%;
+                    height: 35%;
                     background-color: $newnav;
                     display: flex;
                     flex-direction: column;
@@ -388,7 +388,7 @@ $borderfont: #dad3d35b;
                             justify-content: center;
                             align-items: center;
                             gap: 1.5em;
-                            margin: -5em 0 0 -11em;
+                            margin: -3em 0 0 -11em;
                             // background-color: #668CF6;
                             .logo_name {
                                 display: flex;
@@ -413,10 +413,11 @@ $borderfont: #dad3d35b;
                                 .footer_list_contents {
                                     display: flex;
                                     flex-direction: column;
-                                    gap: .5em;
-                                    margin: 0 0 0 -1.5em;
+                                    gap: .8em;
+                                    margin: 0 0 0 -1.6em;
                                     position: relative;
                                     left: 0em;
+                                    top: 1em;
                                     a {
                                         color: white;
                                         font-family: 'Inter', sans-serif;
@@ -432,7 +433,7 @@ $borderfont: #dad3d35b;
                             flex-direction: column;
                             gap: .5em;
                             // Margins and positions below
-                            margin: -2.5em 0 0 0em;
+                            margin: -1.7em 0 0 0em;
                             small {
                                 color: $bluetext;
                                 font-family: 'Inter', sans-serif;
@@ -488,7 +489,7 @@ $borderfont: #dad3d35b;
                             gap: .5em;
                             // Positions and margins below
                             position: relative;
-                            right: 40px;
+                            right: 20px;
                             // top: 80px;
                             bottom: 30px;
                             small {
@@ -501,21 +502,22 @@ $borderfont: #dad3d35b;
                                 align-items: center;
                                 justify-content: center;
                                 gap: 1.8em;
+                                gap: 2.4em;
                                 #twitter {
-                                    width: 1.5em;
-                                    height: 1.5em;
                                     width: 2.2em;
                                     height: 2.2em;
                                     width: 1.7em;
                                     height: 1.7em;
+                                    width: 2em;
+                                    height: 2em;
                                 }
                                 .soc_icon {
-                                    width: 1.8em;
-                                    height: 1.8em;
                                     width: 2.6em;
                                     height: 2.6em;
                                     width: 2em;
                                     height: 2em;
+                                    width: 2.3em;
+                                    height: 2.3em;
                                 }
                                 
                             }

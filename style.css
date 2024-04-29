@@ -8,7 +8,7 @@
     background-color: black;
   }
   * body .whole_page {
-    height: 230vh;
+    height: 190vh;
     background-color: #F0F5FF;
   }
   * body .whole_page nav {
@@ -166,7 +166,7 @@
   * body .whole_page .insight_section {
     height: 50%;
     font-family: "Inter", sans-serif;
-    margin: -4em 2em 0 2em;
+    margin: 3em 2em 0 2em;
   }
   * body .whole_page .insight_section .insight_contents {
     display: flex;
@@ -286,7 +286,7 @@
     transition: 0.2s all ease-in-out;
   }
   * body .whole_page footer {
-    height: 30%;
+    height: 35%;
     background-color: #06183A;
     display: flex;
     flex-direction: column;
@@ -307,7 +307,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.5em;
-    margin: -5em 0 0 -11em;
+    margin: -3em 0 0 -11em;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
     display: flex;
@@ -331,10 +331,11 @@
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
-    margin: 0 0 0 -1.5em;
+    gap: 0.8em;
+    margin: 0 0 0 -1.6em;
     position: relative;
     left: 0em;
+    top: 1em;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
     color: white;
@@ -346,7 +347,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin: -2.5em 0 0 0em;
+    margin: -1.7em 0 0 0em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div small {
     color: #66C7E5;
@@ -392,7 +393,7 @@
     flex-direction: column;
     gap: 0.5em;
     position: relative;
-    right: 40px;
+    right: 20px;
     bottom: 30px;
   }
   * body .whole_page footer .top_footer_contents .connect_with small {
@@ -405,22 +406,23 @@
     align-items: center;
     justify-content: center;
     gap: 1.8em;
+    gap: 2.4em;
   }
   * body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
-    width: 1.5em;
-    height: 1.5em;
     width: 2.2em;
     height: 2.2em;
     width: 1.7em;
     height: 1.7em;
+    width: 2em;
+    height: 2em;
   }
   * body .whole_page footer .top_footer_contents .connect_with .socials .soc_icon {
-    width: 1.8em;
-    height: 1.8em;
     width: 2.6em;
     height: 2.6em;
     width: 2em;
     height: 2em;
+    width: 2.3em;
+    height: 2.3em;
   }
   * body .whole_page footer .copyrights {
     display: flex;
