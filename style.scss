@@ -371,6 +371,7 @@ $borderfont: #dad3d35b;
                 footer {
                     // display: none;
                     height: 35%;
+                    // width: 100%;
                     background-color: $newnav;
                     display: flex;
                     flex-direction: column;
@@ -430,7 +431,9 @@ $borderfont: #dad3d35b;
                         }
                         // Email and Sign Up
                         .sign_up_div {
+
                             display: flex;
+                            // display: none;
                             flex-direction: column;
                             gap: .5em;
                             // width: 60%;
@@ -488,6 +491,7 @@ $borderfont: #dad3d35b;
                         .connect_with {
                             // background-color: yellow;
                             display: flex;
+                            // display: none;
                             flex-direction: column;
                             gap: .5em;
                             // Positions and margins below
@@ -529,6 +533,7 @@ $borderfont: #dad3d35b;
                       // Copyrights
                       .copyrights {
                         display: flex;
+                        // background-color: #66C7E5;
                         // flex-direction: column;
                         justify-content: center;
                         align-items: center;
