@@ -8,7 +8,7 @@
     background-color: black;
   }
   * body .whole_page {
-    height: 100vh;
+    height: 250vh;
     background-color: #F0F5FF;
   }
   * body .whole_page nav {
@@ -44,8 +44,11 @@
   }
   * body .whole_page .top_page {
     height: 250px;
-    margin-top: 4em;
+    width: 85%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   * body .whole_page .top_page .right_square {
     background-image: url("./img/top_banner.png");
@@ -74,10 +77,65 @@
     font-weight: bold;
   }
   * body .whole_page .exec_summary {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .exec_words {
+    font-family: "Inter", sans-serif;
+    margin: 0em 0 0 2em;
+    width: 85%;
+    line-height: 2em;
+    font-size: 0.8rem;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .exec_words b {
+    color: #06183A;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .exec_words p {
+    color: #06183A;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds {
+    display: flex;
+    margin: 7em 0 0 -9em;
+    margin: 7em 0 0 0em;
+    justify-content: center;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one {
+    z-index: 1;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one #led_one {
+    border-radius: 50%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px #66C7E5;
+    width: 7em;
+    height: 7em;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two {
+    margin: -3em 0 0 -3em;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two #led_two {
+    border-radius: 15px;
+    filter: brightness(70%);
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    width: 7em;
+    height: 7em;
+    border-radius: 15px;
+  }
+  * body .whole_page .exec_summary .ul_bulb {
     display: none;
   }
   * body .whole_page .insight_section {
-    display: none;
+    height: 50%;
+    font-family: "Inter", sans-serif;
+  }
+  * body .whole_page .insight_section .insight_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1em;
   }
   * body .whole_page footer {
     display: none;
@@ -166,7 +224,6 @@
     width: 1em;
   }
   * body .whole_page .top_page {
-    background-color: #06183A;
     width: 100%;
     height: 250px;
     margin-top: 6em;
@@ -174,7 +231,6 @@
   * body .whole_page .top_page .right_square {
     display: flex;
     align-items: center;
-    background-color: black;
     background-image: url("./img/top_banner.png");
     width: 100%;
     height: 17em;
