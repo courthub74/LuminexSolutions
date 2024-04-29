@@ -4,8 +4,9 @@
 
 // each whole square
 let w_square_one = document.getElementById('square_one');
-
-// let underline_one = document.querySelector('.insight_button');
+let w_square_two = document.getElementById('square_two');
+let w_square_three = document.getElementById('square_three');
+let w_square_four = document.getElementById('square_four');
 
 // each square button
 let square_one = document.getElementById('button_one');
@@ -41,15 +42,6 @@ w_square_one.addEventListener('pointerdown', () => {
     w_square_one.classList.toggle('pressed');
 });
 
-close_square_one.addEventListener('pointerdown', () => {
-    // Make words appear
-    box_one.classList.remove('appear');
-    // Make box expand
-    w_square_one.classList.remove('pressed');
-    // Make Line appear
-
-});
-
 // Two
 // to mouseover hover
 square_two.addEventListener('mouseover', () => {
@@ -62,6 +54,14 @@ square_two.addEventListener('mouseout', () => {
     box_two.classList.remove('appear');
 });
 
+// to click on phone 
+w_square_two.addEventListener('pointerdown', () => {
+    // Make words appear
+    box_two.classList.toggle('appear');
+    // Make box expand
+    w_square_two.classList.toggle('pressed');
+});
+
 // Three
 // to mouseover hover
 square_three.addEventListener('mouseover', () => {
@@ -72,6 +72,14 @@ square_three.addEventListener('mouseover', () => {
 // to mouseout take mouse away
 square_three.addEventListener('mouseout', () => {
     box_three.classList.remove('appear');
+});
+
+// to click on phone 
+w_square_three.addEventListener('pointerdown', () => {
+    // Make words appear
+    box_three.classList.toggle('appear');
+    // Make box expand
+    w_square_three.classList.toggle('pressed');
 });
 
 // Four

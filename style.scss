@@ -99,7 +99,7 @@ $borderfont: #dad3d35b;
                             left: 0;
                             right: 0;
                             height: 4px;
-                            width: 65%;
+                            width: 68%;
                             background-color: white;
                         }
                         p {
@@ -291,6 +291,21 @@ $borderfont: #dad3d35b;
                              // New length state for square after button is 
                                 // pressed
                             #square_one.pressed {
+                                height: 20em;
+                                padding-bottom: 2em;
+                                transition: .2s all ease-in-out;
+                            }
+                            #square_two.pressed {
+                                height: 20em;
+                                padding-bottom: 2em;
+                                transition: .2s all ease-in-out;
+                            }
+                            #square_three.pressed {
+                                height: 20em;
+                                padding-bottom: 2em;
+                                transition: .2s all ease-in-out;
+                            }
+                            #square_four.pressed {
                                 height: 20em;
                                 padding-bottom: 2em;
                                 transition: .2s all ease-in-out;

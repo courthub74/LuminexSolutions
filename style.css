@@ -79,7 +79,7 @@
     left: 0;
     right: 0;
     height: 4px;
-    width: 65%;
+    width: 68%;
     background-color: white;
   }
   * body .whole_page .top_page .right_square p {
@@ -228,6 +228,21 @@
     background-image: url("./img/hand_light.png");
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one.pressed {
+    height: 20em;
+    padding-bottom: 2em;
+    transition: 0.2s all ease-in-out;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_two.pressed {
+    height: 20em;
+    padding-bottom: 2em;
+    transition: 0.2s all ease-in-out;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_three.pressed {
+    height: 20em;
+    padding-bottom: 2em;
+    transition: 0.2s all ease-in-out;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_four.pressed {
     height: 20em;
     padding-bottom: 2em;
     transition: 0.2s all ease-in-out;
