@@ -20,7 +20,7 @@ $borderfont: #dad3d35b;
         body {
             background-color: black;
             .whole_page {
-                height: 250vh;
+                height: 230vh;
                 background-color: $backgroundwhite;
                 nav {
                     background-color: $newnav;
@@ -144,7 +144,7 @@ $borderfont: #dad3d35b;
                                 width: 85%;
                                 width: 21%;
                                 height: 2px;
-                                margin: 0em 1em 0 10em;
+                                margin: .5em 1em 0 10em;
                                 // margin-left: auto;
                                 // margin-right: auto;
                                 background-color: $newnav;
@@ -153,7 +153,7 @@ $borderfont: #dad3d35b;
                             // display: none;
                             height: 20%;
                             display: flex;
-                            margin: 7em 0 0 -12em;
+                            margin: 6em 0 0 -12em;
                             // margin: 5em 0 0 8em;
                             justify-content: center;
                             // align-items: center;
@@ -204,13 +204,13 @@ $borderfont: #dad3d35b;
                             background-color: $newnav;
                             border: 0 none;
                         }
-                        #bulb {
-                            width: 2em;
-                            height: 2em;
-                            position: relative;
-                            right: -17px;
-                            // margin-left: -11em;
-                        }
+                        // #bulb {
+                        //     width: 2em;
+                        //     height: 2em;
+                        //     position: relative;
+                        //     right: -17px;
+                        //     // margin-left: -11em;
+                        // }
                     }
                 }
                 // Insights
@@ -312,15 +312,31 @@ $borderfont: #dad3d35b;
      
                             #square_one {
                                 background-image: url("./img/office_lights.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                            }
+                            #square_one.touch {
+                                box-shadow: 2px 2px 2px 2px $bluetext;
                             }
                             #square_two {
                                 background-image: url("./img/operations_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                            }
+                            #square_two.touch {
+                                box-shadow: 2px 2px 2px 2px $bluetext;
                             }
                             #square_three {
                                 background-image: url("./img/environ_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                            }
+                            #square_three.touch {
+                                box-shadow: 2px 2px 2px 2px $bluetext;
                             }
                             #square_four {
                                 background-image: url("./img/hand_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                            }
+                            #square_four.touch {
+                                box-shadow: 2px 2px 2px 2px $bluetext;
                             }
 
 
@@ -1891,6 +1907,9 @@ $borderfont: #dad3d35b;
                             }
                         }
                     }
+                    .mobile_menu {
+                        display: none;
+                    }
                 }
                 // Top 
                 .top_page {
@@ -2083,12 +2102,12 @@ $borderfont: #dad3d35b;
                                         position: absolute;
                                         bottom: -8px;
                                         left: 0;
-                                        right: 0;
+                                        right: 0em;
                                         height: 4px;
                                         width: 105%;
                                         background-color: $bluetext;
                                         opacity: 0;  
-                                        margin: 0 0 0 .4em;
+                                        margin: 0 0 0 .2em;
                                     }
                                     .insight_button:hover:before {
                                         opacity: 1;
@@ -2115,15 +2134,39 @@ $borderfont: #dad3d35b;
                            }
                            #square_one {
                                 background-image: url("./img/office_lights.png");
+                                box-shadow: 4px 4px 4px 4px $newnav;
+                                transition: .2s all ease-in;
+                            }
+                            #square_one.hover {
+                                box-shadow: 4px 4px 4px 4px $bluetext;
+                                transition: .2s all ease-in;
                             }
                             #square_two {
                                 background-image: url("./img/operations_light.png");
+                                box-shadow: 4px 4px 4px 4px $newnav;
+                                transition: .2s all ease-in;
+                            }
+                            #square_two.hover {
+                                box-shadow: 4px 4px 4px 4px $bluetext;
+                                transition: .2s all ease-in;
                             }
                             #square_three {
                                 background-image: url("./img/environ_light.png");
+                                box-shadow: 4px 4px 4px 4px $newnav;
+                                transition: .2s all ease-in;
+                            }
+                            #square_three.hover {
+                                box-shadow: 4px 4px 4px 4px $bluetext;
+                                transition: .2s all ease-in;
                             }
                             #square_four {
                                 background-image: url("./img/hand_light.png");
+                                box-shadow: 4px 4px 4px 4px $newnav;
+                                transition: .2s all ease-in;
+                            }
+                            #square_four.hover {
+                                box-shadow: 4px 4px 4px 4px $bluetext;
+                                transition: .2s all ease-in;
                             }
                         }
                     }

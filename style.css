@@ -8,7 +8,7 @@
     background-color: black;
   }
   * body .whole_page {
-    height: 250vh;
+    height: 230vh;
     background-color: #F0F5FF;
   }
   * body .whole_page nav {
@@ -115,14 +115,14 @@
     left: 1em;
     height: 20%;
     display: flex;
-    margin: 7em 0 0 -12em;
+    margin: 6em 0 0 -12em;
     justify-content: center;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds ul {
     width: 85%;
     width: 21%;
     height: 2px;
-    margin: 0em 1em 0 10em;
+    margin: 0.5em 1em 0 10em;
     background-color: #06183A;
     border: 0 none;
   }
@@ -162,12 +162,6 @@
     margin: 0em 0 0 -2em;
     background-color: #06183A;
     border: 0 none;
-  }
-  * body .whole_page .exec_summary .ul_bulb #bulb {
-    width: 2em;
-    height: 2em;
-    position: relative;
-    right: -17px;
   }
   * body .whole_page .insight_section {
     height: 50%;
@@ -245,15 +239,31 @@
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_one.touch {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_two {
     background-image: url("./img/operations_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_two.touch {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_three {
     background-image: url("./img/environ_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_three.touch {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_four {
     background-image: url("./img/hand_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_four.touch {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one.pressed {
     height: 20em;
@@ -1612,6 +1622,9 @@
   * body .whole_page nav .list_nav .contact #contact {
     width: 1.3em;
   }
+  * body .whole_page nav .mobile_menu {
+    display: none;
+  }
   * body .whole_page .top_page {
     background-color: #06183A;
     width: 100%;
@@ -1774,12 +1787,12 @@
     position: absolute;
     bottom: -8px;
     left: 0;
-    right: 0;
+    right: 0em;
     height: 4px;
     width: 105%;
     background-color: #66C7E5;
     opacity: 0;
-    margin: 0 0 0 0.4em;
+    margin: 0 0 0 0.2em;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button:hover:before {
     opacity: 1;
@@ -1804,15 +1817,39 @@
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
+    box-shadow: 4px 4px 4px 4px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_one.hover {
+    box-shadow: 4px 4px 4px 4px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_two {
     background-image: url("./img/operations_light.png");
+    box-shadow: 4px 4px 4px 4px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_two.hover {
+    box-shadow: 4px 4px 4px 4px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_three {
     background-image: url("./img/environ_light.png");
+    box-shadow: 4px 4px 4px 4px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_three.hover {
+    box-shadow: 4px 4px 4px 4px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_four {
     background-image: url("./img/hand_light.png");
+    box-shadow: 4px 4px 4px 4px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_four.hover {
+    box-shadow: 4px 4px 4px 4px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page footer {
     height: 215px;
