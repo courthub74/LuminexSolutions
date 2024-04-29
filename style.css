@@ -523,6 +523,9 @@
   * body .whole_page nav .list_nav .contact #contact {
     width: 1em;
   }
+  * body .whole_page nav .mobile_menu {
+    display: none;
+  }
   * body .whole_page .top_page {
     width: 100%;
     height: 250px;
@@ -936,6 +939,9 @@
   }
   * body .whole_page nav .list_nav .contact #contact {
     width: 1em;
+  }
+  * body .whole_page nav .mobile_menu {
+    display: none;
   }
   * body .whole_page .top_page {
     background-color: #06183A;
@@ -1354,6 +1360,9 @@
   }
   * body .whole_page nav .list_nav .contact #contact {
     width: 1em;
+  }
+  * body .whole_page nav .mobile_menu {
+    display: none;
   }
   * body .whole_page .top_page {
     background-color: #06183A;
