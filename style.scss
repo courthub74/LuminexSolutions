@@ -122,8 +122,8 @@ $borderfont: #dad3d35b;
                         .exec_words {
                             font-family: 'Inter', sans-serif;
                             // margin: 0em 0 0 5em;
-                            margin: 0em 0 0 2em;
-                            width: 85%;
+                            margin: 0em 0em 0 2em;
+                            width: 83%;
                             line-height: 2em;
                             font-size: .8rem;
                             b {
@@ -181,7 +181,7 @@ $borderfont: #dad3d35b;
                     // display: none;
                     height: 50%;
                     font-family: 'Inter', sans-serif;
-                    margin: 0em 0 0 0;
+                    margin: 0em 2em 0 2em;
                     .insight_contents {
                         display: flex;
                         flex-direction: column;
@@ -193,6 +193,7 @@ $borderfont: #dad3d35b;
                             b {
                                 color: $newnav;
                                 font-size: .9rem;
+                                margin: 0 0 0 -2em;
                             }
                         }
                         // ALL THE SQUARES (MAYBE ACCORDION)
@@ -207,8 +208,9 @@ $borderfont: #dad3d35b;
                             .square {
                                 width: 100%;
                                 height: 20em;
-                                height: 5em;
+                                height: 6em;
                                 border-radius: 5px;
+                                transition: .2s all ease-in-out;
                                 .square_content {
                                     position: relative;
                                     left: 1.8em;
@@ -235,14 +237,29 @@ $borderfont: #dad3d35b;
                                         height: 4px;
                                         width: 105%;
                                         background-color: $bluetext;
-                                        opacity: 0;  
+                                        opacity: 1;  
                                         margin: 0 0 0 .4em;
                                     }
+                                    // for hover
                                     .insight_button:hover:before {
                                         opacity: 1;
                                         transition: .3s all ease-in;
                                         z-index: 1;
                                     }
+                                    // for click
+                                    // .insight_button::before.appear {
+                                    //     content: '';
+                                    //     position: absolute;
+                                    //     bottom: -8px;
+                                    //     left: 0;
+                                    //     right: 0;
+                                    //     height: 4px;
+                                    //     width: 105%;
+                                    //     background-color: $bluetext;
+                                    //     opacity: 1;  
+                                    //     margin: 0 0 0 .4em;
+                                    // }
+                                    // Do above upon click
                                     .hover_boxes {
                                         width: 75%;
                                         font-size: .8rem;
@@ -255,6 +272,7 @@ $borderfont: #dad3d35b;
                                     }
                                 }
                             }
+     
                             #square_one {
                                 background-image: url("./img/office_lights.png");
                             }
@@ -266,6 +284,16 @@ $borderfont: #dad3d35b;
                             }
                             #square_four {
                                 background-image: url("./img/hand_light.png");
+                            }
+
+
+                            // WHEN PRESSED
+                             // New length state for square after button is 
+                                // pressed
+                            #square_one.pressed {
+                                height: 20em;
+                                padding-bottom: 2em;
+                                transition: .2s all ease-in-out;
                             }
                         }
                     }

@@ -2,7 +2,12 @@
 // make the corresponding text appear 
 // based on the hovering of each button
 
-// each square
+// each whole square
+let w_square_one = document.getElementById('square_one');
+
+// let underline_one = document.querySelector('.insight_button');
+
+// each square button
 let square_one = document.getElementById('button_one');
 let square_two = document.getElementById('button_two');
 let square_three = document.getElementById('button_three');
@@ -26,6 +31,23 @@ square_one.addEventListener('mouseover', () => {
 // to mouseout take mouse away
 square_one.addEventListener('mouseout', () => {
     box_one.classList.remove('appear');
+});
+
+// for phone touch 'pointerdown'
+w_square_one.addEventListener('pointerdown', () => {
+    // Make words appear
+    box_one.classList.toggle('appear');
+    // Make box expand
+    w_square_one.classList.toggle('pressed');
+});
+
+close_square_one.addEventListener('pointerdown', () => {
+    // Make words appear
+    box_one.classList.remove('appear');
+    // Make box expand
+    w_square_one.classList.remove('pressed');
+    // Make Line appear
+
 });
 
 // Two
