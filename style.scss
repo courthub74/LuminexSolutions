@@ -368,7 +368,181 @@ $borderfont: #dad3d35b;
                 }
                 // Footer 
                 footer {
-                    display: none;
+                    // display: none;
+                    height: 30%;
+                    background-color: $newnav;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0 2em 0 2em;
+                    .top_footer_contents {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 6em;
+                        .co_name_logo {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 1.5em;
+                            margin: -5em 0 0 -11em;
+                            // background-color: #668CF6;
+                            .logo_name {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 40em;
+                                #lightbulb {
+                                    width: .8em;
+                                    height: .8em;
+                                }
+                                p {
+                                    color: $headerfont;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .9rem;
+                                }
+                            }
+                            // Footer List
+                            .footer_list {
+                                display: flex;
+                                // set gap and relatives etc below
+                                .footer_list_contents {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: .5em;
+                                    margin: 0 0 0 -1.5em;
+                                    position: relative;
+                                    left: 0em;
+                                    a {
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .8rem;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                        // Email and Sign Up
+                        .sign_up_div {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            // Margins and positions below
+                            margin: -2.5em 0 0 0em;
+                            small {
+                                color: $bluetext;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            .email_input {
+                                // any measurements below
+                                input {
+                                    background-color: $backgroundwhite;
+                                    // background-color: #66C7E5;
+                                    border-top-left-radius: 5px;
+                                    border-bottom-left-radius: 5px;
+                                    border-top-right-radius: 0px;
+                                    border-bottom-right-radius: 0px;
+                                    width: 16em;
+                                    height: 2em;
+                                    border: none;
+                                }
+                                button {
+                                    background-color: $backgroundwhite;
+                                    background-color: $newnav;
+                                    border: 2px solid $bluetext;
+                                    color: $bluetext;
+                                    border-top-left-radius: 0px;
+                                    border-bottom-left-radius: 0px;
+                                    border-top-right-radius: 5px;
+                                    border-bottom-right-radius: 5px;
+                                    // color: $newnav;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    width: 6em;
+                                    height: 2.15em;
+                                    // border-radius: 0px;
+                                    // border: none;
+                                    cursor: pointer;
+                                }
+                                button:hover {
+                                    background-color: $newnav;
+                                    background-color: $backgroundwhite;
+                                    color: $bluetext;
+                                    color: $newnav;
+                                    transition: .1s all ease-in;
+                                    border: 2px solid $bluetext;
+                                    border: none;
+                                }
+                            }
+                        }
+                        // Socials
+                        .connect_with {
+                            // background-color: yellow;
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            // Positions and margins below
+                            position: relative;
+                            right: 40px;
+                            // top: 80px;
+                            bottom: 30px;
+                            small {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                            }
+                            .socials {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 1.8em;
+                                #twitter {
+                                    width: 1.5em;
+                                    height: 1.5em;
+                                    width: 2.2em;
+                                    height: 2.2em;
+                                    width: 1.7em;
+                                    height: 1.7em;
+                                }
+                                .soc_icon {
+                                    width: 1.8em;
+                                    height: 1.8em;
+                                    width: 2.6em;
+                                    height: 2.6em;
+                                    width: 2em;
+                                    height: 2em;
+                                }
+                                
+                            }
+                        }
+                    }
+                      // Copyrights
+                      .copyrights {
+                        display: flex;
+                        // flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        color: $bluetext;
+                        color: white;
+                        font-size: .7rem;
+                        font-family: 'Inter', sans-serif;
+                        // font-weight: bold;
+                        gap: .5em;
+                        position: relative;
+                        top: 4em;
+                        // right: .5em;
+                        // left: 1.5em;
+                        // margin-top: 15em;
+                        #courdevelops {
+                            width: 2em;
+                            height: 2em;
+                        }
+                    }
                 }
             }
         }

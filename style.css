@@ -286,7 +286,157 @@
     transition: 0.2s all ease-in-out;
   }
   * body .whole_page footer {
-    display: none;
+    height: 30%;
+    background-color: #06183A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em 0 2em;
+  }
+  * body .whole_page footer .top_footer_contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    margin: -5em 0 0 -11em;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40em;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
+    width: 0.8em;
+    height: 0.8em;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .logo_name p {
+    color: #DAD3D3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .footer_list {
+    display: flex;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0 0 0 -1.5em;
+    position: relative;
+    left: 0em;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: -2.5em 0 0 0em;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div small {
+    color: #66C7E5;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_input input {
+    background-color: #F0F5FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 16em;
+    height: 2em;
+    border: none;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_input button {
+    background-color: #F0F5FF;
+    background-color: #06183A;
+    border: 2px solid #66C7E5;
+    color: #66C7E5;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    width: 6em;
+    height: 2.15em;
+    cursor: pointer;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_input button:hover {
+    background-color: #06183A;
+    background-color: #F0F5FF;
+    color: #66C7E5;
+    color: #06183A;
+    transition: 0.1s all ease-in;
+    border: 2px solid #66C7E5;
+    border: none;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    position: relative;
+    right: 40px;
+    bottom: 30px;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with small {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8em;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
+    width: 1.5em;
+    height: 1.5em;
+    width: 2.2em;
+    height: 2.2em;
+    width: 1.7em;
+    height: 1.7em;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with .socials .soc_icon {
+    width: 1.8em;
+    height: 1.8em;
+    width: 2.6em;
+    height: 2.6em;
+    width: 2em;
+    height: 2em;
+  }
+  * body .whole_page footer .copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66C7E5;
+    color: white;
+    font-size: 0.7rem;
+    font-family: "Inter", sans-serif;
+    gap: 0.5em;
+    position: relative;
+    top: 4em;
+  }
+  * body .whole_page footer .copyrights #courdevelops {
+    width: 2em;
+    height: 2em;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 1199px) {
