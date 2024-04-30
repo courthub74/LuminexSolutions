@@ -139,9 +139,10 @@ $borderfont: #dad3d35b;
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            margin: 1.5em;
                             gap: 2em;
                             ul {
-                                width: 45vw;
+                                width: 26vw;
                                 height: 2px;
                                 background-color: $newnav;
                                 border: 0 none;
@@ -157,8 +158,8 @@ $borderfont: #dad3d35b;
                                 }
                             }
                             .led_two {
-                                display: none;
-                                margin: -3em 0 0 -1em;
+                                // display: none;
+                                margin: -3em 0 0 -3em;
                                 #led_two {
                                     border-radius: 15px;
                                     filter: brightness(70%);
@@ -169,11 +170,169 @@ $borderfont: #dad3d35b;
                                 }
                             }
                         }
-                        
                     }
-            }   }
-       }
-}
+                }
+                .ul_bulb {
+                    display: none;
+                }   
+                // Insights
+                .insight_section {
+                    height: 40%;
+                    font-family: 'Inter', sans-serif;
+                    margin: 5em 2em 0 2em;
+                    .insight_contents {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1.1em;
+                        margin: 0em 2em 0 2em;
+                        width: 100%;
+                        .insight_title {
+                            b {
+                                color: $newnav;
+                                font-size: 1rem;
+                                margin: 0 0 0 -2em;
+                            }
+                        }
+                        // ALL THE SQUARES (MAYBE ACCORDION)
+                        .insight_squares {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 3em;
+                            height: 80%;
+                            width: 100%;
+                            position: relative;
+                            right: 2em;
+                            .square {
+                                width: 100%;
+                                height: 20em;
+                                height: 7em;
+                                border-radius: 5px;
+                                transition: .2s all ease-in-out;
+                                .square_content {
+                                    // position: relative;
+                                    // left: 1.8em;
+                                    // top: 1.8em;
+                                    // top: 2.5em;
+                                    // display: flex;
+                                    // // flex-direction: column;
+                                    // justify-content: center;
+                                    margin: 2.5em 0 0 2em;
+                                    .insight_button {
+                                        background: none;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .9rem;
+                                        border: none;
+                                        font-weight: bold;
+                                        position: relative;
+                                    }
+                                    // UnderLine Button
+                                    .insight_button::before {
+                                        content: '';
+                                        position: absolute;
+                                        bottom: -8px;
+                                        left: 0;
+                                        right: 0;
+                                        height: 3px;
+                                        width: 105%;
+                                        background-color: $bluetext;
+                                        opacity: 1;  
+                                        margin: 0 0 0 .2em;
+                                    }
+                                    // for hover
+                                    .insight_button:hover:before {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                        z-index: 1;
+                                    }
+                                    // for click
+                                    // .insight_button::before.appear {
+                                    //     content: '';
+                                    //     position: absolute;
+                                    //     bottom: -8px;
+                                    //     left: 0;
+                                    //     right: 0;
+                                    //     height: 4px;
+                                    //     width: 105%;
+                                    //     background-color: $bluetext;
+                                    //     opacity: 1;  
+                                    //     margin: 0 0 0 .4em;
+                                    // }
+                                    // Do above upon click
+                                    .hover_boxes {
+                                        width: 75%;
+                                        font-size: .8rem;
+                                        margin: 2em 0 0 .3em;
+                                        opacity: 0;
+                                    }
+                                    .hover_boxes.appear {
+                                        transition: .4s all ease-in;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+     
+                            #square_one {
+                                background-image: url("./img/office_lights.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                            }
+                            #square_one.touch {
+                                box-shadow: 2px 2px 2px 2px $bluetext;
+                            }
+                            #square_two {
+                                background-image: url("./img/operations_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                            }
+                            #square_two.touch {
+                                box-shadow: 2px 2px 2px 2px $bluetext;
+                            }
+                            #square_three {
+                                background-image: url("./img/environ_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                            }
+                            #square_three.touch {
+                                box-shadow: 2px 2px 2px 2px $bluetext;
+                            }
+                            #square_four {
+                                background-image: url("./img/hand_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                            }
+                            #square_four.touch {
+                                box-shadow: 2px 2px 2px 2px $bluetext;
+                            }
+
+
+                            // WHEN PRESSED
+                             // New length state for square after button is 
+                                // pressed
+                            #square_one.pressed {
+                                height: 20em;
+                                padding-bottom: 2em;
+                                transition: .2s all ease-in-out;
+                            }
+                            #square_two.pressed {
+                                height: 20em;
+                                padding-bottom: 2em;
+                                transition: .2s all ease-in-out;
+                            }
+                            #square_three.pressed {
+                                height: 20em;
+                                padding-bottom: 2em;
+                                transition: .2s all ease-in-out;
+                            }
+                            #square_four.pressed {
+                                height: 20em;
+                                padding-bottom: 2em;
+                                transition: .2s all ease-in-out;
+                            }
+                        }
+                    }
+                }
+                    }
+                }
+            }
+       
+
 
 
 // Landscapes 600 - 900

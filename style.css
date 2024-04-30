@@ -111,10 +111,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1.5em;
     gap: 2em;
   }
   body .whole_page .exec_summary .exec_words_and_lights .leds ul {
-    width: 45vw;
+    width: 26vw;
     height: 2px;
     background-color: #06183A;
     border: 0 none;
@@ -130,8 +131,7 @@
     height: 5em;
   }
   body .whole_page .exec_summary .exec_words_and_lights .leds .led_two {
-    display: none;
-    margin: -3em 0 0 -1em;
+    margin: -3em 0 0 -3em;
   }
   body .whole_page .exec_summary .exec_words_and_lights .leds .led_two #led_two {
     border-radius: 15px;
@@ -140,6 +140,129 @@
     width: 5em;
     height: 5em;
     border-radius: 15px;
+  }
+  body .whole_page .ul_bulb {
+    display: none;
+  }
+  body .whole_page .insight_section {
+    height: 40%;
+    font-family: "Inter", sans-serif;
+    margin: 5em 2em 0 2em;
+  }
+  body .whole_page .insight_section .insight_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1em;
+    margin: 0em 2em 0 2em;
+    width: 100%;
+  }
+  body .whole_page .insight_section .insight_contents .insight_title b {
+    color: #06183A;
+    font-size: 1rem;
+    margin: 0 0 0 -2em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    height: 80%;
+    width: 100%;
+    position: relative;
+    right: 2em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square {
+    width: 100%;
+    height: 20em;
+    height: 7em;
+    border-radius: 5px;
+    transition: 0.2s all ease-in-out;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
+    margin: 2.5em 0 0 2em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button {
+    background: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    border: none;
+    font-weight: bold;
+    position: relative;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button::before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 105%;
+    background-color: #66C7E5;
+    opacity: 1;
+    margin: 0 0 0 0.2em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button:hover:before {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+    z-index: 1;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
+    width: 75%;
+    font-size: 0.8rem;
+    margin: 2em 0 0 0.3em;
+    opacity: 0;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes.appear {
+    transition: 0.4s all ease-in;
+    opacity: 1;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_one {
+    background-image: url("./img/office_lights.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_one.touch {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_two {
+    background-image: url("./img/operations_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_two.touch {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_three {
+    background-image: url("./img/environ_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_three.touch {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_four {
+    background-image: url("./img/hand_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_four.touch {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_one.pressed {
+    height: 20em;
+    padding-bottom: 2em;
+    transition: 0.2s all ease-in-out;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_two.pressed {
+    height: 20em;
+    padding-bottom: 2em;
+    transition: 0.2s all ease-in-out;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_three.pressed {
+    height: 20em;
+    padding-bottom: 2em;
+    transition: 0.2s all ease-in-out;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_four.pressed {
+    height: 20em;
+    padding-bottom: 2em;
+    transition: 0.2s all ease-in-out;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 1199px) {
