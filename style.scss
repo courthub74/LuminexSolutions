@@ -328,10 +328,64 @@ $borderfont: #dad3d35b;
                         }
                     }
                 }
+                // Footer 
+                footer {
+                   background-color: $newnav;
+                   height: 35%;
+                   .top_footer_contents {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 6em;
+                        .co_name_logo {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 1.5em;
+                            .logo_name {
+                                display: none;
+                                #lightbulb {
+                                    width: .8em;
+                                    height: .8em;
+                                }
+                                p {
+                                    color: $headerfont;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .9rem;
+                                }
+                            }
+                        }
+                        .footer_list {
+                            display: none;
+                            a {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                .footer_list {
+                    display: none;
+                }
+                .sign_up_div {
+                    display: none;
+                    .email_input {
+                        display: none;
                     }
                 }
             }
-       
+            .connect_with {
+                display: none;
+            }
+       }
+    }
+    .copyrights {
+        display: none;
+    }
+
+
 
 
 
