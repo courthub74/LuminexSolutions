@@ -45,6 +45,21 @@ w_square_one.addEventListener('pointerdown', () => {
     w_square_one.classList.toggle('pressed');
     // Change box shadow
     w_square_one.classList.toggle('touch');
+    // Close the others
+
+    // BOX TWO
+    // the box shadow
+    w_square_two.classList.remove('touch');
+    // the box expanded
+    w_square_two.classList.remove('pressed');
+
+    // BOX THREE
+    w_square_three.classList.remove('touch');
+    w_square_three.classList.remove('pressed');
+
+    // BOX FOUR
+    w_square_four.classList.remove('touch');
+    w_square_four.classList.remove('pressed');
 });
 
 // Two
