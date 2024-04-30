@@ -2167,7 +2167,7 @@ $borderfont: #dad3d35b;
                         .exec_words {
                             // background-color: #668CF6;
                             font-family: 'Inter', sans-serif;
-                            margin: 7em 0 0 5em;
+                            margin: 7em 0 0 4em;
                             width: 60%;
                             line-height: 2em;
                             font-size: 1.2rem;
@@ -2181,7 +2181,7 @@ $borderfont: #dad3d35b;
                         }
                         .leds {
                             display: flex;
-                            margin: 9em 0 0 0;
+                            margin: 9em 0 0 -2em;
                             position: relative;
                             left: 135px;
                             .led_one {

@@ -1832,7 +1832,7 @@
   }
   * body .whole_page .exec_summary .exec_words_and_lights .exec_words {
     font-family: "Inter", sans-serif;
-    margin: 7em 0 0 5em;
+    margin: 7em 0 0 4em;
     width: 60%;
     line-height: 2em;
     font-size: 1.2rem;
@@ -1846,7 +1846,7 @@
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds {
     display: flex;
-    margin: 9em 0 0 0;
+    margin: 9em 0 0 -2em;
     position: relative;
     left: 135px;
   }
