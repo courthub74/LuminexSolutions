@@ -1,0 +1,26 @@
+{
+  "name": "screenpercentages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insights.js",
+  "scripts": {
+    "test:chrome": "npx playwright test --headed --browser=chromium",
+    "test:firefox": "npx playwright test --headed --browser=firefox",
+    "test:safari": "npx playwright test --headed --browser=webkit"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/courthub74/ScreenPercentages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/courthub74/ScreenPercentages/issues"
+  },
+  "homepage": "https://github.com/courthub74/ScreenPercentages#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1"
+  }
+}
