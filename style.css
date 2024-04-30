@@ -1433,7 +1433,6 @@
     left: 85px;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one {
-    margin: 0 0 0 3em;
     z-index: 1;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one #led_one {
