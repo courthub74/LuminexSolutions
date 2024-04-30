@@ -20,6 +20,7 @@ $borderfont: #dad3d35b;
         body {
             background-color: black;
             .whole_page {
+
                 height: 190vh;
                 height: 220vh;
                 background-color: $backgroundwhite;
@@ -28,6 +29,7 @@ $borderfont: #dad3d35b;
                     height: 6%;
                     height: 65px;
                     display: flex;
+                    // display: none;
                     align-items: center;
                     justify-content: center;
                     width: 100%;
@@ -72,12 +74,12 @@ $borderfont: #dad3d35b;
                 }
                 // Top
                 .top_page {
-                    // display: none;
                     height: 250px;
                     // margin-top: 4em;  
                     width: 85%;
                     width: 100%;
                     display: flex;
+                    // display: none;
                     justify-content: center;
                     align-items: center;
                     // background-color: #668CF6;
@@ -105,6 +107,7 @@ $borderfont: #dad3d35b;
                         }
                         p {
                             color: $bluetext;
+                            // color: red;
                             font-size: 1rem;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
@@ -126,7 +129,7 @@ $borderfont: #dad3d35b;
                             margin: 0em 0em 0 2em;
                             width: 83%;
                             line-height: 2em;
-                            font-size: .8rem;
+                            font-size: .9rem;
                             b {
                                 color: $newnav;
                             }
@@ -140,8 +143,10 @@ $borderfont: #dad3d35b;
                             // gap: 1em;
                             position: relative;
                             left: 1em;
+                            
                             // background-color: #668CF6;
                             ul {
+                                // display: none;
                                 width: 85%;
                                 width: 21%;
                                 height: 2px;
@@ -154,6 +159,7 @@ $borderfont: #dad3d35b;
                             // display: none;
                             height: 20%;
                             display: flex;
+                            // display: none;
                             margin: 6em 0 0 -12em;
                             // margin: 5em 0 0 8em;
                             justify-content: center;
@@ -432,7 +438,7 @@ $borderfont: #dad3d35b;
                         }
                         // Email and Sign Up
                         .sign_up_div {
-
+                            // background-color: #668CF6;
                             display: flex;
                             // display: none;
                             flex-direction: column;
@@ -440,7 +446,7 @@ $borderfont: #dad3d35b;
                             // width: 60%;
                             // background-color: #668CF6;
                             // Margins and positions below
-                            margin: -1.7em 0 0 0em;
+                            margin: -1.7em 0 0 -1em;
                             small {
                                 color: $bluetext;
                                 font-family: 'Inter', sans-serif;
@@ -473,6 +479,8 @@ $borderfont: #dad3d35b;
                                     font-weight: bold;
                                     width: 6em;
                                     height: 2.15em;
+                                    width: 6.2em;
+                                    height: 2.50em;
                                     // border-radius: 0px;
                                     // border: none;
                                     cursor: pointer;
@@ -534,6 +542,7 @@ $borderfont: #dad3d35b;
                       // Copyrights
                       .copyrights {
                         display: flex;
+                        // display: none;
                         // background-color: #66C7E5;
                         // flex-direction: column;
                         justify-content: center;

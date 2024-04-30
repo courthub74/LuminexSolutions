@@ -103,7 +103,7 @@
     margin: 0em 0em 0 2em;
     width: 83%;
     line-height: 2em;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .exec_words b {
     color: #06183A;
@@ -349,7 +349,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin: -1.7em 0 0 0em;
+    margin: -1.7em 0 0 -1em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div small {
     color: #66C7E5;
@@ -380,6 +380,8 @@
     font-weight: bold;
     width: 6em;
     height: 2.15em;
+    width: 6.2em;
+    height: 2.5em;
     cursor: pointer;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div .email_input button:hover {
