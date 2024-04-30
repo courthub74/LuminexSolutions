@@ -11,14 +11,16 @@ $backgroundwhite: #F0F5FF;
 // BORDERS
 $borderfont: #dad3d35b;
 
+* {
+    margin: 0;
+    color: white;
+}
+
 // Portrait 0 - 600s
 @media only screen and (orientation: portrait) {
-    * {
-        margin: 0;
-        color: white;
-        // background-color: darkblue;
         body {
             background-color: black;
+            background-color: darkblue;
             .whole_page {
 
                 height: 190vh;
@@ -119,6 +121,7 @@ $borderfont: #dad3d35b;
                     // display: none;
                     height: 25%;
                     display: flex;
+                    // display: none;
                     flex-direction: column;
                     .exec_words_and_lights {
                         display: flex;
@@ -201,6 +204,7 @@ $borderfont: #dad3d35b;
                         justify-content: center;
                         align-items: center;
                         width: 100%;
+                        
                         ul {
                             width: 85%;
                             width: 80%;
@@ -210,6 +214,7 @@ $borderfont: #dad3d35b;
                             // margin-right: auto;
                             background-color: $newnav;
                             border: 0 none;
+                            // background-color: #668CF6;
                         }
                         // #bulb {
                         //     width: 2em;
@@ -479,7 +484,7 @@ $borderfont: #dad3d35b;
                                     font-weight: bold;
                                     width: 6em;
                                     height: 2.15em;
-                                    width: 6.5em;
+                                    width: 7em;
                                     height: 2.50em;
                                     // border-radius: 0px;
                                     // border: none;
@@ -505,7 +510,7 @@ $borderfont: #dad3d35b;
                             gap: .5em;
                             // Positions and margins below
                             position: relative;
-                            right: 15vw;
+                            right: 12vw;
                             // top: 80px;
                             bottom: 30px;
                             small {
@@ -568,7 +573,7 @@ $borderfont: #dad3d35b;
             }
         }
     }
-}
+
 
 // Landscapes 600 - 900
 @media only screen and (min-width: 601px) and (max-width: 1199px) {
@@ -582,9 +587,6 @@ $borderfont: #dad3d35b;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
-    * {
-        margin: 0;
-        color: white;
         body {
             background-color: black;
             .whole_page {
@@ -1062,7 +1064,7 @@ $borderfont: #dad3d35b;
             }
         }
     }
-}
+
 
 
 // 1500
