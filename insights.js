@@ -22,7 +22,12 @@ let box_four = document.getElementById('box_four_words');
 
 // add event listener to the button
 
-// One
+
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+// ONE
 // to mouseover hover
 square_one.addEventListener('mouseover', () => {
     // change the style of the words
@@ -52,17 +57,26 @@ w_square_one.addEventListener('pointerdown', () => {
     w_square_two.classList.remove('touch');
     // the box expanded
     w_square_two.classList.remove('pressed');
+    // the box text
+    box_two.classList.remove('appear')
 
     // BOX THREE
     w_square_three.classList.remove('touch');
     w_square_three.classList.remove('pressed');
+    box_three.classList.remove('appear');
 
     // BOX FOUR
     w_square_four.classList.remove('touch');
     w_square_four.classList.remove('pressed');
+    box_four.classList.remove('appear');
 });
 
-// Two
+
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+// TWO
 // to mouseover hover
 square_two.addEventListener('mouseover', () => {
     // change the style of the words
@@ -77,7 +91,7 @@ square_two.addEventListener('mouseout', () => {
     w_square_two.classList.remove('hover');
 });
 
-// to click on phone 
+// for phone touch 'pointerdown'
 w_square_two.addEventListener('pointerdown', () => {
     // Make words appear
     box_two.classList.toggle('appear');
@@ -85,6 +99,24 @@ w_square_two.addEventListener('pointerdown', () => {
     w_square_two.classList.toggle('pressed');
     // change the box shadow
     w_square_two.classList.toggle('touch');
+
+    // BOX ONE
+    // the box shadow
+    w_square_one.classList.remove('touch');
+    // the box expanded
+    w_square_one.classList.remove('pressed');
+    // the text dissapear
+    box_one.classList.remove('appear');
+
+    // BOX THREE
+    w_square_three.classList.remove('touch');
+    w_square_three.classList.remove('pressed');
+    box_three.classList.remove('appear');
+
+    // BOX FOUR
+    w_square_four.classList.remove('touch');
+    w_square_four.classList.remove('pressed');
+    box_four.classList.remove('appear');
 });
 
 // Three
@@ -110,6 +142,24 @@ w_square_three.addEventListener('pointerdown', () => {
     w_square_three.classList.toggle('pressed');
     // change the box shadow
     w_square_three.classList.toggle('touch');
+
+    // BOX ONE
+    // the box shadow
+    w_square_one.classList.remove('touch');
+    // the box expanded
+    w_square_one.classList.remove('pressed');
+    // the text dissapear
+    box_one.classList.remove('appear');
+
+    // BOX TWO
+    w_square_two.classList.remove('touch');
+    w_square_two.classList.remove('pressed');
+    box_two.classList.remove('appear');
+
+    // BOX FOUR
+    w_square_four.classList.remove('touch');
+    w_square_four.classList.remove('pressed');
+    box_four.classList.remove('appear');
 });
 
 // Four
@@ -135,4 +185,22 @@ w_square_four.addEventListener('pointerdown', () => {
     w_square_four.classList.toggle('pressed');
     // change the box shadow
     w_square_four.classList.toggle('touch');
+
+    // BOX ONE
+    // the box shadow
+    w_square_one.classList.remove('touch');
+    // the box expanded
+    w_square_one.classList.remove('pressed');
+    // the text dissapear
+    box_one.classList.remove('appear');
+
+    // BOX TWO
+    w_square_two.classList.remove('touch');
+    w_square_two.classList.remove('pressed');
+    box_two.classList.remove('appear');
+
+    // BOX THREE
+    w_square_three.classList.remove('touch');
+    w_square_three.classList.remove('pressed');
+    box_three.classList.remove('appear');
 });
