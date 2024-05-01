@@ -384,10 +384,10 @@ $borderfont: #dad3d35b;
                     }
                 }
                 .sign_up_div {
-                    // display: none;
-                    margin-top: 3em;
-                    margin-left: -2em;
-                    display: flex;
+                        // display: none;
+                        margin-top: 3em;
+                        margin-left: -2em;
+                        display: flex;
                         flex-direction: column;
                         gap: .5em;
                     small {
@@ -419,17 +419,69 @@ $borderfont: #dad3d35b;
                             color: $bluetext;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
+                            cursor: pointer;
                         }
                     }
                 }
             }
             .connect_with {
-                display: none;
+                // display: none;
+                display: flex;
+                flex-direction: column;
+                margin: 3em 0 0 -7em;
+                small {
+                    color: white;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    font-size: .8rem;
+                }
+                .socials {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: .3em 0 0 -.5em;
+                    gap: 1.8em;
+                    gap: 2em;
+                    #twitter {
+                        width: 1.3em;
+                        height: 1.3em;
+                        // width: 2.4em;
+                        // height: 2.4em;
+                    }
+                    #instagram {
+                        width: 1.2em;
+                        height: 1.2em;
+                    }
+                    #facebook {
+                        width: 1.5em;
+                        height: 1.5em;
+                    }
+                    .soc_icon {
+                        width: 1.6em;
+                        height: 1.6em;
+                        // width: 2.8em;
+                        // height: 2.8em;
+                    }
+                    
+                }
             }
        }
     }
     .copyrights {
-        display: none;
+        // display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $bluetext;
+        color: white;
+        font-size: .7rem;
+        font-family: 'Inter', sans-serif;
+        gap: .5em;
+        margin: 3em 0 0 0;
+        #courdevelops {
+            width: 2em;
+            height: 2em;
+        }
     }
 
 
