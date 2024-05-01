@@ -145,7 +145,7 @@
     display: none;
   }
   body .whole_page .insight_section {
-    height: 60%;
+    height: 55%;
     font-family: "Inter", sans-serif;
     margin: 5em 2em 0 2em;
   }
@@ -266,24 +266,25 @@
   }
   body .whole_page footer {
     background-color: #06183A;
-    height: 20%;
+    height: 25%;
   }
   body .whole_page footer .top_footer_contents {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 6em;
   }
   body .whole_page footer .top_footer_contents .co_name_logo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 1.5em;
+    width: 100%;
+    margin: 2em 0 0 -10em;
   }
   body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   body .whole_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
     width: 0.8em;
@@ -295,11 +296,19 @@
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
   }
-  body .whole_page footer .top_footer_contents .footer_list {
-    display: none;
+  body .whole_page footer .top_footer_contents .co_name_logo .footer_list {
+    display: flex;
   }
-  body .whole_page footer .top_footer_contents .footer_list a {
-    display: none;
+  body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+  }
+  body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
   }
   body .whole_page .footer_list {
     display: none;

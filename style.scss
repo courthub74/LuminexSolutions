@@ -177,13 +177,14 @@ $borderfont: #dad3d35b;
                 }   
                 // Insights
                 .insight_section {
-                    height: 60%;
+                    height: 55%;
                     font-family: 'Inter', sans-serif;
                     margin: 5em 2em 0 2em;
                     .insight_contents {
                         display: flex;
                         flex-direction: column;
                         gap: 1.1em;
+                        // gap: 3em;
                         margin: 0em 2em 0 2em;
                         width: 100%;
                         .insight_title {
@@ -198,6 +199,7 @@ $borderfont: #dad3d35b;
                             display: flex;
                             flex-direction: column;
                             gap: 3em;
+                            // gap: 6em;
                             height: 80%;
                             width: 100%;
                             position: relative;
@@ -331,21 +333,27 @@ $borderfont: #dad3d35b;
                 // Footer 
                 footer {
                    background-color: $newnav;
-                   height: 20%;
+                //    background-color: #668CF6;
+                   height: 25%;
                    .top_footer_contents {
                         display: flex;
                         flex-direction: column;
-                        justify-content: center;
+                        // justify-content: left;
                         align-items: center;
-                        gap: 6em;
+                        // gap: 6em;
                         .co_name_logo {
                             display: flex;
                             flex-direction: column;
-                            justify-content: center;
                             align-items: center;
                             gap: 1.5em;
+                            width: 100%;
+                            margin: 2em 0 0 -10em;
+                            // background-color: #668CF6;
                             .logo_name {
-                                display: none;
+                                // display: none;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                                 #lightbulb {
                                     width: .8em;
                                     height: .8em;
@@ -357,11 +365,20 @@ $borderfont: #dad3d35b;
                                     font-size: .9rem;
                                 }
                             }
-                        }
-                        .footer_list {
-                            display: none;
-                            a {
-                                display: none;
+                            .footer_list {
+                                // display: none;
+                                display: flex;
+                                .footer_list_contents {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: .7em;
+                                    a {
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .8rem;
+                                        text-decoration: none;
+                                    }
+                                }
                             }
                         }
                     }

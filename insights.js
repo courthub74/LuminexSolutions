@@ -2,6 +2,9 @@
 // make the corresponding text appear 
 // based on the hovering of each button
 
+// another way is to get all elements by classname
+    // and iterating thru them
+
 // each whole square
 let w_square_one = document.getElementById('square_one');
 let w_square_two = document.getElementById('square_two');
