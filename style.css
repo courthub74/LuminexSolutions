@@ -347,7 +347,7 @@
   body .connect_with {
     display: flex;
     flex-direction: column;
-    margin: 3em 0 0 -7em;
+    margin: 3em 0 0 -3em;
   }
   body .connect_with small {
     color: white;
