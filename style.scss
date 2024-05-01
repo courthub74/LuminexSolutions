@@ -177,7 +177,7 @@ $borderfont: #dad3d35b;
                 }   
                 // Insights
                 .insight_section {
-                    height: 40%;
+                    height: 60%;
                     font-family: 'Inter', sans-serif;
                     margin: 5em 2em 0 2em;
                     .insight_contents {
@@ -331,7 +331,7 @@ $borderfont: #dad3d35b;
                 // Footer 
                 footer {
                    background-color: $newnav;
-                   height: 35%;
+                   height: 20%;
                    .top_footer_contents {
                         display: flex;
                         flex-direction: column;

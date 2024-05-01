@@ -145,7 +145,7 @@
     display: none;
   }
   body .whole_page .insight_section {
-    height: 40%;
+    height: 60%;
     font-family: "Inter", sans-serif;
     margin: 5em 2em 0 2em;
   }
@@ -266,7 +266,7 @@
   }
   body .whole_page footer {
     background-color: #06183A;
-    height: 35%;
+    height: 20%;
   }
   body .whole_page footer .top_footer_contents {
     display: flex;
