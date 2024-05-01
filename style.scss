@@ -494,7 +494,75 @@ $borderfont: #dad3d35b;
         margin: 0;
         background-color: $newnav;
         body {
-            display: none;
+            // display: none;
+            background-color: $newnav;
+            .whole_page {
+                height: 200vh;
+                background-color: $backgroundwhite;
+                nav {
+                    background-color: $newnav;
+                    height: 10%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .nav_contents {
+                        margin: 0em 8em 0 8em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%; 
+                        .title_nav {
+                            display: flex;
+                            align-items: center;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 1rem;
+                            font-size: 1rem;
+                            // margin-left: -.7em;
+                            margin-left: -4em;
+                            #lightbulb {
+                                width: 2em;
+                                height: 2em;
+                            }
+                            p {
+                                display: none;
+                            }
+                        }
+                        // DESKTOP NAV
+                        .list_nav {
+                            display: none;
+                        }
+                        // MOBILE NAV
+                        .mobile_menu {
+                            position: relative;
+                            left: 3.5em;
+                            top: .1em;
+                            #hamburger {
+                                width: 2.5em;
+                                height: 2.5em;
+                            }
+                        }
+                    }
+                }
+                // Top
+                .top_page {
+                    display: none;
+                }
+                // Middle 
+                .exec_summary {
+                    display: none;
+                }
+                .ul_bulb {
+                    display: none;
+                }
+                // Insights
+                .insight_section {
+                    display: none;
+                }
+                // Footer
+                footer {
+                    display: none;
+                }
+            }
         }
     }
 }

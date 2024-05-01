@@ -402,6 +402,66 @@
     background-color: #06183A;
   }
   * body {
+    background-color: #06183A;
+  }
+  * body .whole_page {
+    height: 200vh;
+    background-color: #F0F5FF;
+  }
+  * body .whole_page nav {
+    background-color: #06183A;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  * body .whole_page nav .nav_contents {
+    margin: 0em 8em 0 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  * body .whole_page nav .nav_contents .title_nav {
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-size: 1rem;
+    margin-left: -4em;
+  }
+  * body .whole_page nav .nav_contents .title_nav #lightbulb {
+    width: 2em;
+    height: 2em;
+  }
+  * body .whole_page nav .nav_contents .title_nav p {
+    display: none;
+  }
+  * body .whole_page nav .nav_contents .list_nav {
+    display: none;
+  }
+  * body .whole_page nav .nav_contents .mobile_menu {
+    position: relative;
+    left: 3.5em;
+    top: 0.1em;
+  }
+  * body .whole_page nav .nav_contents .mobile_menu #hamburger {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  * body .whole_page .top_page {
+    display: none;
+  }
+  * body .whole_page .exec_summary {
+    display: none;
+  }
+  * body .whole_page .ul_bulb {
+    display: none;
+  }
+  * body .whole_page .insight_section {
+    display: none;
+  }
+  * body .whole_page footer {
     display: none;
   }
 }
