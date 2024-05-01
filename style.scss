@@ -383,13 +383,43 @@ $borderfont: #dad3d35b;
                         }
                     }
                 }
-                .footer_list {
-                    display: none;
-                }
                 .sign_up_div {
-                    display: none;
+                    // display: none;
+                    margin-top: 3em;
+                    margin-left: -2em;
+                    display: flex;
+                        flex-direction: column;
+                        gap: .5em;
+                    small {
+                        color: $bluetext;
+                        font-family: 'Inter', sans-serif;
+                        font-size: .8rem;
+                        font-weight: bold;
+                        // margin: 0em 0 0 -5em;
+                    }
                     .email_input {
-                        display: none;
+                        // display: none;
+                        input {
+                            // border-radius: 5px;
+                            border-top-left-radius: 5px;
+                            border-bottom-left-radius: 5px ;
+                            border: none;
+                            width: 12em;
+                            height: 2em;
+                            background-color: $bluetext;
+                        }
+                        button {
+                            border-top-right-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            border: 2px solid $bluetext;
+                            background: none;
+                            height: 2.1em;
+                            width: 7em;
+                            padding: .1em .1em;
+                            color: $bluetext;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                        }
                     }
                 }
             }
