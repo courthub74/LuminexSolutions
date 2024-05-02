@@ -14,10 +14,13 @@
   }
   body .whole_page nav {
     background-color: #06183A;
-    height: 4%;
+    height: 8%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    z-index: 5;
   }
   body .whole_page nav .nav_contents {
     margin: 0 5em 0 5em;
@@ -59,6 +62,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2em;
   }
   body .whole_page .top_page .right_square {
     background-image: url("./img/top_banner.png");
