@@ -355,17 +355,19 @@
   }
   body .email_button {
     margin: 2em 0 0 -8.5em;
+    margin: 2em 0 0 -7em;
   }
   body .email_button .email_updates {
     background-color: #66C7E5;
-    background-color: #06183A;
     color: #06183A;
     border: none;
     font-family: "Inter", sans-serif;
-    padding: 0.5em 1.5em;
+    padding: 0.3em 1em;
     color: #66C7E5;
+    color: #06183A;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 5px;
   }
 }
 .copyrights {

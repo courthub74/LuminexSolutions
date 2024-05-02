@@ -477,17 +477,20 @@ $borderfont: #dad3d35b;
             // Email Button
             .email_button {
                 margin: 2em 0 0 -8.5em;
+                margin: 2em 0 0 -7em;
                 .email_updates {
                     background-color: $bluetext;
-                    background-color: $newnav;
+                    // background-color: $newnav;
                     color: $newnav;
                     border: none;
                     // border: 2px solid $bluetext;
                     font-family: 'Inter', sans-serif;
-                    padding: .5em 1.5em;
+                    padding: .3em 1em;
                     color: $bluetext;
+                    color: $newnav;
                     font-weight: bold;
                     cursor: pointer;
+                    border-radius: 5px;
                 }
             }
        }
