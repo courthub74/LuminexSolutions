@@ -362,7 +362,7 @@
     color: #06183A;
     border: none;
     font-family: "Inter", sans-serif;
-    padding: 0.3em 1em;
+    padding: 0.5em 1.5em;
     color: #66C7E5;
     color: #06183A;
     font-weight: bold;
@@ -849,6 +849,9 @@
     width: 1.8em;
     height: 1.8em;
   }
+  body .whole_page footer .top_footer_contents .email_button {
+    display: none;
+  }
   body .whole_page footer .copyrights {
     display: flex;
     justify-content: center;
@@ -1270,6 +1273,9 @@
     width: 2.6em;
     height: 2.6em;
   }
+  * body .whole_page footer .top_footer_contents .email_button {
+    display: none;
+  }
   * body .whole_page footer .copyrights {
     display: flex;
     justify-content: center;
@@ -1689,6 +1695,9 @@
     height: 1.8em;
     width: 2.6em;
     height: 2.6em;
+  }
+  * body .whole_page footer .top_footer_contents .email_button {
+    display: none;
   }
   * body .whole_page footer .copyrights {
     display: flex;
@@ -2140,6 +2149,9 @@
     height: 1.8em;
     width: 2.8em;
     height: 2.8em;
+  }
+  * body .whole_page footer .top_footer_contents .email_button {
+    display: none;
   }
   * body .whole_page footer .copyrights {
     display: flex;

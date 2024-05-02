@@ -485,7 +485,7 @@ $borderfont: #dad3d35b;
                     border: none;
                     // border: 2px solid $bluetext;
                     font-family: 'Inter', sans-serif;
-                    padding: .3em 1em;
+                    padding: .5em 1.5em;
                     color: $bluetext;
                     color: $newnav;
                     font-weight: bold;
@@ -1047,6 +1047,9 @@ $borderfont: #dad3d35b;
                                 
                             }
                         }
+                        .email_button {
+                            display: none;
+                        }
                     }
                     // Copyrights
                     .copyrights {
@@ -1531,6 +1534,9 @@ $borderfont: #dad3d35b;
                                 }
                                 
                             }
+                        }
+                        .email_button {
+                            display: none;
                         }
                     }
                     // Copyrights
@@ -2019,6 +2025,9 @@ $borderfont: #dad3d35b;
                                 }
                                 
                             }
+                        }
+                        .email_button {
+                            display: none;
                         }
                     }
                     // Copyrights
@@ -2536,6 +2545,9 @@ $borderfont: #dad3d35b;
                                 }
                                 
                             }
+                        }
+                        .email_button {
+                            display: none;
                         }
                     }
                     // Copyrights
