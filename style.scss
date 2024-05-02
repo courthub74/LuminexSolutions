@@ -388,51 +388,56 @@ $borderfont: #dad3d35b;
                     }
                 }
                 .sign_up_div {
-                        // display: none;
-                        margin-top: 3em;
-                        margin-left: -2em;
-                        display: flex;
-                        flex-direction: column;
-                        gap: .5em;
-                    small {
-                        color: $bluetext;
-                        font-family: 'Inter', sans-serif;
-                        font-size: .8rem;
-                        font-weight: bold;
-                        // margin: 0em 0 0 -5em;
-                    }
-                    .email_input {
-                        // display: none;
-                        input {
-                            // border-radius: 5px;
-                            border-top-left-radius: 5px;
-                            border-bottom-left-radius: 5px ;
-                            border: none;
-                            width: 12em;
-                            height: 2em;
-                            background-color: $bluetext;
-                        }
-                        button {
-                            border-top-right-radius: 5px;
-                            border-bottom-right-radius: 5px;
-                            border: 2px solid $bluetext;
-                            background: none;
-                            height: 2.1em;
-                            width: 7em;
-                            padding: .1em .1em;
-                            color: $bluetext;
-                            font-family: 'Inter', sans-serif;
-                            font-weight: bold;
-                            cursor: pointer;
-                        }
-                    }
+                    display: none;
                 }
+                // .sign_up_div {
+                //         // display: none;
+                //         margin-top: 3em;
+                //         margin-left: -2em;
+                //         display: flex;
+                //         display: none;
+                //         flex-direction: column;
+                //         gap: .5em;
+                //     small {
+                //         color: $bluetext;
+                //         font-family: 'Inter', sans-serif;
+                //         font-size: .8rem;
+                //         font-weight: bold;
+                //         // margin: 0em 0 0 -5em;
+                //     }
+                //     .email_input {
+                //         // display: none;
+                //         input {
+                //             // border-radius: 5px;
+                //             border-top-left-radius: 5px;
+                //             border-bottom-left-radius: 5px ;
+                //             border: none;
+                //             width: 12em;
+                //             height: 2em;
+                //             background-color: $bluetext;
+                //         }
+                //         button {
+                //             border-top-right-radius: 5px;
+                //             border-bottom-right-radius: 5px;
+                //             border: 2px solid $bluetext;
+                //             background: none;
+                //             height: 2.1em;
+                //             width: 7em;
+                //             padding: .1em .1em;
+                //             color: $bluetext;
+                //             font-family: 'Inter', sans-serif;
+                //             font-weight: bold;
+                //             cursor: pointer;
+                //         }
+                //     }
+                // }
             }
             .connect_with {
                 // display: none;
                 display: flex;
                 flex-direction: column;
                 margin: 3em 0 0 -3em;
+                margin: 3em 0 0 -5em;
                 small {
                     color: white;
                     font-family: 'Inter', sans-serif;
@@ -467,6 +472,21 @@ $borderfont: #dad3d35b;
                         // height: 2.8em;
                     }
                     
+                }
+            }
+            // Email Button
+            .email_button {
+                margin: 2em 0 0 -8.5em;
+                .email_updates {
+                    background-color: $bluetext;
+                    background-color: $newnav;
+                    color: $newnav;
+                    border: none;
+                    // border: 2px solid $bluetext;
+                    font-family: 'Inter', sans-serif;
+                    padding: .5em 1.5em;
+                    color: $bluetext;
+                    font-weight: bold;
                 }
             }
        }

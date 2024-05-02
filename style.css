@@ -315,43 +315,13 @@
     text-decoration: none;
   }
   body .whole_page .sign_up_div {
-    margin-top: 3em;
-    margin-left: -2em;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-  }
-  body .whole_page .sign_up_div small {
-    color: #66C7E5;
-    font-family: "Inter", sans-serif;
-    font-size: 0.8rem;
-    font-weight: bold;
-  }
-  body .whole_page .sign_up_div .email_input input {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border: none;
-    width: 12em;
-    height: 2em;
-    background-color: #66C7E5;
-  }
-  body .whole_page .sign_up_div .email_input button {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: 2px solid #66C7E5;
-    background: none;
-    height: 2.1em;
-    width: 7em;
-    padding: 0.1em 0.1em;
-    color: #66C7E5;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    cursor: pointer;
+    display: none;
   }
   body .connect_with {
     display: flex;
     flex-direction: column;
     margin: 3em 0 0 -3em;
+    margin: 3em 0 0 -5em;
   }
   body .connect_with small {
     color: white;
@@ -382,6 +352,19 @@
   body .connect_with .socials .soc_icon {
     width: 1.6em;
     height: 1.6em;
+  }
+  body .email_button {
+    margin: 2em 0 0 -8.5em;
+  }
+  body .email_button .email_updates {
+    background-color: #66C7E5;
+    background-color: #06183A;
+    color: #06183A;
+    border: none;
+    font-family: "Inter", sans-serif;
+    padding: 0.5em 1.5em;
+    color: #66C7E5;
+    font-weight: bold;
   }
 }
 .copyrights {
