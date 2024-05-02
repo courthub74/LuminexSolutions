@@ -6,7 +6,7 @@
 
 @media only screen and (orientation: portrait) {
   body {
-    background-color: #06183A;
+    background-color: #F0F5FF;
   }
   body .whole_page {
     height: 220vh;
@@ -169,7 +169,7 @@
     height: 1.5em;
   }
   body .whole_page .insight_section {
-    height: 50%;
+    height: 70%;
     font-family: "Inter", sans-serif;
   }
   body .whole_page .insight_section .insight_contents {
@@ -197,7 +197,31 @@
     margin: 0 0 0 2em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button {
+    background: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
     border: none;
+    font-weight: bold;
+    position: relative;
+    margin: 2em 0 0 -0.5em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button::before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 105%;
+    background-color: #66C7E5;
+    opacity: 0;
+    margin: 0 0 0 0.2em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button:hover:before {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+    z-index: 1;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     width: 75%;
@@ -212,30 +236,34 @@
   body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
     box-shadow: 2px 2px 2px 2px #06183A;
+    box-shadow: 2px 2px 2px 2px grey;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_one.touch {
-    box-shadow: 2px 2px 2px 2px #66C7E5;
+    box-shadow: 2px 2px 2px 2px grey;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_two {
     background-image: url("./img/operations_light.png");
     box-shadow: 2px 2px 2px 2px #06183A;
+    box-shadow: 2px 2px 2px 2px grey;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_two.touch {
-    box-shadow: 2px 2px 2px 2px #66C7E5;
+    box-shadow: 2px 2px 2px 2px grey;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_three {
     background-image: url("./img/environ_light.png");
     box-shadow: 2px 2px 2px 2px #06183A;
+    box-shadow: 2px 2px 2px 2px grey;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_three.touch {
-    box-shadow: 2px 2px 2px 2px #66C7E5;
+    box-shadow: 2px 2px 2px 2px grey;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_four {
     background-image: url("./img/hand_light.png");
     box-shadow: 2px 2px 2px 2px #06183A;
+    box-shadow: 2px 2px 2px 2px grey;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_four.touch {
-    box-shadow: 2px 2px 2px 2px #66C7E5;
+    box-shadow: 2px 2px 2px 2px grey;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_one.pressed {
     height: 20em;

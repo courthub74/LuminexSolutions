@@ -53,6 +53,8 @@ w_square_one.addEventListener('pointerdown', () => {
     w_square_one.classList.toggle('pressed');
     // Change box shadow
     w_square_one.classList.toggle('touch');
+    // Add the underline
+    // square_one.classList.toggle('tapped');
     // Close the others
 
     // BOX TWO

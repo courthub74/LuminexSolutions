@@ -19,7 +19,8 @@ $borderfont: #dad3d35b;
 // Portrait 0 - 600s
 @media only screen and (orientation: portrait) {
        body {
-            background-color: $newnav;
+            // background-color: $newnav;
+            background-color: $backgroundwhite;
             .whole_page {
                 height: 220vh;
                 background-color: $backgroundwhite;
@@ -211,7 +212,7 @@ $borderfont: #dad3d35b;
                 }   
                 // Insight Section
                 .insight_section {
-                    height: 50%;
+                    height: 70%;
                     // background-color: green;
                     font-family: 'Inter', sans-serif;
                     // margin: -2em 2em 0  2em;
@@ -240,8 +241,42 @@ $borderfont: #dad3d35b;
                                 .square_content {
                                     margin: 0 0 0 2em;
                                     .insight_button {
+                                        background: none;
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 1rem;
                                         border: none;
+                                        font-weight: bold;
+                                        position: relative;
+                                        margin: 2em 0 0 -.5em;
                                     }
+                                    // UnderLine Button
+                                    .insight_button::before {
+                                        content: '';
+                                        position: absolute;
+                                        bottom: -8px;
+                                        left: 0;
+                                        right: 0;
+                                        height: 3px;
+                                        width: 105%;
+                                        background-color: $bluetext;
+                                        opacity: 0;  
+                                        margin: 0 0 0 .2em;
+                                    }
+                                    // for hover
+                                    .insight_button:hover:before {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                        z-index: 1;
+                                    }
+                                    // for phone tapping
+                                    // .insight_button.tapped {
+                                    //     // text-decoration: underline;
+                                    //     // text-decoration-color: $bluetext;
+                                    //     // text-decoration-thickness: 4px;
+                                    //     // border-bottom: $bluetext;
+                                    //     // margin-right: 1em
+                                    // }
                                     .hover_boxes {
                                         width: 75%;
                                         font-size: .8rem;
@@ -257,30 +292,35 @@ $borderfont: #dad3d35b;
                             #square_one {
                                 background-image: url("./img/office_lights.png");
                                 box-shadow: 2px 2px 2px 2px $newnav;
+                                box-shadow: 2px 2px 2px 2px grey;
                             }
                             #square_one.touch {
-                                box-shadow: 2px 2px 2px 2px $bluetext;
+                                box-shadow: 2px 2px 2px 2px grey;
                             }
                             #square_two {
                                 background-image: url("./img/operations_light.png");
                                 box-shadow: 2px 2px 2px 2px $newnav;
+                                box-shadow: 2px 2px 2px 2px grey;
                             }
                             #square_two.touch {
-                                box-shadow: 2px 2px 2px 2px $bluetext;
+                                box-shadow: 2px 2px 2px 2px grey;
                             }
                             #square_three {
                                 background-image: url("./img/environ_light.png");
                                 box-shadow: 2px 2px 2px 2px $newnav;
+                                box-shadow: 2px 2px 2px 2px grey;
                             }
                             #square_three.touch {
-                                box-shadow: 2px 2px 2px 2px $bluetext;
+                                box-shadow: 2px 2px 2px 2px grey;
                             }
                             #square_four {
                                 background-image: url("./img/hand_light.png");
                                 box-shadow: 2px 2px 2px 2px $newnav;
+                                box-shadow: 2px 2px 2px 2px grey;
                             }
                             #square_four.touch {
-                                box-shadow: 2px 2px 2px 2px $bluetext;
+                                // box-shadow: 2px 2px 2px 2px $bluetext;
+                                box-shadow: 2px 2px 2px 2px grey;
                             }
 
                             // WHEN PRESSED
