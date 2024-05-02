@@ -48,11 +48,11 @@ $borderfont: #dad3d35b;
                             // margin-left: -.7em;
                             margin-left: -4em;
                             #lightbulb {
-                                width: 2em;
-                                height: 2em;
+                                width: 1em;
+                                height: 1em;
                             }
                             p {
-                                display: none;
+                                color: $backgroundwhite;
                             }
                         }
                         // DESKTOP NAV
@@ -73,13 +73,13 @@ $borderfont: #dad3d35b;
                 }
                 // Top
                 .top_page {
-                    height: 15%;
+                    height: 22%;
                     width: 100%;
                     display: flex;
                     // display: none;
                     justify-content: center;
                     align-items: center;
-                    padding-top: 4em;
+                    // padding-top: 3em;
                     .right_square {
                         background-image: url("./img/top_banner.png");
                         width: 100%;
@@ -110,11 +110,13 @@ $borderfont: #dad3d35b;
                 }
                 // Middle
                 .exec_summary {
-                    // display: none;
-                    height: 20%;
+                    background-color: $backgroundwhite;
+                    // background-color: #668CF6;
+                    height: 25%;
                     display: flex;
                     // display: none;
                     flex-direction: column;
+                    margin: -5em 0 0 0;
                     .exec_words_and_lights {
                         display: flex;
                         flex-direction: column;
@@ -141,6 +143,7 @@ $borderfont: #dad3d35b;
                         }
                         .leds {
                             display: flex;
+                            display: none;
                             justify-content: center;
                             align-items: center;
                             margin: 1.5em;
@@ -177,94 +180,68 @@ $borderfont: #dad3d35b;
                     }
                 }
                 .ul_bulb {
-                    display: none;
+                    // display: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5em;
+                    width: 100%;
+                    height: 10%;
+                    // background-color: #66C7E5;
+                    margin: 4em 0 0 0;
+                    ul {
+                        width: 85%;
+                        width: 65%;
+                        height: 2px;
+                        margin: 0em 0 0 -.5em;
+                        // margin: 0em 0 0 .5em;
+                        // margin-left: auto;
+                        // margin-right: auto;
+                        background-color: $newnav;
+                        border: 0 none;
+                    }
+                    #bulb {
+                        width: 1.5em;
+                        height: 1.5em;
+                        
+                        // position: relative;
+                        // right: -17px;
+                        // margin-left: -11em;
+                    }
                 }   
-                // Insights
+                // Insight Section
                 .insight_section {
-                    height: 55%;
+                    height: 50%;
+                    // background-color: green;
                     font-family: 'Inter', sans-serif;
-                    margin: 5em 2em 0 2em;
+                    // margin: -2em 2em 0  2em;
                     .insight_contents {
                         display: flex;
                         flex-direction: column;
-                        gap: 1.1em;
-                        // gap: 3em;
-                        margin: 0em 2em 0 2em;
-                        width: 100%;
+                        gap: 1.2em;
+                        // margin: 0 0 0 1.5em;
                         .insight_title {
+                            // background-color: #668CF6;
+                            margin: 0 0 0 2em;
+                            // width: 100%;
                             b {
                                 color: $newnav;
                                 font-size: 1rem;
-                                margin: 0 0 0 -2em;
+                                // margin: 0 0 0 -2em;
                             }
                         }
-                        // ALL THE SQUARES (MAYBE ACCORDION)
                         .insight_squares {
                             display: flex;
                             flex-direction: column;
-                            gap: 3em;
-                            // gap: 6em;
-                            height: 80%;
-                            width: 100%;
-                            position: relative;
-                            right: 2em;
+                            align-items: center;
+                            gap: 1.5em;
                             .square {
                                 width: 100%;
-                                height: 20em;
-                                height: 7em;
-                                border-radius: 5px;
-                                transition: .2s all ease-in-out;
                                 .square_content {
-                                    // position: relative;
-                                    // left: 1.8em;
-                                    // top: 1.8em;
-                                    // top: 2.5em;
-                                    // display: flex;
-                                    // // flex-direction: column;
-                                    // justify-content: center;
-                                    margin: 2.5em 0 0 2em;
+                                    margin: 0 0 0 2em;
                                     .insight_button {
-                                        background: none;
-                                        color: white;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: .9rem;
                                         border: none;
-                                        font-weight: bold;
-                                        position: relative;
                                     }
-                                    // UnderLine Button
-                                    .insight_button::before {
-                                        content: '';
-                                        position: absolute;
-                                        bottom: -8px;
-                                        left: 0;
-                                        right: 0;
-                                        height: 3px;
-                                        width: 105%;
-                                        background-color: $bluetext;
-                                        opacity: 1;  
-                                        margin: 0 0 0 .2em;
-                                    }
-                                    // for hover
-                                    .insight_button:hover:before {
-                                        opacity: 1;
-                                        transition: .3s all ease-in;
-                                        z-index: 1;
-                                    }
-                                    // for click
-                                    // .insight_button::before.appear {
-                                    //     content: '';
-                                    //     position: absolute;
-                                    //     bottom: -8px;
-                                    //     left: 0;
-                                    //     right: 0;
-                                    //     height: 4px;
-                                    //     width: 105%;
-                                    //     background-color: $bluetext;
-                                    //     opacity: 1;  
-                                    //     margin: 0 0 0 .4em;
-                                    // }
-                                    // Do above upon click
                                     .hover_boxes {
                                         width: 75%;
                                         font-size: .8rem;
@@ -277,7 +254,6 @@ $borderfont: #dad3d35b;
                                     }
                                 }
                             }
-     
                             #square_one {
                                 background-image: url("./img/office_lights.png");
                                 box-shadow: 2px 2px 2px 2px $newnav;
@@ -306,7 +282,6 @@ $borderfont: #dad3d35b;
                             #square_four.touch {
                                 box-shadow: 2px 2px 2px 2px $bluetext;
                             }
-
 
                             // WHEN PRESSED
                              // New length state for square after button is 
