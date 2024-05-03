@@ -30,6 +30,9 @@ let square_two_underline = document.getElementById('sq_underline_two');
 let square_three_underline = document.getElementById('sq_underline_three');
 let square_four_underline = document.getElementById('sq_underline_four');
 
+// each plus sign
+let square_one_plus = document.getElementById('sq_one_more');
+
 // add event listener to the button
 //////////////////////////////////////////////
 //////////////////////////////////////////////
@@ -51,7 +54,7 @@ square_one.addEventListener('mouseout', () => {
 });
 
 // for phone touch 'pointerdown'
-w_square_one.addEventListener('pointerdown', () => {
+square_one_plus.addEventListener('pointerdown', () => {
     // Make words appear
     box_one.classList.toggle('appear');
     // Make box expand
@@ -60,6 +63,10 @@ w_square_one.addEventListener('pointerdown', () => {
     w_square_one.classList.toggle('touch');
     // Add the underline
     square_one_underline.classList.toggle('tapped');
+    // rotate the close
+    square_one_plus.classList.toggle('open');
+
+
     // Close the others
 
     // BOX TWO

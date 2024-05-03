@@ -241,21 +241,42 @@ $borderfont: #dad3d35b;
                             align-items: center;
                             gap: 1.5em;
                             gap: 3em;
+                            margin-top: 1em;
                             .square {
                                 width: 100%;
                                 height: 10em;
+                                // height: 30em;
                                 .square_content {
                                     margin: 0 0 0 2em;
-                                    .insight_button {
-                                        background: none;
-                                        color: white;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: 1rem;
-                                        border: none;
-                                        font-weight: bold;
-                                        position: relative;
-                                        margin: 2em 0 0 -.5em;
+                                    .insight_button_and_plus {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        // background-color: green;
+                                        margin: 2em 0 0 -2em;
+                                        .insight_button {
+                                            background: none;
+                                            color: white;
+                                            font-family: 'Inter', sans-serif;
+                                            font-size: 1rem;
+                                            border: none;
+                                            font-weight: bold;
+                                            position: relative;
+                                            // margin: 2em 0 0 -.5em;
+                                        }
+                                        // Plus Buttons
+                                        .plus_button {
+                                            background: none;
+                                            border: none;
+                                            margin: 0em 0 0 10em;
+                                            // background-color: #1F3E7A;
+                                        }
+                                        // Rotate the Plus button
+                                        #sq_one_more.open {
+                                            transform: rotate(45deg);
+                                        }
                                     }
+
                                     // UnderLine Button for hover on desktops
                                     // .insight_button::before {
                                     //     content: '';
@@ -288,7 +309,7 @@ $borderfont: #dad3d35b;
                                         // color: $bluetext;
                                         // size: 3px;
                                         // width: 100px;
-                                        margin: 0 0 0 -.1em;
+                                        margin: .4em 0 0 -.1em;
                                         opacity: 0;
                                     }
                                     hr.tapped {
@@ -300,16 +321,18 @@ $borderfont: #dad3d35b;
                                     //     margin: 0 0 0 -.1em;
                                     // }
                                     .hover_boxes {
-                                        width: 75%;
+                                        width: 55%;
                                         font-size: .8rem;
                                         margin: 2em 0 0 .3em;
                                         margin: 2em 0 0 -.1em;
                                         opacity: 0;
                                         line-height: 1.5em;
+                                        
                                     }
                                     .hover_boxes.appear {
                                         transition: .4s all ease-in;
                                         opacity: 1;
+                                        padding-bottom: 25em;
                                     }
                                 }
                             }
@@ -352,7 +375,7 @@ $borderfont: #dad3d35b;
                                 // pressed
                             #square_one.pressed {
                                 height: 20em;
-                                padding-bottom: 2em;
+                                padding-bottom: 5em;
                                 transition: .2s all ease-in-out;
                             }
                             #square_two.pressed {
@@ -377,7 +400,7 @@ $borderfont: #dad3d35b;
                 footer {
                    background-color: $newnav;
                 //    background-color: #668CF6;
-                   height: 30%;
+                   height: 35%;
                    .top_footer_contents {
                         display: flex;
                         flex-direction: column;
@@ -411,18 +434,19 @@ $borderfont: #dad3d35b;
                             .footer_list {
                                 // display: none;
                                 display: flex;
+                                
                                 // background-color: #668CF6;
                                 width: 80%;
                                 margin: 1em 0 0 10em;
                                 .footer_list_contents {
                                     display: flex;
-                                    // flex-direction: column;
+                                    flex-direction: column;
                                     gap: .7em;
                                     a {
                                         color: white;
                                         font-family: 'Inter', sans-serif;
-                                        font-size: .8rem;
-                                        font-size: .6rem;
+                                        font-size: .7rem;
+                                        // font-size: .6rem;
                                         text-decoration: none;
                                     }
                                 }
@@ -435,7 +459,7 @@ $borderfont: #dad3d35b;
                     flex-direction: column;
                     gap: .5em;
                     // margin: 3em 0 0 -1.6em;
-                    border: 3px solid lightgreen;
+                    // border: 3px solid lightgreen;
                     margin: 3em 0 0 -1em;
                     small {
                         color: $supportblue;
@@ -455,8 +479,8 @@ $borderfont: #dad3d35b;
                             border-bottom-left-radius: 5px;
                             border-top-right-radius: 0px;
                             border-bottom-right-radius: 0px;
-                            border: 2px solid red;
-                            // border: none;
+                            // border: 2px solid red;
+                            border: none;
                             width: 16em;
                             padding: .5em 1em;
                             // height: 2em;
@@ -471,7 +495,7 @@ $borderfont: #dad3d35b;
                             font-size: .6rem;
                             font-weight: bold;
                             padding: .9em 1em;
-                            border: 2px solid green;
+                            // border: 2px solid green;
                             // width: 12em;
                             // height: 2em;
                         }
@@ -530,7 +554,7 @@ $borderfont: #dad3d35b;
                 align-items: center;
                 gap: .4em;
                 flex-direction: column;
-                margin: 5em 0 0 -8.5em;
+                margin: 3em 0 0 -8.5em;
                 // margin: 3em 0 0 -9.9em;
                 // margin: 3em 0 0 0;
                 small {
@@ -547,28 +571,32 @@ $borderfont: #dad3d35b;
                     align-items: center;
                     justify-content: center;
                     // margin: .3em 0 0 -.7em;
-                
+                    margin: 0 0 0 2em;
                     gap: 1.8em;
                     gap: 1.5em;
                     #twitter {
                         width: 1.2em;
                         height: 1.2em;
-                        width: 1.5em;
-                        height: 1.5em;
+                        width: 2em;
+                        height: 2em;
                     }
                     #instagram {
                         width: 1.7em;
                         height: 1.7em;
+                        width: 2.3em;
+                        height: 2.3em;
                     }
                     #facebook {
                         width: 1.7em;
                         height: 1.7em;
+                        width: 2.3em;
+                        height: 2.3em;
                     }
                     .soc_icon {
                         width: 1.7em;
                         height: 1.7em;
-                        // width: 2em;
-                        // height: 2em;
+                        width: 2.3em;
+                        height: 2.3em;
                     }
                     
                 }
@@ -605,6 +633,7 @@ $borderfont: #dad3d35b;
         font-family: 'Inter', sans-serif;
         gap: .5em;
         margin: 8em 0 0 -5em;
+        margin: 8em 0 0 0em;
         #courdevelops {
             width: 2em;
             height: 2em;
