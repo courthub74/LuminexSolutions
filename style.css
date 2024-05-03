@@ -297,7 +297,7 @@
     align-items: center;
     gap: 1.5em;
     width: 100%;
-    margin: 2em 0 0 -10em;
+    margin: 2em 0 0 -12.5em;
   }
   body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
     display: flex;
@@ -316,56 +316,96 @@
   }
   body .whole_page footer .top_footer_contents .co_name_logo .footer_list {
     display: flex;
+    width: 80%;
+    margin: 1em 0 0 11.5em;
   }
   body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
     display: flex;
-    flex-direction: column;
     gap: 0.7em;
   }
   body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
+    font-size: 0.6rem;
     text-decoration: none;
   }
   body .whole_page .sign_up_div {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 3em 0 0 -1.6em;
+  }
+  body .whole_page .sign_up_div small {
+    color: #668CF6;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  body .whole_page .sign_up_div .email_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .whole_page .sign_up_div .email_input input {
+    background-color: #F0F5FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    width: 16em;
+    padding: 0.5em 1em;
+  }
+  body .whole_page .sign_up_div .email_input button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: #F0F5FF;
+    color: #1F3E7A;
+    font-family: "Inter", sans-serif;
+    font-size: 0.6rem;
+    font-weight: bold;
+    padding: 0.9em 1em;
   }
   body .connect_with {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
     flex-direction: column;
     margin: 3em 0 0 -3em;
-    margin: 3em 0 0 -5em;
+    margin: 3em 0 0 -10em;
   }
   body .connect_with small {
     color: white;
+    color: #668CF6;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    margin-left: -6.8em;
   }
   body .connect_with .socials {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.3em 0 0 -0.5em;
+    margin: 0.3em 0 0 -0.7em;
     gap: 1.8em;
-    gap: 2em;
+    gap: 1.5em;
   }
   body .connect_with .socials #twitter {
-    width: 1.3em;
-    height: 1.3em;
-  }
-  body .connect_with .socials #instagram {
     width: 1.2em;
     height: 1.2em;
+  }
+  body .connect_with .socials #instagram {
+    width: 1.5em;
+    height: 1.5em;
   }
   body .connect_with .socials #facebook {
     width: 1.5em;
     height: 1.5em;
   }
   body .connect_with .socials .soc_icon {
-    width: 1.6em;
-    height: 1.6em;
+    width: 1.5em;
+    height: 1.5em;
   }
   body .email_button {
     margin: 2em 0 0 -8.5em;
@@ -393,7 +433,7 @@
   font-size: 0.7rem;
   font-family: "Inter", sans-serif;
   gap: 0.5em;
-  margin: 3em 0 0 0;
+  margin: 9em 0 0 -5em;
 }
 .copyrights #courdevelops {
   width: 2em;

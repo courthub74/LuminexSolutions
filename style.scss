@@ -7,6 +7,7 @@ $bluetext: #66C7E5;
 $newnav: #06183A;
 $supportblue: #668CF6;
 $backgroundwhite: #F0F5FF;
+$footerbluewords: #1F3E7A;
 
 // BORDERS
 $borderfont: #dad3d35b;
@@ -388,7 +389,7 @@ $borderfont: #dad3d35b;
                             align-items: center;
                             gap: 1.5em;
                             width: 100%;
-                            margin: 2em 0 0 -10em;
+                            margin: 2em 0 0 -12.5em;
                             // background-color: #668CF6;
                             .logo_name {
                                 // display: none;
@@ -409,14 +410,18 @@ $borderfont: #dad3d35b;
                             .footer_list {
                                 // display: none;
                                 display: flex;
+                                // background-color: #668CF6;
+                                width: 80%;
+                                margin: 1em 0 0 11.5em;
                                 .footer_list_contents {
                                     display: flex;
-                                    flex-direction: column;
+                                    // flex-direction: column;
                                     gap: .7em;
                                     a {
                                         color: white;
                                         font-family: 'Inter', sans-serif;
                                         font-size: .8rem;
+                                        font-size: .6rem;
                                         text-decoration: none;
                                     }
                                 }
@@ -425,8 +430,50 @@ $borderfont: #dad3d35b;
                     }
                 }
                 .sign_up_div {
-                    display: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5em;
+                    margin: 3em 0 0 -1.6em;
+                    small {
+                        color: $supportblue;
+                        // color: $footerbluewords;
+                        font-family: 'Inter', sans-serif;
+                        font-size: .7rem;
+                        font-weight: bold;
+                    }
+                    .email_input {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        input {
+                            background-color: $backgroundwhite;
+                            border-top-left-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                            border: none;
+                            width: 16em;
+                            padding: .5em 1em;
+                            // height: 2em;
+                        }
+                        button {
+                            border-top-right-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            border: none;
+                            background-color: $backgroundwhite;
+                            color: $footerbluewords;
+                            font-family: 'Inter', sans-serif;
+                            font-size: .6rem;
+                            font-weight: bold;
+                            padding: .9em 1em;
+                            // width: 12em;
+                            // height: 2em;
+                        }
+                    }
                 }
+                // For when I removed the Sign up input
+                // .sign_up_div {
+                //     display: none;
+                // }
                 // .sign_up_div {
                 //         // display: none;
                 //         margin-top: 3em;
@@ -472,41 +519,48 @@ $borderfont: #dad3d35b;
             .connect_with {
                 // display: none;
                 display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: .4em;
                 flex-direction: column;
                 margin: 3em 0 0 -3em;
-                margin: 3em 0 0 -5em;
+                margin: 3em 0 0 -10em;
+                // margin: 3em 0 0 0;
                 small {
                     color: white;
+                    color: $supportblue;
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
-                    font-size: .8rem;
+                    font-size: .7rem;
+                    margin-left: -6.8em;
+                    
                 }
                 .socials {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    margin: .3em 0 0 -.5em;
+                    margin: .3em 0 0 -.7em;
                     gap: 1.8em;
-                    gap: 2em;
+                    gap: 1.5em;
                     #twitter {
-                        width: 1.3em;
-                        height: 1.3em;
+                        width: 1.2em;
+                        height: 1.2em;
                         // width: 2.4em;
                         // height: 2.4em;
                     }
                     #instagram {
-                        width: 1.2em;
-                        height: 1.2em;
+                        width: 1.5em;
+                        height: 1.5em;
                     }
                     #facebook {
                         width: 1.5em;
                         height: 1.5em;
                     }
                     .soc_icon {
-                        width: 1.6em;
-                        height: 1.6em;
-                        // width: 2.8em;
-                        // height: 2.8em;
+                        width: 1.5em;
+                        height: 1.5em;
+                        // width: 2em;
+                        // height: 2em;
                     }
                     
                 }
@@ -542,7 +596,7 @@ $borderfont: #dad3d35b;
         font-size: .7rem;
         font-family: 'Inter', sans-serif;
         gap: .5em;
-        margin: 3em 0 0 0;
+        margin: 9em 0 0 -5em;
         #courdevelops {
             width: 2em;
             height: 2em;
