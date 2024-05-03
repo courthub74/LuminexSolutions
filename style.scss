@@ -47,7 +47,7 @@ $borderfont: #dad3d35b;
                             font-size: 1rem;
                             font-size: 1rem;
                             // margin-left: -.7em;
-                            margin-left: -4em;
+                            margin-left: -3.5em;
                             #lightbulb {
                                 width: 1em;
                                 height: 1em;
@@ -64,6 +64,7 @@ $borderfont: #dad3d35b;
                         .mobile_menu {
                             position: relative;
                             left: 3.5em;
+                            left: 3.3em;
                             top: .1em;
                             #hamburger {
                                 width: 2.5em;
@@ -88,7 +89,7 @@ $borderfont: #dad3d35b;
                         // The Top Slogan
                         .solutions {
                             position: relative;
-                            margin: 2.5em 0 0 1.5em;
+                            margin: 2.5em 0 0 1.8em;
                         }
                         .solutions::before {
                             content: '';
@@ -269,7 +270,7 @@ $borderfont: #dad3d35b;
                                         transition: .3s all ease-in;
                                         z-index: 1;
                                     }
-                                    // for phone tapping
+                                    // to make underline appear for phone tapping
                                     // .insight_button.tapped {
                                     //     // text-decoration: underline;
                                     //     // text-decoration-color: $bluetext;
