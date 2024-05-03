@@ -103,6 +103,7 @@ $borderfont: #dad3d35b;
                         }
                         p {
                             color: $bluetext;
+                            color: #668CF6;
                             // color: red;
                             font-size: 1rem;
                             font-family: 'Inter', sans-serif;
@@ -237,8 +238,10 @@ $borderfont: #dad3d35b;
                             flex-direction: column;
                             align-items: center;
                             gap: 1.5em;
+                            gap: 3em;
                             .square {
                                 width: 100%;
+                                height: 10em;
                                 .square_content {
                                     margin: 0 0 0 2em;
                                     .insight_button {
@@ -251,25 +254,25 @@ $borderfont: #dad3d35b;
                                         position: relative;
                                         margin: 2em 0 0 -.5em;
                                     }
-                                    // UnderLine Button
-                                    .insight_button::before {
-                                        content: '';
-                                        position: absolute;
-                                        bottom: -8px;
-                                        left: 0;
-                                        right: 0;
-                                        height: 3px;
-                                        width: 105%;
-                                        background-color: $bluetext;
-                                        opacity: 0;  
-                                        margin: 0 0 0 .2em;
-                                    }
-                                    // for hover
-                                    .insight_button:hover:before {
-                                        opacity: 1;
-                                        transition: .3s all ease-in;
-                                        z-index: 1;
-                                    }
+                                    // UnderLine Button for hover on desktops
+                                    // .insight_button::before {
+                                    //     content: '';
+                                    //     position: absolute;
+                                    //     bottom: -8px;
+                                    //     left: 0;
+                                    //     right: 0;
+                                    //     height: 3px;
+                                    //     width: 105%;
+                                    //     background-color: $bluetext;
+                                    //     opacity: 0;  
+                                    //     margin: 0 0 0 .2em;
+                                    // }
+                                    // // for hover
+                                    // .insight_button:hover:before {
+                                    //     opacity: 1;
+                                    //     transition: .3s all ease-in;
+                                    //     z-index: 1;
+                                    // }
                                     // to make underline appear for phone tapping
                                     // .insight_button.tapped {
                                     //     // text-decoration: underline;
@@ -278,11 +281,29 @@ $borderfont: #dad3d35b;
                                     //     // border-bottom: $bluetext;
                                     //     // margin-right: 1em
                                     // }
+                                    // Underline on the phones
+                                    hr {
+                                        // color: $bluetext;
+                                        // size: 3px;
+                                        // width: 100px;
+                                        margin: 0 0 0 -.1em;
+                                        opacity: 0;
+                                    }
+                                    hr.tapped {
+                                        opacity: 1;
+                                        transition: all .3s ease-in;
+                                    }
+                                    // In case we have to adjust individual line margins
+                                    // #sq_underline_one {
+                                    //     margin: 0 0 0 -.1em;
+                                    // }
                                     .hover_boxes {
                                         width: 75%;
                                         font-size: .8rem;
                                         margin: 2em 0 0 .3em;
+                                        margin: 2em 0 0 -.1em;
                                         opacity: 0;
+                                        line-height: 1.5em;
                                     }
                                     .hover_boxes.appear {
                                         transition: .4s all ease-in;

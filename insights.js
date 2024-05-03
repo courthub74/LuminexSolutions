@@ -23,9 +23,14 @@ let box_two = document.getElementById('box_two_words');
 let box_three = document.getElementById('box_three_words');
 let box_four = document.getElementById('box_four_words');
 
+// lets query the underlines on the insights
+    // we will then make them appear based on insight square being tapped
+let square_one_underline = document.getElementById('sq_underline_one');
+let square_two_underline = document.getElementById('sq_underline_two');
+let square_three_underline = document.getElementById('sq_underline_three');
+let square_four_underline = document.getElementById('sq_underline_four');
+
 // add event listener to the button
-
-
 //////////////////////////////////////////////
 //////////////////////////////////////////////
 //////////////////////////////////////////////
@@ -54,7 +59,7 @@ w_square_one.addEventListener('pointerdown', () => {
     // Change box shadow
     w_square_one.classList.toggle('touch');
     // Add the underline
-    // square_one.classList.toggle('tapped');
+    square_one_underline.classList.toggle('tapped');
     // Close the others
 
     // BOX TWO
@@ -104,6 +109,8 @@ w_square_two.addEventListener('pointerdown', () => {
     w_square_two.classList.toggle('pressed');
     // change the box shadow
     w_square_two.classList.toggle('touch');
+    // Add the underline
+    square_two_underline.classList.toggle('tapped');
 
     // BOX ONE
     // the box shadow
@@ -147,6 +154,8 @@ w_square_three.addEventListener('pointerdown', () => {
     w_square_three.classList.toggle('pressed');
     // change the box shadow
     w_square_three.classList.toggle('touch');
+    // Add the underline
+    square_three_underline.classList.toggle('tapped');
 
     // BOX ONE
     // the box shadow
@@ -190,6 +199,8 @@ w_square_four.addEventListener('pointerdown', () => {
     w_square_four.classList.toggle('pressed');
     // change the box shadow
     w_square_four.classList.toggle('touch');
+    // Add the underline
+    square_four_underline.classList.toggle('tapped');
 
     // BOX ONE
     // the box shadow
