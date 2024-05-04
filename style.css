@@ -330,6 +330,131 @@
     background-color: #06183A;
     height: 35%;
   }
+  body .whole_page footer .top_footer_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  body .whole_page footer .top_footer_contents .co_name_logo {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0 0 2em;
+    gap: 1em;
+  }
+  body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
+    display: flex;
+    align-items: center;
+  }
+  body .whole_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
+    width: 0.8em;
+    height: 0.8m;
+  }
+  body .whole_page footer .top_footer_contents .co_name_logo .logo_name p {
+    color: #DAD3D3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+  }
+  body .whole_page footer .top_footer_contents .co_name_logo .footer_list {
+    margin: 0 0 0 1em;
+  }
+  body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+  }
+  body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  body .whole_page footer .top_footer_contents .sign_up_div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0 0 0 2em;
+  }
+  body .whole_page footer .top_footer_contents .sign_up_div small {
+    color: #668CF6;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  body .whole_page footer .top_footer_contents .sign_up_div .email_input {
+    display: flex;
+  }
+  body .whole_page footer .top_footer_contents .sign_up_div .email_input input {
+    background-color: #F0F5FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+    width: 16em;
+    padding: 0.5em 1em;
+  }
+  body .whole_page footer .top_footer_contents .sign_up_div .email_input button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: #F0F5FF;
+    color: #1F3E7A;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  body .whole_page footer .top_footer_contents .connect_with {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 2em 0 0 0;
+  }
+  body .whole_page footer .top_footer_contents .connect_with small {
+    color: #668CF6;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  body .whole_page footer .top_footer_contents .connect_with .socials {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+  body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
+    width: 2.6em;
+    height: 2.6em;
+    width: 2.2em;
+    height: 2.2em;
+  }
+  body .whole_page footer .top_footer_contents .connect_with .socials #instagram {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  body .whole_page footer .top_footer_contents .connect_with .socials #facebook {
+    width: 3.2em;
+    height: 3.2em;
+    width: 2.5em;
+    height: 2.5em;
+  }
+  body .whole_page footer .top_footer_contents .connect_with .socials #linkedin {
+    width: 3em;
+    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
+  }
+  body .whole_page footer .copyrights {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    font-family: "Inter", sans-serif;
+    gap: 0.5em;
+    margin: 6em 0 0 3em;
+  }
+  body .whole_page footer .copyrights #courdevelops {
+    width: 2em;
+    height: 2em;
+  }
 }
 @media only screen and (min-width: 601px) and (max-width: 1199px) {
   * {

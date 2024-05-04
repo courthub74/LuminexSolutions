@@ -387,6 +387,142 @@ $borderfont: #dad3d35b;
                 footer {
                    background-color: $newnav;
                    height: 35%;
+                   .top_footer_contents {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2em;
+                        // set margin below
+                        .co_name_logo {
+                            display: flex;
+                            flex-direction: column;
+                            margin: 2em 0 0 2em;
+                            gap: 1em;
+                            .logo_name {
+                                display: flex;
+                                align-items: center;
+                                #lightbulb {
+                                    width: .8em;
+                                    height: .8m;
+                                }
+                                p {
+                                    color: $headerfont;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .9rem;
+                                }
+                            }
+                            .footer_list {
+                                margin: 0 0 0 1em;
+                                .footer_list_contents {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: .7em;
+                                    a {
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .8rem;
+                                        // font-size: .6rem;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
+                        .sign_up_div {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            margin: 0 0 0 2em;
+                            small {
+                                color: $supportblue;
+                                font-family: 'Inter', sans-serif;
+                                font-size: .9rem;
+                                font-weight: bold;
+                            }
+                            .email_input {
+                                display: flex;
+                                // justify-content: center;
+                                // align-items: center;
+                                
+                                input {
+                                    background-color: $backgroundwhite;
+                                    border-top-left-radius: 5px;
+                                    border-bottom-left-radius: 5px;
+                                    border-top-right-radius: 0px;
+                                    border-bottom-right-radius: 0px;
+                                    // border: 2px solid red;
+                                    border: none;
+                                    width: 16em;
+                                    padding: .5em 1em;
+                                    // height: 2em;
+                                }
+                                button {
+                                    border-top-right-radius: 5px;
+                                    border-bottom-right-radius: 5px;
+                                    border: none;
+                                    background-color: $backgroundwhite;
+                                    color: $footerbluewords;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .7rem;
+                                    font-weight: bold;
+                                    // padding: .5em 1em;
+                                    // border: 2px solid green;
+                                    // width: 12em;
+                                    // height: 2em;
+                                }
+                            }
+                        }
+                        .connect_with {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            margin: 2em 0 0 0;
+                            small {
+                                color: $supportblue;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: .9rem;
+                            }
+                            .socials {
+                                display: flex;
+                                align-items: center;
+                                gap: 2em;
+                                #twitter {
+                                    width: 2.6em;
+                                    height: 2.6em;
+                                    width: 2.2em;
+                                    height: 2.2em;
+                                }
+                                #instagram {
+                                    width: 2.5em;
+                                    height: 2.5em;
+                                }
+                                #facebook {
+                                    width: 3.2em;
+                                    height: 3.2em;
+                                    width: 2.5em;
+                                    height: 2.5em;
+                                }
+                                #linkedin {
+                                    width: 3em;
+                                    height: 3em;
+                                    width: 2.5em;
+                                    height: 2.5em;
+                                }
+                            }
+                        }
+                   }
+                   .copyrights {
+                    display: flex;
+                    align-items: center;
+                    font-size: .7rem;
+                    font-family: 'Inter', sans-serif;
+                    gap: .5em;
+                    margin: 6em 0 0 3em;
+                    #courdevelops {
+                        width: 2em;
+                        height: 2em;
+                    }
+                   }
                 }
             }
        }
