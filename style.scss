@@ -464,10 +464,6 @@ $borderfont: #dad3d35b;
                                     font-family: 'Inter', sans-serif;
                                     font-size: .7rem;
                                     font-weight: bold;
-                                    // padding: .5em 1em;
-                                    // border: 2px solid green;
-                                    // width: 12em;
-                                    // height: 2em;
                                 }
                             }
                         }
@@ -499,8 +495,8 @@ $borderfont: #dad3d35b;
                                 #facebook {
                                     width: 3.2em;
                                     height: 3.2em;
-                                    width: 2.5em;
-                                    height: 2.5em;
+                                    width: 2.6em;
+                                    height: 2.6em;
                                 }
                                 #linkedin {
                                     width: 3em;
@@ -515,6 +511,7 @@ $borderfont: #dad3d35b;
                     display: flex;
                     align-items: center;
                     font-size: .7rem;
+                    font-size: .8rem;
                     font-family: 'Inter', sans-serif;
                     gap: .5em;
                     margin: 6em 0 0 3em;
