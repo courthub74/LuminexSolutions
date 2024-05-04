@@ -175,8 +175,9 @@
   body .whole_page .insight_section {
     height: 70%;
     height: 65%;
+    background-color: green;
     font-family: "Inter", sans-serif;
-    margin: -5em 0 0 0;
+    margin: 0em 0 0 0;
   }
   body .whole_page .insight_section .insight_contents {
     display: flex;

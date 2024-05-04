@@ -137,6 +137,7 @@ $borderfont: #dad3d35b;
                             font-size: .9rem;
                             b {
                                 color: $newnav;
+                                // text-decoration: underline;
                             }
                             p {
                                 color: $newnav;
@@ -207,9 +208,9 @@ $borderfont: #dad3d35b;
                 .insight_section {
                     height: 70%;
                     height: 65%;
-                    // background-color: green;
+                    background-color: green;
                     font-family: 'Inter', sans-serif;
-                    margin: -5em 0 0 0;
+                    margin: 0em 0 0 0;
                     // margin: -2em 2em 0  2em;
                     .insight_contents {
                         display: flex;
@@ -223,6 +224,7 @@ $borderfont: #dad3d35b;
                             b {
                                 color: $newnav;
                                 font-size: 1rem;
+                                // text-decoration: underline;
                                 // margin: 0 0 0 -2em;
                             }
                         }
@@ -354,7 +356,7 @@ $borderfont: #dad3d35b;
                                 box-shadow: 2px 2px 2px 2px grey;
                             }
 
-                            // WHEN PRESSED
+                            // WHOLE SQUARE WHEN PRESSED
                              // New length state for square after button is 
                                 // pressed
                             #square_one.pressed {
