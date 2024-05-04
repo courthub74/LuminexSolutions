@@ -43,18 +43,18 @@ let square_four_plus = document.getElementById('sq_four_more');
 //////////////////////////////////////////////
 // ONE
 // to mouseover hover
-square_one.addEventListener('mouseover', () => {
-    // change the style of the words
-    box_one.classList.add('appear');
-    // change the box shadow
-    w_square_one.classList.add('hover');
-});
+// square_one.addEventListener('mouseover', () => {
+//     // change the style of the words
+//     box_one.classList.add('appear');
+//     // change the box shadow
+//     w_square_one.classList.add('hover');
+// });
 
-// to mouseout take mouse away
-square_one.addEventListener('mouseout', () => {
-    box_one.classList.remove('appear');
-    w_square_one.classList.remove('hover');
-});
+// // to mouseout take mouse away
+// square_one.addEventListener('mouseout', () => {
+//     box_one.classList.remove('appear');
+//     w_square_one.classList.remove('hover');
+// });
 
 // for phone touch 'pointerdown'
 square_one_plus.addEventListener('pointerdown', () => {
@@ -98,18 +98,18 @@ square_one_plus.addEventListener('pointerdown', () => {
 //////////////////////////////////////////////
 // TWO
 // to mouseover hover
-square_two.addEventListener('mouseover', () => {
-    // change the style of the words
-    box_two.classList.add('appear');
-    // change the box shadow
-    w_square_two.classList.add('hover');
-});
+// square_two.addEventListener('mouseover', () => {
+//     // change the style of the words
+//     box_two.classList.add('appear');
+//     // change the box shadow
+//     w_square_two.classList.add('hover');
+// });
 
-// to mouseout take mouse away
-square_two.addEventListener('mouseout', () => {
-    box_two.classList.remove('appear');
-    w_square_two.classList.remove('hover');
-});
+// // to mouseout take mouse away
+// square_two.addEventListener('mouseout', () => {
+//     box_two.classList.remove('appear');
+//     w_square_two.classList.remove('hover');
+// });
 
 // for phone touch 'pointerdown'
 square_two_plus.addEventListener('pointerdown', () => {
@@ -145,21 +145,21 @@ square_two_plus.addEventListener('pointerdown', () => {
 
 // Three
 // to mouseover hover
-square_three.addEventListener('mouseover', () => {
-    // change the style of the words
-    box_three.classList.add('appear');
-    // change the box shadow
-    w_square_three.classList.add('hover');
-});
+// square_three.addEventListener('mouseover', () => {
+//     // change the style of the words
+//     box_three.classList.add('appear');
+//     // change the box shadow
+//     w_square_three.classList.add('hover');
+// });
 
-// to mouseout take mouse away
-square_three.addEventListener('mouseout', () => {
-    box_three.classList.remove('appear');
-    w_square_three.classList.remove('hover');
-});
+// // to mouseout take mouse away
+// square_three.addEventListener('mouseout', () => {
+//     box_three.classList.remove('appear');
+//     w_square_three.classList.remove('hover');
+// });
 
 // to click on phone 
-w_square_three.addEventListener('pointerdown', () => {
+square_three_plus.addEventListener('pointerdown', () => {
     // Make words appear
     box_three.classList.toggle('appear');
     // Make box expand
@@ -192,21 +192,21 @@ w_square_three.addEventListener('pointerdown', () => {
 
 // Four
 // to mouseover hover
-square_four.addEventListener('mouseover', () => {
-    // change the style of the words
-    box_four.classList.add('appear');
-    // change the box shadow
-    w_square_four.classList.add('hover');
-});
+// square_four.addEventListener('mouseover', () => {
+//     // change the style of the words
+//     box_four.classList.add('appear');
+//     // change the box shadow
+//     w_square_four.classList.add('hover');
+// });
 
-// to mouseout take mouse away
-square_four.addEventListener('mouseout', () => {
-    box_four.classList.remove('appear');
-    w_square_four.classList.remove('hover');
-});
+// // to mouseout take mouse away
+// square_four.addEventListener('mouseout', () => {
+//     box_four.classList.remove('appear');
+//     w_square_four.classList.remove('hover');
+// });
 
 // to click on phone 
-w_square_four.addEventListener('pointerdown', () => {
+square_four_plus.addEventListener('pointerdown', () => {
     // Make words appear
     box_four.classList.toggle('appear');
     // Make box expand

@@ -288,6 +288,24 @@ $borderfont: #dad3d35b;
                                             transform: rotate(45deg);
                                         }
                                     }
+                                    // Each insight button and plus
+                                    #insight_plus_one {
+                                        // background-color: green;
+                                        padding: 0 1em 0 1em;
+                                        // width: 100%;
+                                    }
+                                    #insight_plus_two {
+                                        // background-color: green;
+                                        gap: 2em;
+                                    }
+                                    #insight_plus_three {
+                                        // background-color: green;
+                                        gap: 2.5em;
+                                    }
+                                    #insight_plus_four {
+                                        // background-color: green;
+                                        gap: 3.8em;
+                                    }
                                     // Underline on the phones
                                     hr {
                                         opacity: 0;
@@ -298,19 +316,34 @@ $borderfont: #dad3d35b;
                                     }
                                     // In case we have to adjust individual line margins
                                     #sq_underline_one {
-                                        margin: 0 0 0 -.4em;
-                                        background-color: $bluetext;
-                                        width: 180px;
+                                        margin: 0 0 0 -.1em;
+                                        background-color: $supportblue;
+                                        width: 185px;
                                         height: 3px;
                                         border: none;
                                     }
                                     #sq_underline_two {
                                         margin: 0 0 0 12px;
-                                        background-color: $bluetext;
+                                        background-color: $supportblue;
                                         width: 140px;
                                         height: 3px;
                                         border: none;
                                     }
+                                    #sq_underline_three {
+                                        margin: 0 0 0 12px;
+                                        background-color: $supportblue;
+                                        width: 140px;
+                                        height: 3px;
+                                        border: none;
+                                    }
+                                    #sq_underline_four {
+                                        margin: 0 0 0 12px;
+                                        background-color: $supportblue;
+                                        width: 140px;
+                                        height: 3px;
+                                        border: none;
+                                    }
+                                    // The words in the insight boxes
                                     .hover_boxes {
                                         width: 55%;
                                         font-size: .8rem;
