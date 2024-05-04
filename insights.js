@@ -32,6 +32,7 @@ let square_four_underline = document.getElementById('sq_underline_four');
 
 // each plus sign
 let square_one_plus = document.getElementById('sq_one_more');
+let square_two_plus = document.getElementById('sq_two_more');
 
 // add event listener to the button
 //////////////////////////////////////////////
@@ -118,6 +119,8 @@ w_square_two.addEventListener('pointerdown', () => {
     w_square_two.classList.toggle('touch');
     // Add the underline
     square_two_underline.classList.toggle('tapped');
+    // rotate the close
+    square_two_plus.classList.toggle('open');
 
     // BOX ONE
     // the box shadow

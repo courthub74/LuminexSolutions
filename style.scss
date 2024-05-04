@@ -275,6 +275,9 @@ $borderfont: #dad3d35b;
                                         #sq_one_more.open {
                                             transform: rotate(45deg);
                                         }
+                                        #sq_two_more.open {
+                                            transform: rotate(45deg);
+                                        }
                                     }
 
                                     // UnderLine Button for hover on desktops
@@ -309,7 +312,7 @@ $borderfont: #dad3d35b;
                                         // color: $bluetext;
                                         // size: 3px;
                                         // width: 100px;
-                                        margin: .4em 0 0 -.1em;
+                                        // margin: .4em 0 0 -.1em;
                                         opacity: 0;
                                     }
                                     hr.tapped {
@@ -317,9 +320,12 @@ $borderfont: #dad3d35b;
                                         transition: all .3s ease-in;
                                     }
                                     // In case we have to adjust individual line margins
-                                    // #sq_underline_one {
-                                    //     margin: 0 0 0 -.1em;
-                                    // }
+                                    #sq_underline_one {
+                                        margin: 0 0 0 -.1em;
+                                    }
+                                    #sq_underline_two {
+                                        margin: 0 0 0 -.1em;
+                                    }
                                     .hover_boxes {
                                         width: 55%;
                                         font-size: .8rem;
@@ -380,7 +386,7 @@ $borderfont: #dad3d35b;
                             }
                             #square_two.pressed {
                                 height: 20em;
-                                padding-bottom: 2em;
+                                padding-bottom: 5em;
                                 transition: .2s all ease-in-out;
                             }
                             #square_three.pressed {
