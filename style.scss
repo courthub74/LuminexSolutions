@@ -31,7 +31,8 @@ $borderfont: #dad3d35b;
                 nav {
                     background-color: $newnav;
                     height: 10%;
-                    // height 65px
+                    // set the above in px
+                    height: 65px;
                     width: 100%;
                     display: flex;
                     align-items: center;
@@ -80,12 +81,14 @@ $borderfont: #dad3d35b;
                 // Top
                 .top_page {
                     height: 22%;
+                    // match this height in px
+                    height: 350px;
                     width: 100%;
                     display: flex;
                     // display: none;
                     justify-content: center;
                     align-items: center;
-                    // padding-top: 3em;
+                    // background-color: hotpink;
                     .right_square {
                         margin: 3em 0 0 0;
                         background-image: url("./img/top_banner.png");
@@ -121,6 +124,8 @@ $borderfont: #dad3d35b;
                     background-color: $backgroundwhite;
                     // background-color: red;
                     height: 30%;
+                    // above height in px
+                    height: 340px;
                     display: flex;
                     // display: none;
                     flex-direction: column;
@@ -189,6 +194,8 @@ $borderfont: #dad3d35b;
                     gap: .5em;
                     width: 100%;
                     height: 10%;
+                    // above height in px
+                    height: 40px;
                     // background-color: #66C7E5;
                     margin: 2em 0 0 0;
                     ul {
@@ -208,9 +215,12 @@ $borderfont: #dad3d35b;
                 .insight_section {
                     height: 70%;
                     height: 65%;
-                    background-color: green;
+                    // above height in px
+                    height: 1000px;
+                    // background-color: green;
                     font-family: 'Inter', sans-serif;
-                    margin: 0em 0 0 0;
+                    margin: -2em 0 0 0;
+                    padding: 2em 0 2em 0;
                     // margin: -2em 2em 0  2em;
                     .insight_contents {
                         display: flex;
@@ -389,6 +399,9 @@ $borderfont: #dad3d35b;
                 footer {
                    background-color: $newnav;
                    height: 35%;
+                   // above height in px
+                   height: 600px;
+                   padding: 2em 0 2em 0;
                    .top_footer_contents {
                         display: flex;
                         flex-direction: column;
@@ -454,8 +467,15 @@ $borderfont: #dad3d35b;
                                     // border: 2px solid red;
                                     border: none;
                                     width: 16em;
+                                    width: 12.5em;
                                     padding: .5em 1em;
                                     // height: 2em;
+                                }
+                                input::placeholder {
+                                    font-size: .7rem;
+                                    color: $footerbluewords;
+                                    color: rgb(171, 179, 204);
+
                                 }
                                 button {
                                     border-top-right-radius: 5px;
