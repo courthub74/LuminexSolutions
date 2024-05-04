@@ -244,7 +244,11 @@
     border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_two {
-    margin: 0 0 0 -0.1em;
+    margin: 0 0 0 12px;
+    background-color: #66C7E5;
+    width: 140px;
+    height: 3px;
+    border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     width: 55%;

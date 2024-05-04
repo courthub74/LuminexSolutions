@@ -329,7 +329,11 @@ $borderfont: #dad3d35b;
                                         border: none;
                                     }
                                     #sq_underline_two {
-                                        margin: 0 0 0 -.1em;
+                                        margin: 0 0 0 12px;
+                                        background-color: $bluetext;
+                                        width: 140px;
+                                        height: 3px;
+                                        border: none;
                                     }
                                     .hover_boxes {
                                         width: 55%;
