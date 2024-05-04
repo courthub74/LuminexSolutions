@@ -172,6 +172,7 @@
   }
   body .whole_page .insight_section {
     height: 70%;
+    height: 60%;
     font-family: "Inter", sans-serif;
     margin: 5em 0 0 0;
   }
@@ -236,7 +237,11 @@
     transition: all 0.3s ease-in;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_one {
-    margin: 0 0 0 -0.1em;
+    margin: 0 0 0 -0.4em;
+    background-color: #66C7E5;
+    width: 180px;
+    height: 3px;
+    border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_two {
     margin: 0 0 0 -0.1em;
@@ -309,6 +314,7 @@
   body .whole_page footer {
     background-color: #06183A;
     height: 35%;
+    height: 40%;
   }
   body .whole_page footer .top_footer_contents {
     display: flex;

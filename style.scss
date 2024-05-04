@@ -216,6 +216,7 @@ $borderfont: #dad3d35b;
                 // Insight Section
                 .insight_section {
                     height: 70%;
+                    height: 60%;
                     // background-color: green;
                     font-family: 'Inter', sans-serif;
                     margin: 5em 0 0 0;
@@ -321,7 +322,11 @@ $borderfont: #dad3d35b;
                                     }
                                     // In case we have to adjust individual line margins
                                     #sq_underline_one {
-                                        margin: 0 0 0 -.1em;
+                                        margin: 0 0 0 -.4em;
+                                        background-color: $bluetext;
+                                        width: 180px;
+                                        height: 3px;
+                                        border: none;
                                     }
                                     #sq_underline_two {
                                         margin: 0 0 0 -.1em;
@@ -407,6 +412,7 @@ $borderfont: #dad3d35b;
                    background-color: $newnav;
                 //    background-color: #668CF6;
                    height: 35%;
+                   height: 40%;
                    .top_footer_contents {
                         display: flex;
                         flex-direction: column;
