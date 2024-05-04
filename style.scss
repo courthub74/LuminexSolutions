@@ -25,7 +25,7 @@ $borderfont: #dad3d35b;
             // background-color: lightgreen;
             .whole_page {
                 height: 220vh;
-                height: 185vh;
+                height: 200vh;
                 background-color: $backgroundwhite;
                 // background-color: lightgreen;
                 nav {
@@ -87,7 +87,7 @@ $borderfont: #dad3d35b;
                     align-items: center;
                     // padding-top: 3em;
                     .right_square {
-                        margin: 100px 0 0 0;
+                        margin: 3em 0 0 0;
                         background-image: url("./img/top_banner.png");
                         width: 100%;
                         height: 9em;
@@ -124,7 +124,7 @@ $borderfont: #dad3d35b;
                     display: flex;
                     // display: none;
                     flex-direction: column;
-                    margin: 0em 0 0 0;
+                    margin: -2em 0 0 0;
                     .exec_words_and_lights {
                         display: flex;
                         flex-direction: column;
@@ -135,13 +135,6 @@ $borderfont: #dad3d35b;
                             width: 83%;
                             line-height: 2em;
                             font-size: .9rem;
-                            // display: none;
-                            // height: 20%;
-                            // display: flex;
-                            // display: none;
-                            // margin: 6em 0 0 -12em;
-                            // margin: 5em 0 0 8em;
-                            // justify-content: center;
                             b {
                                 color: $newnav;
                             }
@@ -213,10 +206,10 @@ $borderfont: #dad3d35b;
                 // Insight Section
                 .insight_section {
                     height: 70%;
-                    height: 60%;
+                    height: 65%;
                     // background-color: green;
                     font-family: 'Inter', sans-serif;
-                    margin: -3em 0 0 0;
+                    margin: -5em 0 0 0;
                     // margin: -2em 2em 0  2em;
                     .insight_contents {
                         display: flex;
@@ -243,6 +236,7 @@ $borderfont: #dad3d35b;
                             .square {
                                 width: 100%;
                                 height: 10em;
+                                
                                 // height: 30em;
                                 .square_content {
                                     margin: 0 0 0 2em;
@@ -321,7 +315,8 @@ $borderfont: #dad3d35b;
                                         padding-bottom: 25em;
                                     }
                                     #box_two_words {
-                                        background-color: green;
+                                        // background-color: green;
+                                        height: 3px;
                                     }
                                 }
                             }
@@ -374,13 +369,16 @@ $borderfont: #dad3d35b;
                             }
                             #square_three.pressed {
                                 height: 20em;
-                                padding-bottom: 2em;
+                                padding-bottom: 5em;
                                 transition: .2s all ease-in-out;
                             }
                             #square_four.pressed {
                                 height: 20em;
-                                padding-bottom: 2em;
+                                padding-bottom: 5em;
                                 transition: .2s all ease-in-out;
+                                // since it's at the bottom of page
+                                    // for when it hovers over the footer
+                                z-index: 5;
                             }
                         }
                     }
@@ -388,246 +386,12 @@ $borderfont: #dad3d35b;
                 // Footer 
                 footer {
                    background-color: $newnav;
-                //    background-color: #668CF6;
                    height: 35%;
-                   .top_footer_contents {
-                        display: flex;
-                        flex-direction: column;
-                        // justify-content: left;
-                        align-items: center;
-                        // gap: 6em;
-                        .co_name_logo {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            gap: 1.5em;
-                            width: 100%;
-                            margin: 2em 0 0 -11em;
-                            // background-color: #668CF6;
-                            .logo_name {
-                                // display: none;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                #lightbulb {
-                                    width: .8em;
-                                    height: .8em;
-                                }
-                                p {
-                                    color: $headerfont;
-                                    color: white;
-                                    font-family: 'Inter', sans-serif;
-                                    font-size: 1rem;
-                                }
-                            }
-                            .footer_list {
-                                // display: none;
-                                display: flex;
-                                
-                                // background-color: #668CF6;
-                                width: 80%;
-                                margin: 1em 0 0 10em;
-                                .footer_list_contents {
-                                    display: flex;
-                                    flex-direction: column;
-                                    gap: .7em;
-                                    a {
-                                        color: white;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: .7rem;
-                                        // font-size: .6rem;
-                                        text-decoration: none;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                .sign_up_div {
-                    display: flex;
-                    flex-direction: column;
-                    gap: .5em;
-                    // margin: 3em 0 0 -1.6em;
-                    // border: 3px solid lightgreen;
-                    margin: 3em 0 0 -1em;
-                    small {
-                        color: $supportblue;
-                        // color: $footerbluewords;
-                        font-family: 'Inter', sans-serif;
-                        font-size: .7rem;
-                        font-weight: bold;
-                    }
-                    .email_input {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        
-                        input {
-                            background-color: $backgroundwhite;
-                            border-top-left-radius: 5px;
-                            border-bottom-left-radius: 5px;
-                            border-top-right-radius: 0px;
-                            border-bottom-right-radius: 0px;
-                            // border: 2px solid red;
-                            border: none;
-                            width: 16em;
-                            padding: .5em 1em;
-                            // height: 2em;
-                        }
-                        button {
-                            border-top-right-radius: 5px;
-                            border-bottom-right-radius: 5px;
-                            border: none;
-                            background-color: $backgroundwhite;
-                            color: $footerbluewords;
-                            font-family: 'Inter', sans-serif;
-                            font-size: .6rem;
-                            font-weight: bold;
-                            padding: .9em 1em;
-                            // border: 2px solid green;
-                            // width: 12em;
-                            // height: 2em;
-                        }
-                    }
-                }
-                // For when I removed the Sign up input
-                // .sign_up_div {
-                //     display: none;
-                // }
-                // .sign_up_div {
-                //         // display: none;
-                //         margin-top: 3em;
-                //         margin-left: -2em;
-                //         display: flex;
-                //         display: none;
-                //         flex-direction: column;
-                //         gap: .5em;
-                //     small {
-                //         color: $bluetext;
-                //         font-family: 'Inter', sans-serif;
-                //         font-size: .8rem;
-                //         font-weight: bold;
-                //         // margin: 0em 0 0 -5em;
-                //     }
-                //     .email_input {
-                //         // display: none;
-                //         input {
-                //             // border-radius: 5px;
-                //             border-top-left-radius: 5px;
-                //             border-bottom-left-radius: 5px ;
-                //             border: none;
-                //             width: 12em;
-                //             height: 2em;
-                //             background-color: $bluetext;
-                //         }
-                //         button {
-                //             border-top-right-radius: 5px;
-                //             border-bottom-right-radius: 5px;
-                //             border: 2px solid $bluetext;
-                //             background: none;
-                //             height: 2.1em;
-                //             width: 7em;
-                //             padding: .1em .1em;
-                //             color: $bluetext;
-                //             font-family: 'Inter', sans-serif;
-                //             font-weight: bold;
-                //             cursor: pointer;
-                //         }
-                //     }
-                // }
-            }
-            .connect_with {
-                // display: none;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: .4em;
-                flex-direction: column;
-                margin: 3em 0 0 -8.5em;
-                // margin: 3em 0 0 -9.9em;
-                // margin: 3em 0 0 0;
-                small {
-                    color: white;
-                    color: $supportblue;
-                    font-family: 'Inter', sans-serif;
-                    font-weight: bold;
-                    font-size: .7rem;
-                    margin-left: -6.8em;
-                    
-                }
-                .socials {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    // margin: .3em 0 0 -.7em;
-                    margin: 0 0 0 2em;
-                    gap: 1.8em;
-                    gap: 1.5em;
-                    #twitter {
-                        width: 1.2em;
-                        height: 1.2em;
-                        width: 2em;
-                        height: 2em;
-                    }
-                    #instagram {
-                        width: 1.7em;
-                        height: 1.7em;
-                        width: 2.3em;
-                        height: 2.3em;
-                    }
-                    #facebook {
-                        width: 1.7em;
-                        height: 1.7em;
-                        width: 2.3em;
-                        height: 2.3em;
-                    }
-                    .soc_icon {
-                        width: 1.7em;
-                        height: 1.7em;
-                        width: 2.3em;
-                        height: 2.3em;
-                    }
-                    
-                }
-            }
-            // Email Button
-            .email_button {
-                margin: 2em 0 0 -8.5em;
-                margin: 2em 0 0 -7em;
-                .email_updates {
-                    background-color: $bluetext;
-                    // background-color: $newnav;
-                    color: $newnav;
-                    border: none;
-                    // border: 2px solid $bluetext;
-                    font-family: 'Inter', sans-serif;
-                    padding: .5em 1.5em;
-                    color: $bluetext;
-                    color: $newnav;
-                    font-weight: bold;
-                    cursor: pointer;
-                    border-radius: 5px;
                 }
             }
        }
-    }
-    .copyrights {
-        // display: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: $bluetext;
-        color: white;
-        font-size: .7rem;
-        font-family: 'Inter', sans-serif;
-        gap: .5em;
-        margin: 8em 0 0 -5em;
-        margin: 5em 0 0 0em;
-        #courdevelops {
-            width: 2em;
-            height: 2em;
-        }
-    }
+}
+               
 
 
 

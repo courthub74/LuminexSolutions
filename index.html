@@ -97,7 +97,7 @@
                     <!-- Square One -->
                     <div class="square" id="square_one">
                         <div class="square_content">
-                            <div class="insight_button_and_plus">
+                            <div class="insight_button_and_plus" id="insight_plus_one">
                                 <button class="insight_button" id="button_one">Marketing and Sales</button>
                                 <!-- Plus button -->
                                 <button class="plus_button">
@@ -121,7 +121,7 @@
                     <!-- Square Two -->
                     <div class="square" id="square_two">
                         <div class="square_content" >
-                            <div class="insight_button_and_plus">
+                            <div class="insight_button_and_plus" id="insight_plus_two">
                                 <button class="insight_button" id="button_two">Operations Plan</button>
                                 <!-- Plus button -->
                                 <button class="plus_button">
@@ -145,7 +145,15 @@
                     <!-- Square Three -->
                     <div class="square" id="square_three">
                         <div class="square_content">
-                            <button class="insight_button" id="button_three">Environmental</button>
+                            <div class="insight_button_and_plus" id="insight_plus_three">
+                                <button class="insight_button" id="button_three">Environmental</button>
+                                <!-- <hr id="sq_underline_three" color="#668CF6" size="3px" width="130px"> -->
+                                <!-- Plus button -->
+                                <button class="plus_button">
+                                    <img src="./img/plus-line.png" id="sq_three_more">
+                                </button>
+                            </div>
+                            
                             <hr id="sq_underline_three" color="#668CF6" size="3px" width="130px">
                             <div class="hover_boxes" id="box_three_words">
                                 <p>
@@ -160,7 +168,15 @@
                     <!-- Square Four -->
                     <div class="square" id="square_four">
                         <div class="square_content">
-                            <button class="insight_button" id="button_four">Projections</button>
+                            <div class="insight_button_and_plus" id="insight_plus_four">
+                                <button class="insight_button" id="button_four">Projections</button>
+                                <!-- <hr id="sq_underline_four" color="#668CF6" size="3px" width="100px"> -->
+                                <!-- Plus button -->
+                                <button class="plus_button">
+                                    <img src="./img/plus-line.png" id="sq_four_more">
+                                </button>
+                            </div>
+                            
                             <hr id="sq_underline_four" color="#668CF6" size="3px" width="100px">
                             <div class="hover_boxes" id="box_four_words">
                                 <p>
@@ -183,12 +199,13 @@
     
                 <!-- Div of first 3 into a flex -->
                 <div class="top_footer_contents">
+
                     <div class="co_name_logo">
                         <div class="logo_name">
                             <img src="./img/lightbulb.png" id="lightbulb" alt="lightbulb">
                             <p>Luminex Solutions</p>
                         </div>
-                         <!-- Contents List -->
+                        <!-- Contents List -->
                         <div class="footer_list">
                             <div class="footer_list_contents">
                                 <a href="#">All Products</a>

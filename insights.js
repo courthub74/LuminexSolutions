@@ -168,6 +168,8 @@ w_square_three.addEventListener('pointerdown', () => {
     w_square_three.classList.toggle('touch');
     // Add the underline
     square_three_underline.classList.toggle('tapped');
+    // rotate the close
+    square_three_plus.classList.toggle('open');
 
     // BOX ONE
     // the box shadow
@@ -213,6 +215,8 @@ w_square_four.addEventListener('pointerdown', () => {
     w_square_four.classList.toggle('touch');
     // Add the underline
     square_four_underline.classList.toggle('tapped');
+    // rotate the close
+    square_four_plus.classList.toggle('open');
 
     // BOX ONE
     // the box shadow

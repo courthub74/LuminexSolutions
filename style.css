@@ -10,7 +10,7 @@
   }
   body .whole_page {
     height: 220vh;
-    height: 185vh;
+    height: 200vh;
     background-color: #F0F5FF;
   }
   body .whole_page nav {
@@ -66,7 +66,7 @@
     align-items: center;
   }
   body .whole_page .top_page .right_square {
-    margin: 100px 0 0 0;
+    margin: 3em 0 0 0;
     background-image: url("./img/top_banner.png");
     width: 100%;
     height: 9em;
@@ -97,7 +97,7 @@
     height: 30%;
     display: flex;
     flex-direction: column;
-    margin: 0em 0 0 0;
+    margin: -2em 0 0 0;
   }
   body .whole_page .exec_summary .exec_words_and_lights {
     display: flex;
@@ -174,9 +174,9 @@
   }
   body .whole_page .insight_section {
     height: 70%;
-    height: 60%;
+    height: 65%;
     font-family: "Inter", sans-serif;
-    margin: -3em 0 0 0;
+    margin: -5em 0 0 0;
   }
   body .whole_page .insight_section .insight_contents {
     display: flex;
@@ -271,7 +271,7 @@
     padding-bottom: 25em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_two_words {
-    background-color: green;
+    height: 3px;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
@@ -317,182 +317,20 @@
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_three.pressed {
     height: 20em;
-    padding-bottom: 2em;
+    padding-bottom: 5em;
     transition: 0.2s all ease-in-out;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_four.pressed {
     height: 20em;
-    padding-bottom: 2em;
+    padding-bottom: 5em;
     transition: 0.2s all ease-in-out;
+    z-index: 5;
   }
   body .whole_page footer {
     background-color: #06183A;
     height: 35%;
   }
-  body .whole_page footer .top_footer_contents {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  body .whole_page footer .top_footer_contents .co_name_logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5em;
-    width: 100%;
-    margin: 2em 0 0 -11em;
-  }
-  body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  body .whole_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
-    width: 0.8em;
-    height: 0.8em;
-  }
-  body .whole_page footer .top_footer_contents .co_name_logo .logo_name p {
-    color: #DAD3D3;
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-size: 1rem;
-  }
-  body .whole_page footer .top_footer_contents .co_name_logo .footer_list {
-    display: flex;
-    width: 80%;
-    margin: 1em 0 0 10em;
-  }
-  body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
-    display: flex;
-    flex-direction: column;
-    gap: 0.7em;
-  }
-  body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-size: 0.7rem;
-    text-decoration: none;
-  }
-  body .whole_page .sign_up_div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    margin: 3em 0 0 -1em;
-  }
-  body .whole_page .sign_up_div small {
-    color: #668CF6;
-    font-family: "Inter", sans-serif;
-    font-size: 0.7rem;
-    font-weight: bold;
-  }
-  body .whole_page .sign_up_div .email_input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  body .whole_page .sign_up_div .email_input input {
-    background-color: #F0F5FF;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border: none;
-    width: 16em;
-    padding: 0.5em 1em;
-  }
-  body .whole_page .sign_up_div .email_input button {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: none;
-    background-color: #F0F5FF;
-    color: #1F3E7A;
-    font-family: "Inter", sans-serif;
-    font-size: 0.6rem;
-    font-weight: bold;
-    padding: 0.9em 1em;
-  }
-  body .connect_with {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.4em;
-    flex-direction: column;
-    margin: 3em 0 0 -8.5em;
-  }
-  body .connect_with small {
-    color: white;
-    color: #668CF6;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 0.7rem;
-    margin-left: -6.8em;
-  }
-  body .connect_with .socials {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 0 0 2em;
-    gap: 1.8em;
-    gap: 1.5em;
-  }
-  body .connect_with .socials #twitter {
-    width: 1.2em;
-    height: 1.2em;
-    width: 2em;
-    height: 2em;
-  }
-  body .connect_with .socials #instagram {
-    width: 1.7em;
-    height: 1.7em;
-    width: 2.3em;
-    height: 2.3em;
-  }
-  body .connect_with .socials #facebook {
-    width: 1.7em;
-    height: 1.7em;
-    width: 2.3em;
-    height: 2.3em;
-  }
-  body .connect_with .socials .soc_icon {
-    width: 1.7em;
-    height: 1.7em;
-    width: 2.3em;
-    height: 2.3em;
-  }
-  body .email_button {
-    margin: 2em 0 0 -8.5em;
-    margin: 2em 0 0 -7em;
-  }
-  body .email_button .email_updates {
-    background-color: #66C7E5;
-    color: #06183A;
-    border: none;
-    font-family: "Inter", sans-serif;
-    padding: 0.5em 1.5em;
-    color: #66C7E5;
-    color: #06183A;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-  }
 }
-.copyrights {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #66C7E5;
-  color: white;
-  font-size: 0.7rem;
-  font-family: "Inter", sans-serif;
-  gap: 0.5em;
-  margin: 8em 0 0 -5em;
-  margin: 5em 0 0 0em;
-}
-.copyrights #courdevelops {
-  width: 2em;
-  height: 2em;
-}
-
 @media only screen and (min-width: 601px) and (max-width: 1199px) {
   * {
     margin: 0;
