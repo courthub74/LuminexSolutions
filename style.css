@@ -403,12 +403,12 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin: 0 0 0 2em;
+    margin: 1em 0 0 2em;
   }
   body .whole_page footer .top_footer_contents .sign_up_div small {
     color: #668CF6;
     font-family: "Inter", sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bold;
   }
   body .whole_page footer .top_footer_contents .sign_up_div .email_input {
@@ -449,13 +449,13 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin: 2em 0 0 0;
+    margin: 4em 0 0 0;
   }
   body .whole_page footer .top_footer_contents .connect_with small {
     color: #668CF6;
     font-family: "Inter", sans-serif;
-    font-weight: bold;
     font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials {
     display: flex;

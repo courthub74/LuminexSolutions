@@ -49,6 +49,7 @@ $borderfont: #dad3d35b;
                             display: flex;
                             align-items: center;
                             font-family: 'Inter', sans-serif;
+                            // font-family: 'Roboto', sans-serif;
                             font-size: 1rem;
                             font-size: 1rem;
                             // margin-left: -.7em;
@@ -478,11 +479,11 @@ $borderfont: #dad3d35b;
                             display: flex;
                             flex-direction: column;
                             gap: .5em;
-                            margin: 0 0 0 2em;
+                            margin: 1em 0 0 2em;
                             small {
                                 color: $supportblue;
                                 font-family: 'Inter', sans-serif;
-                                font-size: .9rem;
+                                font-size: .8rem;
                                 font-weight: bold;
                             }
                             .email_input {
@@ -525,12 +526,13 @@ $borderfont: #dad3d35b;
                             display: flex;
                             flex-direction: column;
                             gap: .5em;
-                            margin: 2em 0 0 0;
+                            margin: 4em 0 0 0;
                             small {
                                 color: $supportblue;
                                 font-family: 'Inter', sans-serif;
-                                font-weight: bold;
+                                // font-weight: bold;
                                 font-size: .9rem;
+                                font-size: .8rem;
                             }
                             .socials {
                                 display: flex;
