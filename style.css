@@ -463,26 +463,28 @@
     gap: 2em;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
-    width: 2.6em;
-    height: 2.6em;
     width: 2.2em;
     height: 2.2em;
+    width: 1.35em;
+    height: 1.35em;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #instagram {
     width: 2.5em;
     height: 2.5em;
+    width: 1.5em;
+    height: 1.5em;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #facebook {
-    width: 3.2em;
-    height: 3.2em;
     width: 2.6em;
     height: 2.6em;
+    width: 1.5em;
+    height: 1.5em;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #linkedin {
-    width: 3em;
-    height: 3em;
     width: 2.5em;
     height: 2.5em;
+    width: 1.5em;
+    height: 1.5em;
   }
   body .whole_page footer .copyrights {
     display: flex;
