@@ -265,21 +265,21 @@
     border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_two {
-    margin: 0 0 0 12px;
+    margin: 0 0 0 0px;
     background-color: #668CF6;
     width: 140px;
     height: 3px;
     border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_three {
-    margin: 0 0 0 12px;
+    margin: 0 0 0 2px;
     background-color: #668CF6;
     width: 140px;
     height: 3px;
     border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_four {
-    margin: 0 0 0 12px;
+    margin: 0 0 0 3px;
     background-color: #668CF6;
     width: 140px;
     height: 3px;

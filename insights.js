@@ -70,8 +70,9 @@ square_one_plus.addEventListener('pointerdown', () => {
     square_one_plus.classList.toggle('open');
 
 
-    // Close the others
-
+    // Close the others 
+        // AND disable the underlines
+    
     // BOX TWO
     // the box shadow
     w_square_two.classList.remove('touch');
