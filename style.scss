@@ -1923,23 +1923,27 @@ $borderfont: #dad3d35b;
                                         cursor: pointer;
                                     }
                                     // UnderLine Button
-                                    .insight_button::before {
-                                        content: '';
-                                        position: absolute;
-                                        bottom: -8px;
-                                        left: 0;
-                                        right: 0;
-                                        height: 4px;
-                                        width: 105%;
-                                        background-color: $bluetext;
-                                        opacity: 0;  
-                                        margin: 0 0 0 .4em;
+                                    // .insight_button::before {
+                                    //     content: '';
+                                    //     position: absolute;
+                                    //     bottom: -8px;
+                                    //     left: 0;
+                                    //     right: 0;
+                                    //     height: 4px;
+                                    //     width: 105%;
+                                    //     background-color: $bluetext;
+                                    //     opacity: 0;  
+                                    //     margin: 0 0 0 .4em;
+                                    // }
+                                    // .insight_button:hover:before {
+                                    //     opacity: 1;
+                                    //     transition: .3s all ease-in;
+                                    //     z-index: 1;
+                                    // }
+                                    hr {
+                                        opacity: 0;
                                     }
-                                    .insight_button:hover:before {
-                                        opacity: 1;
-                                        transition: .3s all ease-in;
-                                        z-index: 1;
-                                    }
+                                    // below make the hr appear when hovered over
                                     .hover_boxes {
                                         width: 75%;
                                         font-size: .9rem;

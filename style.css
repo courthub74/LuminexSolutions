@@ -1656,22 +1656,8 @@
     position: relative;
     cursor: pointer;
   }
-  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button::before {
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    right: 0;
-    height: 4px;
-    width: 105%;
-    background-color: #66C7E5;
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content hr {
     opacity: 0;
-    margin: 0 0 0 0.4em;
-  }
-  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button:hover:before {
-    opacity: 1;
-    transition: 0.3s all ease-in;
-    z-index: 1;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     width: 75%;
