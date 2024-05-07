@@ -1683,6 +1683,9 @@
     transition: 0.4s all ease-in;
     opacity: 1;
   }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .plus_button {
+    display: none;
+  }
   * body .whole_page .insight_section .insight_contents .insight_squares .square::after {
     content: "";
     display: block;
@@ -2110,6 +2113,9 @@
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes.appear {
     transition: 0.4s all ease-in;
     opacity: 1;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .plus_button {
+    display: none;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square::after {
     content: "";

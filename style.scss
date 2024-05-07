@@ -1951,6 +1951,9 @@ $borderfont: #dad3d35b;
                                         opacity: 1;
                                     }
                                 }
+                                .plus_button {
+                                    display: none;
+                                }
                             }
                             .square::after {
                                 content: "";
@@ -2442,6 +2445,9 @@ $borderfont: #dad3d35b;
                                         transition: .4s all ease-in;
                                         opacity: 1;
                                     }
+                                }
+                                .plus_button {
+                                    display: none;
                                 }
                             }
                             .square::after {
