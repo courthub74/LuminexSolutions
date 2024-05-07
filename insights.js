@@ -36,6 +36,11 @@ let square_two_plus = document.getElementById('sq_two_more');
 let square_three_plus = document.getElementById('sq_three_more');
 let square_four_plus = document.getElementById('sq_four_more');
 
+// each button
+let square_two_button = document.getElementById('sq_two');
+let square_three_button = document.getElementById('sq_three');
+
+
 // add event listener to the button
 //////////////////////////////////////////////
 //////////////////////////////////////////////
@@ -67,29 +72,23 @@ square_one_plus.addEventListener('pointerdown', () => {
     // Add the underline
     square_one_underline.classList.toggle('tapped');
     // rotate the close
-    square_one_plus.classList.toggle('open');
-
-
-    // Close the others 
-        // AND disable the underlines
+    square_one_plus.classList.toggle('open'); 
     
+
+    // DISABLE OTHER BUTTONS
+
     // BOX TWO
-    // the box shadow
-    w_square_two.classList.remove('touch');
-    // the box expanded
-    w_square_two.classList.remove('pressed');
-    // the box text
-    box_two.classList.remove('appear')
+    square_two_plus.classList.toggle('disabled');
+    square_two.classList.toggle('disabled');
 
     // BOX THREE
-    w_square_three.classList.remove('touch');
-    w_square_three.classList.remove('pressed');
-    box_three.classList.remove('appear');
+    square_three_plus.classList.toggle('disabled');
+    square_three.classList.toggle('disabled');
+    
 
     // BOX FOUR
-    w_square_four.classList.remove('touch');
-    w_square_four.classList.remove('pressed');
-    box_four.classList.remove('appear');
+    
+
 });
 
 
