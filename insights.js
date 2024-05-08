@@ -11,7 +11,7 @@ let w_square_two = document.getElementById('square_two');
 let w_square_three = document.getElementById('square_three');
 let w_square_four = document.getElementById('square_four');
 
-// each square button
+// each square button as title
 let square_one = document.getElementById('button_one');
 let square_two = document.getElementById('button_two');
 let square_three = document.getElementById('button_three');
@@ -36,9 +36,11 @@ let square_two_plus = document.getElementById('sq_two_more');
 let square_three_plus = document.getElementById('sq_three_more');
 let square_four_plus = document.getElementById('sq_four_more');
 
-// each button
+// each button plus and x 
+let square_one_button = document.getElementById('sq_one');
 let square_two_button = document.getElementById('sq_two');
 let square_three_button = document.getElementById('sq_three');
+let square_four_button = document.getElementById('sq_four');
 
 
 // add event listener to the button
@@ -48,6 +50,7 @@ let square_three_button = document.getElementById('sq_three');
 //////////////////////////////////////////////
 // ONE
 // to mouseover hover
+    // Change these to add the underline upon hover
 // square_one.addEventListener('mouseover', () => {
 //     // change the style of the words
 //     box_one.classList.add('appear');
@@ -90,12 +93,19 @@ square_one_plus.addEventListener('pointerdown', () => {
     // BOX THREE
     square_three_plus.classList.toggle('disabled');
     square_three.classList.toggle('disabled');
-    // square_three_plus.disabled = true;
+    // The actual button
+    square_three_button.disabled = true;
+    // The actual button id
+    console.log(square_three_button.id);
     
 
     // BOX FOUR
     square_four_plus.classList.toggle('disabled');
     square_four.classList.toggle('disabled');
+    // The actual button
+    square_four_button.disabled = true;
+    // The actual button id
+    console.log(square_four_button.id);
 
 });
 
@@ -139,16 +149,36 @@ square_two_plus.addEventListener('pointerdown', () => {
     w_square_one.classList.remove('pressed');
     // the text dissapear
     box_one.classList.remove('appear');
+    // Darken the button
+    square_one_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_one.classList.toggle('disabled');
+    // The actual button
+    // square_one_button.disabled = true;
+    // The actual button id
+    // console.log(square_one_button.id);
 
     // BOX THREE
     w_square_three.classList.remove('touch');
     w_square_three.classList.remove('pressed');
     box_three.classList.remove('appear');
+    // Darken the button
+    square_three_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_three.classList.toggle('disabled');
+    // The actual button
+    // square_three_button.disabled = true;
+    // // The actual button id
+    // console.log(square_three_button.id);
 
     // BOX FOUR
     w_square_four.classList.remove('touch');
     w_square_four.classList.remove('pressed');
     box_four.classList.remove('appear');
+    // Darken the button
+    square_four_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_four.classList.toggle('disabled');
 });
 
 // Three
@@ -166,6 +196,12 @@ square_two_plus.addEventListener('pointerdown', () => {
 //     w_square_three.classList.remove('hover');
 // });
 
+
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+// THREE
 // to click on phone 
 square_three_plus.addEventListener('pointerdown', () => {
     // Make words appear
@@ -186,19 +222,35 @@ square_three_plus.addEventListener('pointerdown', () => {
     w_square_one.classList.remove('pressed');
     // the text dissapear
     box_one.classList.remove('appear');
+    // // Darken the button
+    square_one_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_one.classList.toggle('disabled');
 
     // BOX TWO
     w_square_two.classList.remove('touch');
     w_square_two.classList.remove('pressed');
     box_two.classList.remove('appear');
+    // Darken the button
+    square_two_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_two.classList.toggle('disabled');
 
     // BOX FOUR
     w_square_four.classList.remove('touch');
     w_square_four.classList.remove('pressed');
     box_four.classList.remove('appear');
+    // Darken the button
+    square_four_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_four.classList.toggle('disabled');
 });
 
-// Four
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+// FOUR
 // to mouseover hover
 // square_four.addEventListener('mouseover', () => {
 //     // change the style of the words
@@ -233,14 +285,26 @@ square_four_plus.addEventListener('pointerdown', () => {
     w_square_one.classList.remove('pressed');
     // the text dissapear
     box_one.classList.remove('appear');
+    // Darken the button
+    square_one_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_one.classList.toggle('disabled');
 
     // BOX TWO
     w_square_two.classList.remove('touch');
     w_square_two.classList.remove('pressed');
     box_two.classList.remove('appear');
+    // Darken the button
+    square_two_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_two.classList.toggle('disabled');
 
     // BOX THREE
     w_square_three.classList.remove('touch');
     w_square_three.classList.remove('pressed');
     box_three.classList.remove('appear');
+    // Darken the button
+    square_three_plus.classList.toggle('disabled');
+    // Darken the X graphic
+    square_three.classList.toggle('disabled');
 });
