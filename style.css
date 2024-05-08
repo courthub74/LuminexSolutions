@@ -1285,6 +1285,12 @@
     transition: 0.3s all ease-in;
     z-index: 1;
   }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .plus_button {
+    display: none;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content hr {
+    opacity: 0;
+  }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     width: 75%;
     font-size: 0.9rem;
@@ -1327,7 +1333,8 @@
     justify-content: center;
     align-items: center;
     margin: 2vw 0 0 0vw;
-    gap: 10vw;
+    width: 100%;
+    gap: 18vw;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo {
     display: flex;
@@ -1366,16 +1373,21 @@
   }
   * body .whole_page footer .top_footer_contents .sign_up_div {
     display: flex;
-    flex-direction: column;
     gap: 0.5em;
     margin: -2.5em 0 0 -2em;
   }
-  * body .whole_page footer .top_footer_contents .sign_up_div small {
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 9em;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications small {
     color: #66C7E5;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
-  * body .whole_page footer .top_footer_contents .sign_up_div .email_input input {
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input input {
     background-color: #F0F5FF;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -1385,7 +1397,7 @@
     height: 3em;
     border: none;
   }
-  * body .whole_page footer .top_footer_contents .sign_up_div .email_input button {
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button {
     background-color: #F0F5FF;
     background-color: #06183A;
     border: 2px solid #66C7E5;
@@ -1400,7 +1412,7 @@
     height: 3.15em;
     cursor: pointer;
   }
-  * body .whole_page footer .top_footer_contents .sign_up_div .email_input button:hover {
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button:hover {
     background-color: #06183A;
     background-color: #F0F5FF;
     color: #66C7E5;
@@ -1415,7 +1427,7 @@
     gap: 0.5em;
     position: relative;
     right: 40px;
-    bottom: 20px;
+    bottom: 7px;
   }
   * body .whole_page footer .top_footer_contents .connect_with small {
     color: white;
