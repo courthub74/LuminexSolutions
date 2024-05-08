@@ -78,12 +78,19 @@ square_one_plus.addEventListener('pointerdown', () => {
     // DISABLE OTHER BUTTONS
 
     // BOX TWO
+    // The Title
     square_two_plus.classList.toggle('disabled');
+    // The X graphic
     square_two.classList.toggle('disabled');
+    // The actual button
+    square_two_button.disabled = true;
+    // The actual button id
+    console.log(square_two_button.id);
 
     // BOX THREE
     square_three_plus.classList.toggle('disabled');
     square_three.classList.toggle('disabled');
+    // square_three_plus.disabled = true;
     
 
     // BOX FOUR
