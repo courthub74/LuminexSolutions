@@ -1140,8 +1140,8 @@ $borderfont: #dad3d35b;
                                         border: 2px solid $bluetext;
                                         // border: 2px solid $supportblue;
                                         color: $bluetext;
-                                        color: $supportblue;
-                                        color: white;
+                                        // color: $supportblue;
+                                        // color: white;
                                         border-top-left-radius: 0px;
                                         border-bottom-left-radius: 0px;
                                         border-top-right-radius: 5px;
@@ -1198,7 +1198,7 @@ $borderfont: #dad3d35b;
                                 .soc_icon {
                                     width: 1.8em;
                                     height: 1.8em;
-                                    filter: opacity(50%);
+                                    // filter: opacity(50%);
                                     // width: 2.6em;
                                     // height: 2.6em;
                                 }

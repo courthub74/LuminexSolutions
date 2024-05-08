@@ -970,8 +970,6 @@
     background-color: #06183A;
     border: 2px solid #66C7E5;
     color: #66C7E5;
-    color: #668CF6;
-    color: white;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 5px;
@@ -1014,7 +1012,6 @@
   body .whole_page footer .top_footer_contents .connect_with .socials .soc_icon {
     width: 1.8em;
     height: 1.8em;
-    filter: opacity(50%);
   }
   body .whole_page footer .top_footer_contents .email_button {
     display: none;
