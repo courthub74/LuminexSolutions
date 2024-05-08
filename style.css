@@ -485,6 +485,7 @@
   }
   body .whole_page footer .top_footer_contents .connect_with small {
     color: #668CF6;
+    color: #66C7E5;
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-size: 0.8rem;
@@ -493,6 +494,9 @@
     display: flex;
     align-items: center;
     gap: 2em;
+  }
+  body .whole_page footer .top_footer_contents .connect_with .socials .soc_icon {
+    filter: opacity(50%);
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
     width: 2.2em;

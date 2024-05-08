@@ -573,6 +573,7 @@ $borderfont: #dad3d35b;
                             margin: 4em 0 0 0;
                             small {
                                 color: $supportblue;
+                                color: $bluetext;
                                 font-family: 'Inter', sans-serif;
                                 // font-weight: bold;
                                 font-size: .9rem;
@@ -582,6 +583,9 @@ $borderfont: #dad3d35b;
                                 display: flex;
                                 align-items: center;
                                 gap: 2em;
+                                .soc_icon {
+                                    filter: opacity(50%);
+                                }
                                 #twitter {
                                     width: 2.2em;
                                     height: 2.2em;
