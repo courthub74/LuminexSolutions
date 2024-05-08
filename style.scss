@@ -112,7 +112,7 @@ $borderfont: #dad3d35b;
                         }
                         p {
                             color: $bluetext;
-                            color: #668CF6;
+                            // color: #668CF6;
                             // color: red;
                             font-size: 1rem;
                             font-family: 'Inter', sans-serif;
@@ -391,6 +391,16 @@ $borderfont: #dad3d35b;
                                         // background-color: green;
                                         height: 3px;
                                     }
+                                    #box_three_words {
+                                        // background-color: green;
+                                        height: 3px;
+                                        margin: 1.5em 0 0 .2em;
+                                    }
+                                    #box_four_words {
+                                        // background-color: green;
+                                        height: 3px;
+                                        margin: 1.5em 0 0 .2em;
+                                    }
                                 }
                             }
                             #square_one {
@@ -510,6 +520,7 @@ $borderfont: #dad3d35b;
                             margin: 1em 0 0 2em;
                             small {
                                 color: $supportblue;
+                                color: $bluetext;
                                 font-family: 'Inter', sans-serif;
                                 font-size: .8rem;
                                 font-weight: bold;
@@ -520,13 +531,16 @@ $borderfont: #dad3d35b;
                                 // align-items: center;
                                 
                                 input {
-                                    background-color: $backgroundwhite;
+                                    // background-color: $backgroundwhite;
+                                    // background-color: $newnav;
+                                    
                                     border-top-left-radius: 5px;
                                     border-bottom-left-radius: 5px;
                                     border-top-right-radius: 0px;
                                     border-bottom-right-radius: 0px;
                                     // border: 2px solid red;
                                     border: none;
+                                    // border: 2px solid $bluetext;
                                     width: 16em;
                                     width: 12.5em;
                                     padding: .5em 1em;
@@ -542,8 +556,10 @@ $borderfont: #dad3d35b;
                                     border-top-right-radius: 5px;
                                     border-bottom-right-radius: 5px;
                                     border: none;
+                                    border: 2px solid $bluetext;
                                     background-color: $backgroundwhite;
-                                    color: $footerbluewords;
+                                    background-color: $newnav;
+                                    // color: $footerbluewords;
                                     font-family: 'Inter', sans-serif;
                                     font-size: .7rem;
                                     font-weight: bold;
@@ -789,7 +805,8 @@ $borderfont: #dad3d35b;
                         // width: 90%;
                         height: 17em;
                         .solutions {
-                            color: $bluetext;
+                            // color: $bluetext;
+                            // color: $supportblue;
                             font-size: 1.5rem;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
@@ -805,12 +822,13 @@ $borderfont: #dad3d35b;
                             left: 0;
                             right: 0;
                             height: 6px;
-                            width: 45%;
+                            width: 60%;
                             background-color: white;
                         }
                         // Color the P tag
                         p {
                             color: $bluetext;
+                            // color: $supportblue;
                         }
                     }
                 }
@@ -957,7 +975,7 @@ $borderfont: #dad3d35b;
                                         right: 0;
                                         height: 4px;
                                         width: 105%;
-                                        background-color: $bluetext;
+                                        background-color:$supportblue;
                                         opacity: 0;  
                                         margin: 0 0 0 .4em;
                                     }
@@ -966,6 +984,20 @@ $borderfont: #dad3d35b;
                                         transition: .3s all ease-in;
                                         z-index: 1;
                                     }
+                                    .plus_button {
+                                        display: none;
+                                    }
+                                    // The UNDERLINES
+                                    hr {
+                                        opacity: 0;
+                                    }
+                                    // EACH UNDERLINED ID
+                                    // #sq_underline_one {
+                                    //     opacity: 0;
+                                    //     width: 170px;
+                                    //     // width: 300px;
+                                    //     // margin-right: 20em;
+                                    // }
                                     .hover_boxes {
                                         width: 75%;
                                         font-size: .8rem;
@@ -1013,7 +1045,7 @@ $borderfont: #dad3d35b;
                         align-items: center;
                         margin: 2vw 0 0 0vw;
                         // background-color: #668CF6;
-                        
+                        width: 100%;
                         // margin sizing below
                         gap: 5vw;
                         // gap: 7vw;
@@ -1061,54 +1093,71 @@ $borderfont: #dad3d35b;
                         // Email and Sign Up
                         .sign_up_div {
                             display: flex;
-                            flex-direction: column;
+                            // display: none;
+                            // flex-direction: column;
                             gap: .5em;
+                            gap: 8em;
                             // Margins and positions below
                             margin: -2.5em 0 0 -2em;
-                            small {
-                                color: $bluetext;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;
-                            }
-                            .email_input {
-                                // any measurements below
-                                input {
-                                    background-color: $backgroundwhite;
-                                    // background-color: #66C7E5;
-                                    border-top-left-radius: 5px;
-                                    border-bottom-left-radius: 5px;
-                                    border-top-right-radius: 0px;
-                                    border-bottom-right-radius: 0px;
-                                    width: 17em;
-                                    height: 2em;
-                                    border: none;
-                                }
-                                button {
-                                    background-color: $backgroundwhite;
-                                    background-color: $newnav;
-                                    border: 2px solid $bluetext;
+                            .email_notifications {
+                                display: flex;
+                                flex-direction: column;
+                                gap: .3em;
+                                // margin: 0 0 0 5em;
+                                position: relative;
+                                left: 1em;
+                                small {
                                     color: $bluetext;
-                                    border-top-left-radius: 0px;
-                                    border-bottom-left-radius: 0px;
-                                    border-top-right-radius: 5px;
-                                    border-bottom-right-radius: 5px;
-                                    // color: $newnav;
+                                    // color: $supportblue;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
-                                    width: 7em;
-                                    height: 2.15em;
-                                    // border-radius: 0px;
-                                    // border: none;
-                                    cursor: pointer;
                                 }
-                                button:hover {
-                                    background-color: $newnav;
-                                    background-color: $backgroundwhite;
-                                    color: $bluetext;
-                                    color: $newnav;
-                                    transition: .1s all ease-in;
-                                    border: 2px solid $bluetext;
-                                    border: none;
+                                .email_input {
+                                    display: flex;
+                                    // flex-direction: column;
+                                    // any measurements below
+                                    input {
+                                        background-color: $backgroundwhite;
+                                        // background-color: #66C7E5;
+                                        border-top-left-radius: 5px;
+                                        border-bottom-left-radius: 5px;
+                                        border-top-right-radius: 0px;
+                                        border-bottom-right-radius: 0px;
+                                        width: 17em;
+                                        width: 25em;
+                                        height: 2em;
+                                        border: none;
+                                    }
+                                    button {
+                                        background-color: $backgroundwhite;
+                                        background-color: $newnav;
+                                        border: 2px solid $bluetext;
+                                        // border: 2px solid $supportblue;
+                                        color: $bluetext;
+                                        color: $supportblue;
+                                        color: white;
+                                        border-top-left-radius: 0px;
+                                        border-bottom-left-radius: 0px;
+                                        border-top-right-radius: 5px;
+                                        border-bottom-right-radius: 5px;
+                                        // color: $newnav;
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: bold;
+                                        width: 7em;
+                                        height: 2.15em;
+                                        // border-radius: 0px;
+                                        // border: none;
+                                        cursor: pointer;
+                                    }
+                                    button:hover {
+                                        background-color: $newnav;
+                                        background-color: $backgroundwhite;
+                                        color: $bluetext;
+                                        color: $newnav;
+                                        transition: .1s all ease-in;
+                                        border: 2px solid $bluetext;
+                                        border: none;
+                                    }
                                 }
                             }
                         }
@@ -1119,11 +1168,13 @@ $borderfont: #dad3d35b;
                             flex-direction: column;
                             gap: .5em;
                             // Positions and margins below
-                            position: relative;
-                            left: 25px;
-                            bottom: 20px;
+                            // position: relative;
+                            // left: 25px;
+                            // bottom: 20px;
                             small {
                                 color: white;
+                                // color: $supportblue;
+                                // color: $bluetext;
                                 font-family: 'Inter', sans-serif;
                                 font-weight: bold;
                             }
@@ -1141,6 +1192,7 @@ $borderfont: #dad3d35b;
                                 .soc_icon {
                                     width: 1.8em;
                                     height: 1.8em;
+                                    filter: opacity(50%);
                                     // width: 2.6em;
                                     // height: 2.6em;
                                 }
@@ -1496,6 +1548,7 @@ $borderfont: #dad3d35b;
                     justify-content: center;
                     align-items: center;
                     padding: 0 2em 0 2em;
+                   
                     .top_footer_contents {
                         display: flex;
                         justify-content: center;

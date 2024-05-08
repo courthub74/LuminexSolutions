@@ -48,22 +48,89 @@ let square_four_button = document.getElementById('sq_four');
 //////////////////////////////////////////////
 //////////////////////////////////////////////
 //////////////////////////////////////////////
-// ONE
-// to mouseover hover
+
+
+
+
+// For any screen larger than the average tablet
+let widthMatch = window.matchMedia("(min-width: 1180px)");
+
+if (widthMatch.matches) {
+    ///////////////////////////////////////////////
+    ///////////////////////////////////////////////
+    // ONE
+    // to mouseover hover
     // Change these to add the underline upon hover
-// square_one.addEventListener('mouseover', () => {
-//     // change the style of the words
-//     box_one.classList.add('appear');
-//     // change the box shadow
-//     w_square_one.classList.add('hover');
-// });
+    square_one.addEventListener('mouseover', () => {
+        // change the style of the words
+        box_one.classList.add('appear');
+        // change the box shadow
+        w_square_one.classList.add('hover');
+    });
 
-// // to mouseout take mouse away
-// square_one.addEventListener('mouseout', () => {
-//     box_one.classList.remove('appear');
-//     w_square_one.classList.remove('hover');
-// });
+    // You have to use js to remove the above event listener
+        // when screen is < 1200px
 
+    // // to mouseout take mouse away
+    square_one.addEventListener('mouseout', () => {
+        box_one.classList.remove('appear');
+        w_square_one.classList.remove('hover');
+    });
+    ///////////////////////////////////////////////
+    ///////////////////////////////////////////////
+    // TWO
+    // to mouseover hover
+    square_two.addEventListener('mouseover', () => {
+        // change the style of the words
+        box_two.classList.add('appear');
+        // change the box shadow
+        w_square_two.classList.add('hover');
+    });
+
+    // to mouseout take mouse away
+    square_two.addEventListener('mouseout', () => {
+        box_two.classList.remove('appear');
+        w_square_two.classList.remove('hover');
+    });
+    ///////////////////////////////////////////////
+    ///////////////////////////////////////////////
+    // Three
+    // to mouseover hover
+    square_three.addEventListener('mouseover', () => {
+        // change the style of the words
+        box_three.classList.add('appear');
+        // change the box shadow
+        w_square_three.classList.add('hover');
+    });
+
+    // to mouseout take mouse away
+    square_three.addEventListener('mouseout', () => {
+        box_three.classList.remove('appear');
+        w_square_three.classList.remove('hover');
+    });
+    ///////////////////////////////////////////////
+    ///////////////////////////////////////////////
+    // FOUR
+    // to mouseover hover
+    square_four.addEventListener('mouseover', () => {
+        // change the style of the words
+        box_four.classList.add('appear');
+        // change the box shadow
+        w_square_four.classList.add('hover');
+    });
+
+    // to mouseout take mouse away
+    square_four.addEventListener('mouseout', () => {
+        box_four.classList.remove('appear');
+        w_square_four.classList.remove('hover');
+    });
+}
+
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+//////////////////////////////////////////////
+// ONE
 // for phone touch 'pointerdown'
 square_one_plus.addEventListener('pointerdown', () => {
     // Make words appear
@@ -75,8 +142,7 @@ square_one_plus.addEventListener('pointerdown', () => {
     // Add the underline
     square_one_underline.classList.toggle('tapped');
     // rotate the close
-    square_one_plus.classList.toggle('open'); 
-    
+    square_one_plus.classList.toggle('open');
 
     // DISABLE OTHER BUTTONS
 
@@ -115,20 +181,6 @@ square_one_plus.addEventListener('pointerdown', () => {
 //////////////////////////////////////////////
 //////////////////////////////////////////////
 // TWO
-// to mouseover hover
-// square_two.addEventListener('mouseover', () => {
-//     // change the style of the words
-//     box_two.classList.add('appear');
-//     // change the box shadow
-//     w_square_two.classList.add('hover');
-// });
-
-// // to mouseout take mouse away
-// square_two.addEventListener('mouseout', () => {
-//     box_two.classList.remove('appear');
-//     w_square_two.classList.remove('hover');
-// });
-
 // for phone touch 'pointerdown'
 square_two_plus.addEventListener('pointerdown', () => {
     // Make words appear
@@ -180,22 +232,6 @@ square_two_plus.addEventListener('pointerdown', () => {
     // Darken the X graphic
     square_four.classList.toggle('disabled');
 });
-
-// Three
-// to mouseover hover
-// square_three.addEventListener('mouseover', () => {
-//     // change the style of the words
-//     box_three.classList.add('appear');
-//     // change the box shadow
-//     w_square_three.classList.add('hover');
-// });
-
-// // to mouseout take mouse away
-// square_three.addEventListener('mouseout', () => {
-//     box_three.classList.remove('appear');
-//     w_square_three.classList.remove('hover');
-// });
-
 
 //////////////////////////////////////////////
 //////////////////////////////////////////////
@@ -251,20 +287,6 @@ square_three_plus.addEventListener('pointerdown', () => {
 //////////////////////////////////////////////
 //////////////////////////////////////////////
 // FOUR
-// to mouseover hover
-// square_four.addEventListener('mouseover', () => {
-//     // change the style of the words
-//     box_four.classList.add('appear');
-//     // change the box shadow
-//     w_square_four.classList.add('hover');
-// });
-
-// // to mouseout take mouse away
-// square_four.addEventListener('mouseout', () => {
-//     box_four.classList.remove('appear');
-//     w_square_four.classList.remove('hover');
-// });
-
 // to click on phone 
 square_four_plus.addEventListener('pointerdown', () => {
     // Make words appear
