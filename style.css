@@ -259,6 +259,12 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_two_more.disabled {
     filter: opacity(40%);
   }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_three_more.disabled {
+    filter: opacity(40%);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_four_more.disabled {
+    filter: opacity(40%);
+  }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #insight_plus_two {
     gap: 2em;
   }

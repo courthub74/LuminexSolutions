@@ -87,7 +87,8 @@ square_one_plus.addEventListener('pointerdown', () => {
     
 
     // BOX FOUR
-    
+    square_four_plus.classList.toggle('disabled');
+    square_four.classList.toggle('disabled');
 
 });
 
