@@ -557,6 +557,7 @@ $borderfont: #dad3d35b;
                                     border-bottom-right-radius: 5px;
                                     border: none;
                                     border: 2px solid $bluetext;
+                                    color: $bluetext;
                                     background-color: $backgroundwhite;
                                     background-color: $newnav;
                                     // color: $footerbluewords;
@@ -574,6 +575,7 @@ $borderfont: #dad3d35b;
                             small {
                                 color: $supportblue;
                                 color: $bluetext;
+                                color: white;
                                 font-family: 'Inter', sans-serif;
                                 // font-weight: bold;
                                 font-size: .9rem;
@@ -583,9 +585,9 @@ $borderfont: #dad3d35b;
                                 display: flex;
                                 align-items: center;
                                 gap: 2em;
-                                .soc_icon {
-                                    filter: opacity(50%);
-                                }
+                                // .soc_icon {
+                                //     filter: opacity(50%);
+                                // }
                                 #twitter {
                                     width: 2.2em;
                                     height: 2.2em;

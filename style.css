@@ -471,6 +471,7 @@
     border-bottom-right-radius: 5px;
     border: none;
     border: 2px solid #66C7E5;
+    color: #66C7E5;
     background-color: #F0F5FF;
     background-color: #06183A;
     font-family: "Inter", sans-serif;
@@ -486,6 +487,7 @@
   body .whole_page footer .top_footer_contents .connect_with small {
     color: #668CF6;
     color: #66C7E5;
+    color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-size: 0.8rem;
@@ -494,9 +496,6 @@
     display: flex;
     align-items: center;
     gap: 2em;
-  }
-  body .whole_page footer .top_footer_contents .connect_with .socials .soc_icon {
-    filter: opacity(50%);
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
     width: 2.2em;
