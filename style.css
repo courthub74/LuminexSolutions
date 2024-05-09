@@ -234,7 +234,7 @@
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_two {
     position: relative;
-    right: 1em;
+    right: 1.7em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one.disabled {
     filter: opacity(40%);
@@ -282,7 +282,7 @@
     margin: 2em 0 0 -2.5em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #insight_plus_two {
-    gap: 1.8em;
+    margin: 2em 0 0 0em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #insight_plus_three {
     gap: 2.5em;
@@ -305,9 +305,9 @@
     border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_two {
-    margin: 0 0 0 0px;
-    background-color: #668CF6;
-    width: 140px;
+    margin: 0 0 0 -0.5em;
+    background-color: #66C7E5;
+    width: 132px;
     height: 3px;
     border: none;
   }

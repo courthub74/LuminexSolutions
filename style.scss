@@ -286,7 +286,7 @@ $borderfont: #dad3d35b;
                                         // }
                                         #button_two {
                                             position: relative;
-                                            right: 1em;
+                                            right: 1.7em;
                                         }
                                         // Each insights title
                                         #button_one.disabled {
@@ -347,7 +347,8 @@ $borderfont: #dad3d35b;
                                     }
                                     #insight_plus_two {
                                         // background-color: green;
-                                        gap: 1.8em;
+                                        // gap: 1.8em;
+                                        margin: 2em 0 0 0em;
                                     }
                                     #insight_plus_three {
                                         // background-color: green;
@@ -374,9 +375,9 @@ $borderfont: #dad3d35b;
                                         border: none;
                                     }
                                     #sq_underline_two {
-                                        margin: 0 0 0 0px;
-                                        background-color: $supportblue;
-                                        width: 140px;
+                                        margin: 0 0 0 -.5em;
+                                        background-color: $bluetext;
+                                        width: 132px;
                                         height: 3px;
                                         border: none;
                                     }
