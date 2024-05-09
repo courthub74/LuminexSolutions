@@ -2019,23 +2019,23 @@ $borderfont: #dad3d35b;
                                         cursor: pointer;
                                     }
                                     // UnderLine Button
-                                    // .insight_button::before {
-                                    //     content: '';
-                                    //     position: absolute;
-                                    //     bottom: -8px;
-                                    //     left: 0;
-                                    //     right: 0;
-                                    //     height: 4px;
-                                    //     width: 105%;
-                                    //     background-color: $bluetext;
-                                    //     opacity: 0;  
-                                    //     margin: 0 0 0 .4em;
-                                    // }
-                                    // .insight_button:hover:before {
-                                    //     opacity: 1;
-                                    //     transition: .3s all ease-in;
-                                    //     z-index: 1;
-                                    // }
+                                    .insight_button::before {
+                                        content: '';
+                                        position: absolute;
+                                        bottom: -8px;
+                                        left: 0;
+                                        right: 0;
+                                        height: 4px;
+                                        width: 105%;
+                                        background-color: $bluetext;
+                                        opacity: 0;  
+                                        margin: 0 0 0 .4em;
+                                    }
+                                    .insight_button:hover:before {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                        z-index: 1;
+                                    }
                                     hr {
                                         opacity: 0;
                                     }
@@ -2559,6 +2559,9 @@ $borderfont: #dad3d35b;
                                 .plus_button {
                                     display: none;
                                 }
+                                hr {
+                                    display: none;
+                                }
                             }
                             .square::after {
                                 content: "";
@@ -2617,11 +2620,11 @@ $borderfont: #dad3d35b;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        margin: 2vw 0 0 -4vw;
+                        margin: 2vw 0 0 0vw;
                         // background-color: #668CF6;
-                        
+                        width: 100%;
                         // margin sizing below
-                        gap: 15vw;
+                        gap: 28vw;
                         .co_name_logo {
                             display: flex;
                             // Logo and Name
@@ -2629,7 +2632,8 @@ $borderfont: #dad3d35b;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                        
+                                position: relative;
+                                right: 20px;
                                 #lightbulb {
                                     width: 1.3em;
                                     height: 1.3em;
@@ -2665,58 +2669,65 @@ $borderfont: #dad3d35b;
                         // Email and Sign Up
                         .sign_up_div {
                             display: flex;
-                            flex-direction: column;
+                            // flex-direction: column;
                             gap: .5em;
                             // Margins and positions below
                             margin: -3em 0 0 -4em;
-                            small {
-                                color: $bluetext;
-                                font-family: 'Inter', sans-serif;
-                                font-weight: bold;
-                                font-size: 1.1rem;
-                            }
-                            .email_input {
-                                // any measurements below
-                                input {
-                                    background-color: $backgroundwhite;
-                                    // background-color: #66C7E5;
-                                    border-top-left-radius: 5px;
-                                    border-bottom-left-radius: 5px;
-                                    border-top-right-radius: 0px;
-                                    border-bottom-right-radius: 0px;
-                                    width: 26em;
-                                    // width: 30em;
-                                    height: 3em;
-                                    border: none;
-                                }
-                                button {
-                                    background-color: $backgroundwhite;
-                                    background-color: $newnav;
-                                    border: 2px solid $bluetext;
+                            .email_notifications {
+                                display: flex;
+                                flex-direction: column;
+                                gap: .3em;
+                                position: relative;
+                                right: 17em;
+                                small {
                                     color: $bluetext;
-                                    border-top-left-radius: 0px;
-                                    border-bottom-left-radius: 0px;
-                                    border-top-right-radius: 5px;
-                                    border-bottom-right-radius: 5px;
-                                    // color: $newnav;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
-                                    // font-size: 1rem;
-                                    width: 10em;
-                                    height: 3.15em;
-                                    // height: 3.4em;
-                                    // border-radius: 0px;
-                                    // border: none;
-                                    cursor: pointer;
+                                    font-size: 1.1rem;
                                 }
-                                button:hover {
-                                    background-color: $newnav;
-                                    background-color: $backgroundwhite;
-                                    color: $bluetext;
-                                    color: $newnav;
-                                    transition: .1s all ease-in;
-                                    border: 2px solid $bluetext;
-                                    border: none;
+                                .email_input {
+                                    // any measurements below
+                                    input {
+                                        background-color: $backgroundwhite;
+                                        // background-color: #66C7E5;
+                                        border-top-left-radius: 5px;
+                                        border-bottom-left-radius: 5px;
+                                        border-top-right-radius: 0px;
+                                        border-bottom-right-radius: 0px;
+                                        width: 26em;
+                                        width: 30em;
+                                        height: 4em;
+                                        border: none;
+                                    }
+                                    button {
+                                        background-color: $backgroundwhite;
+                                        background-color: $newnav;
+                                        border: 2px solid $bluetext;
+                                        color: $bluetext;
+                                        border-top-left-radius: 0px;
+                                        border-bottom-left-radius: 0px;
+                                        border-top-right-radius: 5px;
+                                        border-bottom-right-radius: 5px;
+                                        // color: $newnav;
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: bold;
+                                        // font-size: 1rem;
+                                        width: 10em;
+                                        height: 4.15em;
+                                        // height: 3.4em;
+                                        // border-radius: 0px;
+                                        // border: none;
+                                        cursor: pointer;
+                                    }
+                                    button:hover {
+                                        background-color: $newnav;
+                                        background-color: $backgroundwhite;
+                                        color: $bluetext;
+                                        color: $newnav;
+                                        transition: .1s all ease-in;
+                                        border: 2px solid $bluetext;
+                                        border: none;
+                                    }
                                 }
                             }
                         }
@@ -2728,8 +2739,8 @@ $borderfont: #dad3d35b;
                             gap: .5em;
                             // Positions and margins below
                             position: relative;
-                            right: 10px;
-                            bottom: 20px;
+                            right: 15px;
+                            top: .5em;
                             small {
                                 color: white;
                                 font-family: 'Inter', sans-serif;
