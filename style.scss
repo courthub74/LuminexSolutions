@@ -2124,11 +2124,11 @@ $borderfont: #dad3d35b;
                            }
                            #square_one {
                             background-image: url("./img/office_lights.png");
-                            box-shadow: 4px 4px 4px 4px $newnav;
+                            box-shadow: 2px 2px 2px 2px $newnav;
                             transition: .2s all ease-in;
                             }
                             #square_one.hover {
-                                box-shadow: 4px 4px 4px 4px $bluetext;
+                                box-shadow: 2px 2px 2px 2px $bluetext;
                                 transition: .2s all ease-in;
                             }
                             #square_two {
@@ -2381,6 +2381,7 @@ $borderfont: #dad3d35b;
                         display: flex;
                         align-items: center;
                         font-family: 'Inter', sans-serif;
+                        font-weight: bold;
                         font-size: 1.3rem;
                         font-size: 1.5rem;
                         margin-left: -.7em;

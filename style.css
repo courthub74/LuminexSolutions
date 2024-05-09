@@ -1816,11 +1816,11 @@
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
-    box-shadow: 4px 4px 4px 4px #06183A;
+    box-shadow: 2px 2px 2px 2px #06183A;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one.hover {
-    box-shadow: 4px 4px 4px 4px #66C7E5;
+    box-shadow: 2px 2px 2px 2px #66C7E5;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_two {
@@ -2043,6 +2043,7 @@
     display: flex;
     align-items: center;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
     font-size: 1.3rem;
     font-size: 1.5rem;
     margin-left: -0.7em;
