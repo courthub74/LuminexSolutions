@@ -855,8 +855,8 @@
     left: 0;
     right: 0;
     height: 4px;
-    width: 105%;
-    background-color: #668CF6;
+    width: 100%;
+    background-color: #66C7E5;
     opacity: 0;
     margin: 0 0 0 0.4em;
   }
@@ -889,15 +889,39 @@
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
+    box-shadow: 4px 4px 4px 4px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_one.hover {
+    box-shadow: 4px 4px 4px 4px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_two {
     background-image: url("./img/operations_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_two.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_three {
     background-image: url("./img/environ_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_three.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_four {
     background-image: url("./img/hand_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares #square_four.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   body .whole_page footer {
     height: 220px;
@@ -1328,15 +1352,39 @@
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
+    box-shadow: 4px 4px 4px 4px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_one.hover {
+    box-shadow: 4px 4px 4px 4px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_two {
     background-image: url("./img/operations_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_two.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_three {
     background-image: url("./img/environ_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_three.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_four {
     background-image: url("./img/hand_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_four.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page footer {
     height: 215px;
@@ -1526,6 +1574,7 @@
     align-items: center;
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
+    font-weight: bold;
     margin-left: -0.7em;
   }
   * body .whole_page nav .title_nav #lightbulb {
@@ -1763,15 +1812,39 @@
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
+    box-shadow: 4px 4px 4px 4px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_one.hover {
+    box-shadow: 4px 4px 4px 4px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_two {
     background-image: url("./img/operations_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_two.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_three {
     background-image: url("./img/environ_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_three.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_four {
     background-image: url("./img/hand_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    transition: 0.2s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_four.hover {
+    box-shadow: 2px 2px 2px 2px #66C7E5;
+    transition: 0.2s all ease-in;
   }
   * body .whole_page footer {
     height: 215px;
@@ -2209,38 +2282,38 @@
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
-    box-shadow: 4px 4px 4px 4px #06183A;
+    box-shadow: 2px 2px 2px 2px #06183A;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_one.hover {
-    box-shadow: 4px 4px 4px 4px #66C7E5;
+    box-shadow: 2px 2px 2px 2px #66C7E5;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_two {
     background-image: url("./img/operations_light.png");
-    box-shadow: 4px 4px 4px 4px #06183A;
+    box-shadow: 2px 2px 2px 2px #06183A;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_two.hover {
-    box-shadow: 4px 4px 4px 4px #66C7E5;
+    box-shadow: 2px 2px 2px 2px #66C7E5;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_three {
     background-image: url("./img/environ_light.png");
-    box-shadow: 4px 4px 4px 4px #06183A;
+    box-shadow: 2px 2px 2px 2px #06183A;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_three.hover {
-    box-shadow: 4px 4px 4px 4px #66C7E5;
+    box-shadow: 2px 2px 2px 2px #66C7E5;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_four {
     background-image: url("./img/hand_light.png");
-    box-shadow: 4px 4px 4px 4px #06183A;
+    box-shadow: 2px 2px 2px 2px #06183A;
     transition: 0.2s all ease-in;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares #square_four.hover {
-    box-shadow: 4px 4px 4px 4px #66C7E5;
+    box-shadow: 2px 2px 2px 2px #66C7E5;
     transition: 0.2s all ease-in;
   }
   * body .whole_page footer {
