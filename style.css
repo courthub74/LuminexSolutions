@@ -86,6 +86,7 @@
     right: 0;
     height: 3px;
     width: 68%;
+    width: 75%;
     background-color: white;
   }
   body .whole_page .top_page .right_square p {
@@ -115,7 +116,7 @@
   }
   body .whole_page .exec_summary .exec_words_and_lights .exec_words b {
     color: #06183A;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   body .whole_page .exec_summary .exec_words_and_lights .exec_words p {
     color: #06183A;
@@ -193,7 +194,7 @@
   }
   body .whole_page .insight_section .insight_contents .insight_title b {
     color: #06183A;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   body .whole_page .insight_section .insight_contents .insight_squares {
     display: flex;
@@ -220,10 +221,18 @@
     background: none;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border: none;
     font-weight: bold;
     position: relative;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one {
+    position: relative;
+    right: 1.1em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_two {
+    position: relative;
+    right: 1em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one.disabled {
     filter: opacity(40%);
@@ -266,8 +275,11 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_four_more.disabled {
     filter: opacity(40%);
   }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #insight_plus_one {
+    gap: 0.1em;
+  }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #insight_plus_two {
-    gap: 2em;
+    gap: 1.8em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #insight_plus_three {
     gap: 2.5em;

@@ -109,6 +109,7 @@ $borderfont: #dad3d35b;
                             right: 0;
                             height: 3px;
                             width: 68%;
+                            width: 75%;
                             background-color: white;
                         }
                         p {
@@ -144,7 +145,7 @@ $borderfont: #dad3d35b;
                             font-size: .9rem;
                             b {
                                 color: $newnav;
-                                font-size: 1rem;
+                                font-size: .9rem;
                                 // text-decoration: underline;
                             }
                             p {
@@ -235,7 +236,7 @@ $borderfont: #dad3d35b;
                             // width: 100%;
                             b {
                                 color: $newnav;
-                                font-size: 1rem;
+                                font-size: .9rem;
                                 // font-size: 1.1rem;
                                 // text-decoration: underline;
                                 // margin: 0 0 0 -2em;
@@ -264,12 +265,22 @@ $borderfont: #dad3d35b;
                                             background: none;
                                             color: white;
                                             font-family: 'Inter', sans-serif;
-                                            font-size: 1rem;
+                                            font-size: .8rem;
                                             border: none;
                                             font-weight: bold;
                                             position: relative;
                                             // background-color: green;
                                             // margin: 2em 0 0 -.5em;
+                                        }
+                                        // Each Button to move for alignment
+                                        #button_one {
+                                            // background-color: green;
+                                            position: relative;
+                                            right: 1.1em;
+                                        }
+                                        #button_two {
+                                            position: relative;
+                                            right: 1em;
                                         }
                                         // Each insights title
                                         #button_one.disabled {
@@ -320,14 +331,13 @@ $borderfont: #dad3d35b;
                                         }
                                     }
                                     // Each insight button and plus
-                                    // #insight_plus_one {
-                                    //     // background-color: green;
-                                    //     // padding: 0 1em 0 1em;
-                                    //     // width: 100%;
-                                    // }
+                                    #insight_plus_one {
+                                        // background-color: green;
+                                        gap: .1em;
+                                    }
                                     #insight_plus_two {
                                         // background-color: green;
-                                        gap: 2em;
+                                        gap: 1.8em;
                                     }
                                     #insight_plus_three {
                                         // background-color: green;
