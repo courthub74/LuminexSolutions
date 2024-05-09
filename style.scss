@@ -254,30 +254,36 @@ $borderfont: #dad3d35b;
                                 height: 10em;
                                 // height: 30em;
                                 .square_content {
-                                    margin: 0 0 0 2em;
+                                    margin: 0 0 0 2.5em;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    // background-color: green;
                                     .insight_button_and_plus {
                                         display: flex;
-                                        justify-content: center;
+                                        // justify-content: center;
                                         align-items: center;
-                                        // background-color: green;
-                                        margin: 2em 0 0 -2em;
-                                        .insight_button {
-                                            background: none;
-                                            color: white;
-                                            font-family: 'Inter', sans-serif;
-                                            font-size: .8rem;
-                                            border: none;
-                                            font-weight: bold;
-                                            position: relative;
-                                            // background-color: green;
-                                            // margin: 2em 0 0 -.5em;
+                                        justify-content: space-between;
+                                        .title_and_underline {
+                                            display: flex;
+                                            flex-direction: column;
+                                            .insight_button {
+                                                background: none;
+                                                color: white;
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: .8rem;
+                                                border: none;
+                                                font-weight: bold;
+                                                position: relative;
+                                                // background-color: green;
+                                                // margin: 2em 0 0 -.5em;
+                                            }
                                         }
                                         // Each Button to move for alignment
-                                        #button_one {
-                                            // background-color: green;
-                                            position: relative;
-                                            right: .3em;
-                                        }
+                                        // #button_one {
+                                        //     position: relative;
+                                        //     right: 2.8em;
+                                        // }
                                         #button_two {
                                             position: relative;
                                             right: 1em;
@@ -299,7 +305,9 @@ $borderfont: #dad3d35b;
                                         .plus_button {
                                             background: none;
                                             border: none;
-                                            margin: 0em 0 0 10em;
+                                            position: relative;
+                                            right: 2em;
+                                            // margin: 0em 0 0 10em;
                                             // background-color: white;
                                         }
 
@@ -333,7 +341,9 @@ $borderfont: #dad3d35b;
                                     // Each insight button and plus
                                     #insight_plus_one {
                                         // background-color: green;
-                                        gap: 1.4em;
+                                        margin: 2em 0 0 -2.5em;
+                                        // gap: 1.4em;
+                                        // gap: 2em;
                                     }
                                     #insight_plus_two {
                                         // background-color: green;
@@ -357,9 +367,9 @@ $borderfont: #dad3d35b;
                                     }
                                     // In case we have to adjust individual line margins
                                     #sq_underline_one {
-                                        margin: 0 0 0 -.1em;
-                                        background-color: $supportblue;
-                                        width: 185px;
+                                        margin: 0 0 0 2em;
+                                        background-color: $bluetext;
+                                        width: 160px;
                                         height: 3px;
                                         border: none;
                                     }
@@ -389,10 +399,10 @@ $borderfont: #dad3d35b;
                                         width: 55%;
                                         font-size: .8rem;
                                         margin: 2em 0 0 .3em;
-                                        margin: 2em 0 0 -.1em;
+                                        margin: 2em 0 0 -.7em;
                                         opacity: 0;
                                         line-height: 1.5em;
-                                        
+                                        // background-color: #668CF6;
                                     }
                                     .hover_boxes.appear {
                                         transition: .4s all ease-in;
@@ -762,6 +772,7 @@ $borderfont: #dad3d35b;
                         display: flex;
                         align-items: center;
                         font-family: 'Inter', sans-serif;
+                        font-weight: bold;
                         font-size: 1.3rem;
                         margin-left: -.7em;
                         #lightbulb {
@@ -1312,6 +1323,7 @@ $borderfont: #dad3d35b;
                         display: flex;
                         align-items: center;
                         font-family: 'Inter', sans-serif;
+                        font-weight: bold;
                         font-size: 1.3rem;
                         margin-left: -.7em;
                         #lightbulb {
@@ -1413,6 +1425,7 @@ $borderfont: #dad3d35b;
                     // margin: 10px 0 10px 0;
                     .exec_words_and_lights {
                         display: flex;
+                        // background-color: #1F3E7A;
                         .exec_words {
                             // background-color: #668CF6;
                             font-family: 'Inter', sans-serif;
@@ -1431,7 +1444,7 @@ $borderfont: #dad3d35b;
                             display: flex;
                             margin: 9em 0 0 0;
                             position: relative;
-                            left: 55px;
+                            left: 30px;
                             .led_one {
                                 margin: 0 0 0 3em;
                                 z-index: 1;
