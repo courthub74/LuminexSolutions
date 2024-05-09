@@ -60,6 +60,7 @@ $borderfont: #dad3d35b;
                             }
                             p {
                                 color: $backgroundwhite;
+                                font-weight: bold;
                             }
                         }
                         // DESKTOP NAV
@@ -114,7 +115,7 @@ $borderfont: #dad3d35b;
                             color: $bluetext;
                             // color: #668CF6;
                             // color: red;
-                            font-size: 1rem;
+                            font-size: 1.1rem;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
                         }
@@ -143,6 +144,7 @@ $borderfont: #dad3d35b;
                             font-size: .9rem;
                             b {
                                 color: $newnav;
+                                font-size: 1rem;
                                 // text-decoration: underline;
                             }
                             p {
@@ -234,6 +236,7 @@ $borderfont: #dad3d35b;
                             b {
                                 color: $newnav;
                                 font-size: 1rem;
+                                // font-size: 1.1rem;
                                 // text-decoration: underline;
                                 // margin: 0 0 0 -2em;
                             }
@@ -248,7 +251,6 @@ $borderfont: #dad3d35b;
                             .square {
                                 width: 100%;
                                 height: 10em;
-                                
                                 // height: 30em;
                                 .square_content {
                                     margin: 0 0 0 2em;
@@ -589,28 +591,28 @@ $borderfont: #dad3d35b;
                                 //     filter: opacity(50%);
                                 // }
                                 #twitter {
-                                    width: 2.2em;
-                                    height: 2.2em;
                                     width: 1.35em;
                                     height: 1.35em;
+                                    width: 1.80em;
+                                    height: 1.80em;
                                 }
                                 #instagram {
-                                    width: 2.5em;
-                                    height: 2.5em;
                                     width: 1.5em;
                                     height: 1.5em;
+                                    width: 2em;
+                                    height: 2em;
                                 }
                                 #facebook {
-                                    width: 2.6em;
-                                    height: 2.6em;
                                     width: 1.5em;
                                     height: 1.5em;
+                                    width: 2em;
+                                    height: 2em;
                                 }
                                 #linkedin {
-                                    width: 2.5em;
-                                    height: 2.5em;
                                     width: 1.5em;
                                     height: 1.5em;
+                                    width: 2em;
+                                    height: 2em;
                                 }
                             }
                         }
@@ -1055,6 +1057,7 @@ $borderfont: #dad3d35b;
                         // background-color: #668CF6;
                         width: 100%;
                         // margin sizing below
+                        // THIS NEEDS TO BE ADJUSTED TO BECOME MORE FLEXABLE
                         gap: 5vw;
                         // gap: 7vw;
                         .co_name_logo {
@@ -1066,6 +1069,7 @@ $borderfont: #dad3d35b;
                                 align-items: center;
                                 position: relative;
                                 right: 50px;
+                                // right: 2vw;
                                 #lightbulb {
                                     width: 1em;
                                     height: 1em;
@@ -1134,6 +1138,7 @@ $borderfont: #dad3d35b;
                                         width: 17em;
                                         width: 25em;
                                         height: 2em;
+                                        height: 3em;
                                         border: none;
                                     }
                                     button {
@@ -1153,8 +1158,7 @@ $borderfont: #dad3d35b;
                                         font-weight: bold;
                                         width: 7em;
                                         height: 2.15em;
-                                        // border-radius: 0px;
-                                        // border: none;
+                                        height: 3.15em;
                                         cursor: pointer;
                                     }
                                     button:hover {

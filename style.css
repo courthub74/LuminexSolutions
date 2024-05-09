@@ -45,6 +45,7 @@
   }
   body .whole_page nav .nav_contents .title_nav p {
     color: #F0F5FF;
+    font-weight: bold;
   }
   body .whole_page nav .nav_contents .list_nav {
     display: none;
@@ -89,7 +90,7 @@
   }
   body .whole_page .top_page .right_square p {
     color: #66C7E5;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
@@ -114,6 +115,7 @@
   }
   body .whole_page .exec_summary .exec_words_and_lights .exec_words b {
     color: #06183A;
+    font-size: 1rem;
   }
   body .whole_page .exec_summary .exec_words_and_lights .exec_words p {
     color: #06183A;
@@ -498,28 +500,28 @@
     gap: 2em;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
-    width: 2.2em;
-    height: 2.2em;
     width: 1.35em;
     height: 1.35em;
+    width: 1.8em;
+    height: 1.8em;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #instagram {
-    width: 2.5em;
-    height: 2.5em;
     width: 1.5em;
     height: 1.5em;
+    width: 2em;
+    height: 2em;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #facebook {
-    width: 2.6em;
-    height: 2.6em;
     width: 1.5em;
     height: 1.5em;
+    width: 2em;
+    height: 2em;
   }
   body .whole_page footer .top_footer_contents .connect_with .socials #linkedin {
-    width: 2.5em;
-    height: 2.5em;
     width: 1.5em;
     height: 1.5em;
+    width: 2em;
+    height: 2em;
   }
   body .whole_page footer .copyrights {
     display: flex;
@@ -962,6 +964,7 @@
     width: 17em;
     width: 25em;
     height: 2em;
+    height: 3em;
     border: none;
   }
   body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button {
@@ -977,6 +980,7 @@
     font-weight: bold;
     width: 7em;
     height: 2.15em;
+    height: 3.15em;
     cursor: pointer;
   }
   body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button:hover {
