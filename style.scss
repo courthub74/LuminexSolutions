@@ -894,7 +894,7 @@ $borderfont: #dad3d35b;
                             display: flex;
                             margin: 9em 0 0 0;
                             position: relative;
-                            left: 10px;
+                            right: 30px;
                             .led_one {
                                 margin: 0 0 0 3em;
                                 z-index: 1;
@@ -1101,23 +1101,22 @@ $borderfont: #dad3d35b;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        margin: 2vw 0 0 0vw;
+                        gap: 2em;
+                        margin: 2vw 0 0 -3vw;
                         // background-color: #668CF6;
                         width: 100%;
                         // margin sizing below
                         // THIS NEEDS TO BE ADJUSTED TO BECOME MORE FLEXABLE
-                        gap: 5vw;
-                        // gap: 7vw;
                         .co_name_logo {
                             display: flex;
+                            gap: 3em;
                             // Logo and Name
                             .logo_name {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                position: relative;
-                                right: 50px;
-                                // right: 2vw;
+                                // position: relative;
+                                // right: 40px;
                                 #lightbulb {
                                     width: 1em;
                                     height: 1em;
@@ -1156,7 +1155,7 @@ $borderfont: #dad3d35b;
                             // display: none;
                             // flex-direction: column;
                             gap: .5em;
-                            gap: 8em;
+                            gap: 5em;
                             // Margins and positions below
                             margin: -2.5em 0 0 -2em;
                             .email_notifications {
@@ -1184,7 +1183,7 @@ $borderfont: #dad3d35b;
                                         border-top-right-radius: 0px;
                                         border-bottom-right-radius: 0px;
                                         width: 17em;
-                                        width: 25em;
+                                        width: 20em;
                                         height: 2em;
                                         height: 3em;
                                         border: none;
