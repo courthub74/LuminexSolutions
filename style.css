@@ -36,7 +36,6 @@
     align-items: center;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
-    font-size: 1rem;
     margin-left: -3.5em;
   }
   body .whole_page nav .nav_contents .title_nav #lightbulb {
@@ -207,6 +206,92 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square {
     width: 100%;
     height: 10em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
+    display: flex;
+    flex-direction: column;
+    margin: 1.4em 0 0 1.4em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus {
+    display: flex;
+    align-items: center;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline .insight_button {
+    background: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    border: none;
+    font-weight: bold;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #sq_underline_one {
+    margin: 0 -1em 0 0;
+    background-color: #66C7E5;
+    width: 160px;
+    height: 3px;
+    border: none;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #sq_underline_two {
+    margin: 0 -1.3em 0 0em;
+    background-color: #66C7E5;
+    width: 132px;
+    height: 3px;
+    border: none;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #sq_underline_three {
+    margin: 0 -2em 0 0px;
+    background-color: #66C7E5;
+    width: 135px;
+    height: 3px;
+    border: none;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #sq_underline_four {
+    margin: 0 0 0 32px;
+    background-color: #66C7E5;
+    width: 100px;
+    height: 3px;
+    border: none;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .plus_button {
+    background: none;
+    border: none;
+    position: relative;
+    right: 0em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more.open {
+    transform: rotate(45deg);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_two_more.open {
+    transform: rotate(45deg);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_three_more.open {
+    transform: rotate(45deg);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_four_more.open {
+    transform: rotate(45deg);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more.disabled {
+    filter: opacity(40%);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_two_more.disabled {
+    filter: opacity(40%);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_three_more.disabled {
+    filter: opacity(40%);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_four_more.disabled {
+    filter: opacity(40%);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
+    font-size: 0.8rem;
+    line-height: 1.3em;
+    margin: 0em 0 0 0.4em;
+    width: 55%;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");

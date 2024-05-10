@@ -51,7 +51,6 @@ $borderfont: #dad3d35b;
                             font-family: 'Inter', sans-serif;
                             // font-family: 'Roboto', sans-serif;
                             font-size: 1rem;
-                            font-size: 1rem;
                             // margin-left: -.7em;
                             margin-left: -3.5em;
                             #lightbulb {
@@ -257,7 +256,103 @@ $borderfont: #dad3d35b;
                                 ////////////////////
                                 ////////////////////
                                 /// Gut THIS out and start over
-                                
+                                .square_content {
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin: 1.4em 0 0 1.4em;
+                                    // background-color: green;
+                                    .insight_button_and_plus {
+                                        display: flex;
+                                        // justify-content: space-between;
+                                        align-items: center;
+                                        // gap: 10.8em;
+                                        .title_and_underline {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            // background-color: green;
+                                            .insight_button {
+                                                background: none;
+                                                color: white;
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: .9rem;
+                                                border: none;
+                                                font-weight: bold;
+                                                // position: relative;
+                                            }
+                                            // Time for the Underlines
+                                            #sq_underline_one {
+                                                margin: 0 -1em 0 0;
+                                                background-color: $bluetext;
+                                                width: 160px;
+                                                height: 3px;
+                                                border: none;
+                                            }
+                                            #sq_underline_two {
+                                                margin: 0 -1.3em 0 0em;
+                                                background-color: $bluetext;
+                                                width: 132px;
+                                                height: 3px;
+                                                border: none;
+                                            }
+                                            #sq_underline_three {
+                                                margin: 0 -2em 0 0px;
+                                                background-color: $bluetext;
+                                                width: 135px;
+                                                height: 3px;
+                                                border: none;
+                                            }
+                                            #sq_underline_four {
+                                                margin: 0 0 0 32px;
+                                                background-color: $bluetext;
+                                                width: 100px;
+                                                height: 3px;
+                                                border: none;
+                                            }
+                                        }
+                                        // The More Button
+                                        .plus_button {
+                                            background: none;
+                                            border: none;
+                                            position: relative;
+                                            right: 0em;
+                                        }
+                                        // Rotate the Plus button
+                                        #sq_one_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_two_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_three_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_four_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        // To disable the plus buttons
+                                        #sq_one_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_two_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_three_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_four_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                    }
+                                    // The Word content in the insights box
+                                    .hover_boxes {
+                                        font-size: .8rem;
+                                        line-height: 1.3em;
+                                        margin: 0em 0 0 .4em;
+                                        width: 55%;
+                                    }
+                                    
+                                }
                             }
                             #square_one {
                                 background-image: url("./img/office_lights.png");
