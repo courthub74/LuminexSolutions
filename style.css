@@ -228,13 +228,19 @@
     font-size: 0.9rem;
     border: none;
     font-weight: bold;
+    position: relative;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #sq_underline_one {
+    opacity: 0;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #sq_underline_one.tapped {
     margin: 0 -1em 0 0;
     background-color: #66C7E5;
     width: 160px;
     height: 3px;
     border: none;
+    opacity: 1;
+    transition: 0.3s all ease-in;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #sq_underline_two {
     margin: 0 -1.3em 0 0em;
@@ -251,7 +257,7 @@
     border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #sq_underline_four {
-    margin: 0 0 0 32px;
+    margin: 0 -1.2em 0 0px;
     background-color: #66C7E5;
     width: 100px;
     height: 3px;
@@ -260,8 +266,10 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .plus_button {
     background: none;
     border: none;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more {
     position: relative;
-    right: 0em;
+    left: 10em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more.open {
     transform: rotate(45deg);
@@ -287,11 +295,36 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_four_more.disabled {
     filter: opacity(40%);
   }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one.disabled {
+    filter: opacity(40%);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_two.disabled {
+    filter: opacity(40%);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_three.disabled {
+    filter: opacity(40%);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_four.disabled {
+    filter: opacity(40%);
+  }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     font-size: 0.8rem;
     line-height: 1.3em;
     margin: 0em 0 0 0.4em;
     width: 55%;
+    opacity: 0;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_one_words {
+    margin: 1em 0 0 0.4em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_two_words {
+    margin: 1em 0 0 0.4em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_three_words {
+    margin: 1em 0 0 0.4em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_four_words {
+    margin: 1em 0 0 0.2em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");

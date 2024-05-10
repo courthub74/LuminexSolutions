@@ -265,6 +265,7 @@ $borderfont: #dad3d35b;
                                         display: flex;
                                         // justify-content: space-between;
                                         align-items: center;
+                                        // width: 100%;
                                         // gap: 10.8em;
                                         .title_and_underline {
                                             display: flex;
@@ -278,15 +279,23 @@ $borderfont: #dad3d35b;
                                                 font-size: .9rem;
                                                 border: none;
                                                 font-weight: bold;
-                                                // position: relative;
+                                                position: relative;
+                                            // maybe make the title stiff here
+
                                             }
                                             // Time for the Underlines
+                                            // opacity 0s
                                             #sq_underline_one {
+                                                opacity: 0;
+                                            }
+                                            #sq_underline_one.tapped {
                                                 margin: 0 -1em 0 0;
                                                 background-color: $bluetext;
                                                 width: 160px;
                                                 height: 3px;
                                                 border: none;
+                                                opacity: 1;
+                                                transition: .3s all ease-in;
                                             }
                                             #sq_underline_two {
                                                 margin: 0 -1.3em 0 0em;
@@ -303,7 +312,7 @@ $borderfont: #dad3d35b;
                                                 border: none;
                                             }
                                             #sq_underline_four {
-                                                margin: 0 0 0 32px;
+                                                margin: 0 -1.2em 0 0px;
                                                 background-color: $bluetext;
                                                 width: 100px;
                                                 height: 3px;
@@ -314,8 +323,14 @@ $borderfont: #dad3d35b;
                                         .plus_button {
                                             background: none;
                                             border: none;
+                                            // position: relative;
+                                            // right: 0em;
+                                        }
+                                        // ID each plus button and move it
+                                        #sq_one_more {
                                             position: relative;
-                                            right: 0em;
+                                            left: 10em;
+                                            // maybe make the title stiff here
                                         }
                                         // Rotate the Plus button
                                         #sq_one_more.open {
@@ -343,6 +358,20 @@ $borderfont: #dad3d35b;
                                         #sq_four_more.disabled {
                                             filter: opacity(40%);
                                         }
+                                        // For Button disables
+                                        // Each insights title
+                                        #button_one.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_two.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_three.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_four.disabled {
+                                            filter: opacity(40%);
+                                        }
                                     }
                                     // The Word content in the insights box
                                     .hover_boxes {
@@ -350,8 +379,22 @@ $borderfont: #dad3d35b;
                                         line-height: 1.3em;
                                         margin: 0em 0 0 .4em;
                                         width: 55%;
+                                        opacity: 0;
                                     }
-                                    
+                                    // ID each hover box to move it 
+                                    // and make them appear with .appear
+                                    #box_one_words {
+                                        margin: 1em 0 0 .4em;
+                                    }
+                                    #box_two_words {
+                                        margin: 1em 0 0 .4em;
+                                    }
+                                    #box_three_words {
+                                        margin: 1em 0 0 .4em;
+                                    }
+                                    #box_four_words {
+                                        margin: 1em 0 0 .2em;
+                                    }
                                 }
                             }
                             #square_one {
