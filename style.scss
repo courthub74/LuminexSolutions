@@ -267,6 +267,7 @@ $borderfont: #dad3d35b;
                                         .title_and_underline {
                                             display: flex;
                                             flex-direction: column;
+                                            // background-color: green;
                                             .insight_button {
                                                 background: none;
                                                 color: white;
@@ -287,6 +288,10 @@ $borderfont: #dad3d35b;
                                         #button_two {
                                             position: relative;
                                             right: 1.7em;
+                                        }
+                                        #button_three {
+                                            position: relative;
+                                            right: 2.5em;
                                         }
                                         // Each insights title
                                         #button_one.disabled {
@@ -352,7 +357,8 @@ $borderfont: #dad3d35b;
                                     }
                                     #insight_plus_three {
                                         // background-color: green;
-                                        gap: 2.5em;
+                                        // gap: 2.5em;
+                                        margin: 2em 0 0 .5em;
                                     }
                                     #insight_plus_four {
                                         // background-color: green;
@@ -382,15 +388,15 @@ $borderfont: #dad3d35b;
                                         border: none;
                                     }
                                     #sq_underline_three {
-                                        margin: 0 0 0 2px;
-                                        background-color: $supportblue;
+                                        margin: 0 0 0 -15px;
+                                        background-color: $bluetext;
                                         width: 140px;
                                         height: 3px;
                                         border: none;
                                     }
                                     #sq_underline_four {
-                                        margin: 0 0 0 3px;
-                                        background-color: $supportblue;
+                                        // margin: 0 0 0 3px;
+                                        background-color: $bluetext;
                                         width: 140px;
                                         height: 3px;
                                         border: none;
@@ -417,7 +423,7 @@ $borderfont: #dad3d35b;
                                     #box_three_words {
                                         // background-color: green;
                                         height: 3px;
-                                        margin: 1.5em 0 0 .2em;
+                                        // margin: 1.5em 0 0 .2em;
                                     }
                                     #box_four_words {
                                         // background-color: green;
