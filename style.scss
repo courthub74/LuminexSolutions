@@ -232,7 +232,7 @@ $borderfont: #dad3d35b;
                         // margin: 0 2em 0 2em;
                         .insight_title {
                             // background-color: #668CF6;
-                            margin: 0 0 0 2em;
+                            margin: 0 0 0 1.7em;
                             // width: 100%;
                             b {
                                 color: $newnav;
@@ -281,17 +281,21 @@ $borderfont: #dad3d35b;
                                             }
                                         }
                                         // Each Button to move for alignment
-                                        // #button_one {
-                                        //     position: relative;
-                                        //     right: 2.8em;
-                                        // }
+                                        #button_one {
+                                            position: relative;
+                                            right: .4em;
+                                        }
                                         #button_two {
                                             position: relative;
-                                            right: 1.7em;
+                                            right: 2em;
                                         }
                                         #button_three {
                                             position: relative;
-                                            right: 2.5em;
+                                            right: 3em;
+                                        }
+                                        #button_four {
+                                            position: relative;
+                                            left: .2em;
                                         }
                                         // Each insights title
                                         #button_one.disabled {
@@ -363,6 +367,7 @@ $borderfont: #dad3d35b;
                                     #insight_plus_four {
                                         // background-color: green;
                                         gap: 3.8em;
+                                        margin: 2em 0 0 -2.8em;
                                     }
                                     // Underline on the phones
                                     hr {
@@ -375,6 +380,7 @@ $borderfont: #dad3d35b;
                                     // In case we have to adjust individual line margins
                                     #sq_underline_one {
                                         margin: 0 0 0 2em;
+                                        margin: 0 0 0 1.4em;
                                         background-color: $bluetext;
                                         width: 160px;
                                         height: 3px;
@@ -395,9 +401,9 @@ $borderfont: #dad3d35b;
                                         border: none;
                                     }
                                     #sq_underline_four {
-                                        // margin: 0 0 0 3px;
+                                        margin: 0 0 0 32px;
                                         background-color: $bluetext;
-                                        width: 140px;
+                                        width: 100px;
                                         height: 3px;
                                         border: none;
                                     }
@@ -428,7 +434,7 @@ $borderfont: #dad3d35b;
                                     #box_four_words {
                                         // background-color: green;
                                         height: 3px;
-                                        margin: 1.5em 0 0 .2em;
+                                        margin: 1.5em 0 0 -1em;
                                     }
                                 }
                             }

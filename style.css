@@ -190,7 +190,7 @@
     flex-direction: column;
   }
   body .whole_page .insight_section .insight_contents .insight_title {
-    margin: 0 0 0 2em;
+    margin: 0 0 0 1.7em;
   }
   body .whole_page .insight_section .insight_contents .insight_title b {
     color: #06183A;
@@ -232,13 +232,21 @@
     font-weight: bold;
     position: relative;
   }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one {
+    position: relative;
+    right: 0.4em;
+  }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_two {
     position: relative;
-    right: 1.7em;
+    right: 2em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_three {
     position: relative;
-    right: 2.5em;
+    right: 3em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_four {
+    position: relative;
+    left: 0.2em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one.disabled {
     filter: opacity(40%);
@@ -293,6 +301,7 @@
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #insight_plus_four {
     gap: 3.8em;
+    margin: 2em 0 0 -2.8em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content hr {
     opacity: 0;
@@ -303,6 +312,7 @@
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_one {
     margin: 0 0 0 2em;
+    margin: 0 0 0 1.4em;
     background-color: #66C7E5;
     width: 160px;
     height: 3px;
@@ -323,8 +333,9 @@
     border: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #sq_underline_four {
+    margin: 0 0 0 32px;
     background-color: #66C7E5;
-    width: 140px;
+    width: 100px;
     height: 3px;
     border: none;
   }
@@ -349,7 +360,7 @@
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_four_words {
     height: 3px;
-    margin: 1.5em 0 0 0.2em;
+    margin: 1.5em 0 0 -1em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
