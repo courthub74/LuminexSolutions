@@ -701,10 +701,9 @@ $borderfont: #dad3d35b;
 @media only screen and (min-width: 601px) and (max-width: 1199px) {
     * {
         margin: 0;
-        background-color: $newnav;
         body {
             // display: none;
-            background-color: $newnav;
+            background-color: $backgroundwhite;
             .whole_page {
                 height: 200vh;
                 background-color: $backgroundwhite;
@@ -723,17 +722,18 @@ $borderfont: #dad3d35b;
                         .title_nav {
                             display: flex;
                             align-items: center;
-                            font-family: 'Inter', sans-serif;
-                            font-size: 1rem;
-                            font-size: 1rem;
                             // margin-left: -.7em;
                             margin-left: -4em;
                             #lightbulb {
-                                width: 2em;
-                                height: 2em;
+                                width: 1.2em;
+                                height: 1.2em;
                             }
                             p {
-                                display: none;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: 1rem;
+                                font-size: 1.2rem;
                             }
                         }
                         // DESKTOP NAV
@@ -754,7 +754,28 @@ $borderfont: #dad3d35b;
                 }
                 // Top
                 .top_page {
-                    display: none;
+                    display: flex;
+                    height: 150px;
+                    display: flex;
+                    // display: none;
+                    // justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    .right_square {
+                        background-image: url("./img/top_banner.png");
+                        width: 100%;
+                        height: 100%;
+                        margin-top: 6em;
+                        .solutions {
+                            font-family: 'Inter', sans-serif;
+                            margin: 2.5em 0 0 4.2em;
+                            p {
+                                color: $bluetext;
+                                font-weight: bold;
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
                 }
                 // Middle 
                 .exec_summary {
