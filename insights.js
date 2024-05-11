@@ -251,10 +251,12 @@ square_three_plus.addEventListener('pointerdown', () => {
     w_square_three.classList.toggle('pressed');
     // change the box shadow
     w_square_three.classList.toggle('touch');
-    // Add the underline
-    square_three_underline.classList.toggle('tapped');
+    // Add the underline (created underline)
+    // square_three_underline.classList.toggle('tapped');
     // rotate the close
     square_three_plus.classList.toggle('open');
+    // underline the title by style
+    square_three.classList.toggle('tapped');
 
     // BOX ONE
     // the box shadow
@@ -300,10 +302,12 @@ square_four_plus.addEventListener('pointerdown', () => {
     w_square_four.classList.toggle('pressed');
     // change the box shadow
     w_square_four.classList.toggle('touch');
-    // Add the underline
-    square_four_underline.classList.toggle('tapped');
+    // Add the underline (created underline)
+    // square_four_underline.classList.toggle('tapped');
     // rotate the close
     square_four_plus.classList.toggle('open');
+    // underline the title by style
+    square_four.classList.toggle('tapped');
 
     // BOX ONE
     // the box shadow

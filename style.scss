@@ -298,6 +298,16 @@ $borderfont: #dad3d35b;
                                                 text-decoration-thickness: 3px;
                                                 text-underline-offset: 5px;
                                             }
+                                            #button_three.tapped {
+                                                text-decoration: underline $bluetext;
+                                                text-decoration-thickness: 3px;
+                                                text-underline-offset: 5px;
+                                            }
+                                            #button_four.tapped {
+                                                text-decoration: underline $bluetext;
+                                                text-decoration-thickness: 3px;
+                                                text-underline-offset: 5px;
+                                            }
                                             // for the created hr Underlines
                                             // opacity 0s
                                             // #sq_underline_one {
@@ -348,20 +358,24 @@ $borderfont: #dad3d35b;
                                         #sq_one_more {
                                             position: relative;
                                             left: 10.5em;
+                                            left: 39vw;
                                             // maybe make the title stiff here
                                         }
                                         #sq_two_more {
                                             position: relative;
                                             left: 12.8em;
+                                            left: 47vw;
                                         }
                                         #sq_three_more {
                                             position: relative;
                                             left: 10em;
+                                            left: 49vw;
                                             // background-color: purple;
                                         }
                                         #sq_four_more {
                                             position: relative;
                                             left: 10em;
+                                            left: 54vw;
                                         }
                                         // Rotate the Plus button
                                         #sq_one_more.open {
@@ -432,8 +446,16 @@ $borderfont: #dad3d35b;
                                     #box_three_words {
                                         margin: 1em 0 0 .4em;
                                     }
+                                    #box_three_words.appear {
+                                        opacity: 1;
+                                        transition: .2s all ease-in;
+                                    }
                                     #box_four_words {
                                         margin: 1em 0 0 .2em;
+                                    }
+                                    #box_four_words.appear {
+                                        opacity: 1;
+                                        transition: .2s all ease-in;
                                     }
                                 }
                             }
