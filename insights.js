@@ -139,10 +139,13 @@ square_one_plus.addEventListener('pointerdown', () => {
     w_square_one.classList.toggle('pressed');
     // Change box shadow
     w_square_one.classList.toggle('touch');
-    // Add the underline
-    square_one_underline.classList.toggle('tapped');
+    // Add the underline (created underline)
+    // square_one_underline.classList.toggle('tapped');
     // rotate the close
     square_one_plus.classList.toggle('open');
+    // underline the title by style
+    square_one.classList.toggle('tapped');
+    // console.log(square_one);
 
     // DISABLE OTHER BUTTONS
 
@@ -189,10 +192,12 @@ square_two_plus.addEventListener('pointerdown', () => {
     w_square_two.classList.toggle('pressed');
     // change the box shadow
     w_square_two.classList.toggle('touch');
-    // Add the underline
-    square_two_underline.classList.toggle('tapped');
+    // Add the underline (created underline)
+    // square_two_underline.classList.toggle('tapped');
     // rotate the close
     square_two_plus.classList.toggle('open');
+    // underline the title by style
+    square_two.classList.toggle('tapped');
 
     // BOX ONE
     // the box shadow
