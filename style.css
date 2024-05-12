@@ -114,7 +114,7 @@
   }
   body .whole_page .exec_summary .exec_words_and_lights .exec_words b {
     color: #06183A;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   body .whole_page .exec_summary .exec_words_and_lights .exec_words p {
     color: #06183A;
@@ -192,7 +192,7 @@
   }
   body .whole_page .insight_section .insight_contents .insight_title b {
     color: #06183A;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   body .whole_page .insight_section .insight_contents .insight_squares {
     display: flex;
@@ -219,7 +219,7 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .insight_button {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one.tapped {
     -webkit-text-decoration: underline #66C7E5;
@@ -733,7 +733,7 @@
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .insight_button {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one.tapped {
     -webkit-text-decoration: underline #66C7E5;
