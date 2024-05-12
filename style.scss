@@ -591,11 +591,11 @@ $borderfont: #dad3d35b;
             // display: none;
             background-color: $backgroundwhite;
             .whole_page {
-                height: 200vh;
+                height: 400vh;
                 background-color: $backgroundwhite;
                 nav {
                     background-color: $newnav;
-                    height: 10%;
+                    height: 5%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -677,11 +677,11 @@ $borderfont: #dad3d35b;
                 }
                 // Middle 
                 .exec_summary {
-                    height: 350px;
+                    height: 180px;
                     display: flex;
                     flex-direction: column;
                     padding: 6em 0 3em 4.2em;
-                    // background-color: #668CF6;
+                    // background-color: rebeccapurple;
                     .exec_words_and_lights {
                         display: flex;
                         gap: 1em;
@@ -697,6 +697,7 @@ $borderfont: #dad3d35b;
                             p {
                                 color: $newnav;
                                 font-size: .8rem;
+                                margin-top: .5em;
                             }
                         }
                         .leds {
@@ -734,6 +735,26 @@ $borderfont: #dad3d35b;
                         }
                     }
                 }
+                 // Insights
+                 .insight_section {
+                    // display: none;
+                    height: 700px;
+                    // background-color: #668CF6;
+                    .insight_contents {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0 5em 0 4.5em;
+                        .insight_title {
+                            display: flex;
+                            // justify-content: center;
+                            b {
+                                color: $newnav;
+                                font-size: 1em;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                    }
+                }
                 .ul_bulb {
                     display: none;
                     display: flex;
@@ -759,10 +780,7 @@ $borderfont: #dad3d35b;
                         height: 1.5em;
                     }
                 }
-                // Insights
-                .insight_section {
-                    display: none;
-                }
+               
                 // Footer
                 footer {
                     display: none;

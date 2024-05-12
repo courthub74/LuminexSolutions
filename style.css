@@ -514,12 +514,12 @@
     background-color: #F0F5FF;
   }
   * body .whole_page {
-    height: 200vh;
+    height: 400vh;
     background-color: #F0F5FF;
   }
   * body .whole_page nav {
     background-color: #06183A;
-    height: 10%;
+    height: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -593,7 +593,7 @@
     background-color: white;
   }
   * body .whole_page .exec_summary {
-    height: 350px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     padding: 6em 0 3em 4.2em;
@@ -614,6 +614,7 @@
   * body .whole_page .exec_summary .exec_words_and_lights .exec_words p {
     color: #06183A;
     font-size: 0.8rem;
+    margin-top: 0.5em;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds {
     display: flex;
@@ -645,6 +646,22 @@
     height: 8vw;
     border-radius: 10px;
   }
+  * body .whole_page .insight_section {
+    height: 700px;
+  }
+  * body .whole_page .insight_section .insight_contents {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5em 0 4.5em;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_title {
+    display: flex;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_title b {
+    color: #06183A;
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+  }
   * body .whole_page .ul_bulb {
     display: none;
     display: flex;
@@ -666,9 +683,6 @@
   * body .whole_page .ul_bulb #bulb {
     width: 1.5em;
     height: 1.5em;
-  }
-  * body .whole_page .insight_section {
-    display: none;
   }
   * body .whole_page footer {
     display: none;
