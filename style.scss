@@ -975,7 +975,7 @@ $borderfont: #dad3d35b;
                         justify-content: center;
                         align-items: center;
                         gap: 4em;
-                        margin: 0em 0 0 -2em;
+                        margin: 0em 0 0 -1.5em;
                         .co_name_logo {
                             // display: none;
                             margin: 4em 0 0 0;
@@ -1039,7 +1039,7 @@ $borderfont: #dad3d35b;
                                         border-bottom-right-radius: 0px;
                                         height: 2em;
                                         border: none;
-                                        width: 12em;
+                                        width: 13em;
                                     }
                                     button {
                                         background-color: $backgroundwhite;
@@ -1123,6 +1123,16 @@ $borderfont: #dad3d35b;
                     }
                     .copyrights {
                         display: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: .7rem;
+                        gap: .5em;
+                        #courdevelops {
+                            width: 2em;
+                            height: 2em;
+                        }
                     }
                 }
             }

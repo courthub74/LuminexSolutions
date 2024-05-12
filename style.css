@@ -850,7 +850,7 @@
     justify-content: center;
     align-items: center;
     gap: 4em;
-    margin: 0em 0 0 -2em;
+    margin: 0em 0 0 -1.5em;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo {
     margin: 4em 0 0 0;
@@ -913,7 +913,7 @@
     border-bottom-right-radius: 0px;
     height: 2em;
     border: none;
-    width: 12em;
+    width: 13em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button {
     background-color: #F0F5FF;
@@ -978,6 +978,16 @@
   }
   * body .whole_page footer .copyrights {
     display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    gap: 0.5em;
+  }
+  * body .whole_page footer .copyrights #courdevelops {
+    width: 2em;
+    height: 2em;
   }
 }
 @media only screen and (width: 768px) {
