@@ -236,9 +236,6 @@ $borderfont: #dad3d35b;
                             b {
                                 color: $newnav;
                                 font-size: .9rem;
-                                // font-size: 1.1rem;
-                                // text-decoration: underline;
-                                // margin: 0 0 0 -2em;
                             }
                         }
                         .insight_squares {
@@ -269,6 +266,27 @@ $borderfont: #dad3d35b;
                                             font-family: 'Inter', sans-serif;
                                             font-weight: bold;
                                             font-size: .8rem;
+                                        }
+                                        // for Underline appearances
+                                        #button_one.tapped {
+                                            text-decoration: underline $bluetext;
+                                            text-decoration-thickness: 6px;
+                                            text-underline-offset: 5px;
+                                        }
+                                        #button_two.tapped {
+                                            text-decoration: underline $bluetext;
+                                            text-decoration-thickness: 3px;
+                                            text-underline-offset: 5px;
+                                        }
+                                        #button_three.tapped {
+                                            text-decoration: underline $bluetext;
+                                            text-decoration-thickness: 3px;
+                                            text-underline-offset: 5px;
+                                        }
+                                        #button_four.tapped {
+                                            text-decoration: underline $bluetext;
+                                            text-decoration-thickness: 3px;
+                                            text-underline-offset: 5px;
                                         }
                                         // Plus button styling
                                         .plus_button {
