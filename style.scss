@@ -971,6 +971,37 @@ $borderfont: #dad3d35b;
                     // display: none;
                     .top_footer_contents {
                         display: none;
+                        .co_name_logo {
+                            // display: none;
+                            .logo_name {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                #lightbulb {
+                                    width: .8em;
+                                    height: .8m;
+                                }
+                                p {
+                                    color: $headerfont;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                }
+                            }
+                            .footer_list {
+                                display: flex;
+                                .footer_list_contents {
+                                    display: flex;
+                                    flex-direction: column;
+                                    a {
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .7rem;
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
                     }
                     .copyrights {
                         display: none;

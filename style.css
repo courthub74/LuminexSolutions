@@ -847,6 +847,34 @@
   * body .whole_page footer .top_footer_contents {
     display: none;
   }
+  * body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
+    width: 0.8em;
+    height: 0.8m;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .logo_name p {
+    color: #DAD3D3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .footer_list {
+    display: flex;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
   * body .whole_page footer .copyrights {
     display: none;
   }
