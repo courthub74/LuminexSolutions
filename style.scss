@@ -741,6 +741,32 @@ $borderfont: #dad3d35b;
                         }
                     }
                 }
+                // Line and Bulb
+                .ul_bulb {
+                    display: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5em;
+                    // width: 100%;
+                    height: 10%;
+                    // above height in px
+                    height: 40px;
+                    // background-color: #66C7E5;
+                    margin: 2em 0 0 .5em;
+                    ul {
+                        width: 82%;
+                        // width: 65%;
+                        height: 2px;
+                        margin: 0em 0 0 -4.2em;
+                        background-color: $newnav;
+                        border: 0 none;
+                    }
+                    #bulb {
+                        width: 1.5em;
+                        height: 1.5em;
+                    }
+                }
                  // Insights
                  .insight_section {
                     // display: none;
@@ -938,195 +964,18 @@ $borderfont: #dad3d35b;
                         }
                     }
                 }
-                .ul_bulb {
-                    display: none;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: .5em;
-                    width: 100%;
-                    height: 10%;
-                    // above height in px
-                    height: 40px;
-                    // background-color: #66C7E5;
-                    margin: 2em 0 0 .5em;
-                    ul {
-                        width: 82%;
-                        // width: 65%;
-                        height: 2px;
-                        margin: 0em 0 0 -4.2em;
-                        background-color: $newnav;
-                        border: 0 none;
-                    }
-                    #bulb {
-                        width: 1.5em;
-                        height: 1.5em;
-                    }
-                }
-               
-                // Footer
+                // FOOTER
                 footer {
-                    // display: none;
                     background-color: $newnav;
-                    height: 350px;
+                    height: 260px;
+                    // display: none;
                     .top_footer_contents {
-                        display: flex;
-                        // flex-direction: column;
-                        gap: 2em;// set margin below
-                        .co_name_logo {
-                            display: flex;
-                            flex-direction: column;
-                            margin: 2em 0 0 2em;
-                            gap: 1em;
-                            .logo_name {
-                                display: flex;
-                                align-items: center;
-                                #lightbulb {
-                                    width: .8em;
-                                    height: .8m;
-                                }
-                                p {
-                                    color: $headerfont;
-                                    color: white;
-                                    font-family: 'Inter', sans-serif;
-                                    font-size: .9rem;
-                                }
-                            }
-                            .footer_list {
-                                margin: 0 0 0 1em;
-                                .footer_list_contents {
-                                    display: flex;
-                                    flex-direction: column;
-                                    gap: .7em;
-                                    a {
-                                        color: white;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: .8rem;
-                                        // font-size: .6rem;
-                                        text-decoration: none;
-                                    }
-                                }
-                            }
-                        }
-                        .sign_up_div {
-                            display: flex;
-                            flex-direction: column;
-                            gap: .5em;
-                            margin: 1em 0 0 2em;
-                            .email_notifications {
-                                display: flex;
-                                flex-direction: column;
-                                gap: .5em;
-                                small {
-                                    color: $supportblue;
-                                    color: $bluetext;
-                                    font-family: 'Inter', sans-serif;
-                                    font-size: .8rem;
-                                    font-weight: bold;
-                                }
-                                .email_input {
-                                    display: flex;
-                                    // justify-content: center;
-                                    // align-items: center;
-                                    input {
-                                        // background-color: $backgroundwhite;
-                                        // background-color: $newnav;
-                                        border-top-left-radius: 5px;
-                                        border-bottom-left-radius: 5px;
-                                        border-top-right-radius: 0px;
-                                        border-bottom-right-radius: 0px;
-                                        // border: 2px solid red;
-                                        border: none;
-                                        // border: 2px solid $bluetext;
-                                        width: 16em;
-                                        width: 12.5em;
-                                        padding: .5em 1em;
-                                        height: 2em;
-                                    }
-                                    input::placeholder {
-                                        font-size: .7rem;
-                                        color: $footerbluewords;
-                                        color: rgb(171, 179, 204);
-    
-                                    }
-                                    button {
-                                        border-top-right-radius: 5px;
-                                        border-bottom-right-radius: 5px;
-                                        border: none;
-                                        border: 2px solid $bluetext;
-                                        color: $bluetext;
-                                        background-color: $backgroundwhite;
-                                        background-color: $newnav;
-                                        // color: $footerbluewords;
-                                        font-family: 'Inter', sans-serif;
-                                        font-size: .7rem;
-                                        font-weight: bold;
-                                    }
-                                }
-                            }
-                        }
+                        display: none;
                     }
-                    .connect_with {
-                        display: flex;
-                        flex-direction: column;
-                        gap: .5em;
-                        margin: 4em 0 0 0;
-                        small {
-                            color: $supportblue;
-                            color: $bluetext;
-                            color: white;
-                            font-family: 'Inter', sans-serif;
-                            font-weight: bold;
-                            font-size: .9rem;
-                            font-size: .8rem;
-                        }
-                        .socials {
-                            display: flex;
-                            align-items: center;
-                            gap: 2em;
-                            // .soc_icon {
-                            //     filter: opacity(50%);
-                            // }
-                            #twitter {
-                                width: 1.35em;
-                                height: 1.35em;
-                                width: 1.80em;
-                                height: 1.80em;
-                            }
-                            #instagram {
-                                width: 1.5em;
-                                height: 1.5em;
-                                width: 2em;
-                                height: 2em;
-                            }
-                            #facebook {
-                                width: 1.5em;
-                                height: 1.5em;
-                                width: 2em;
-                                height: 2em;
-                            }
-                            #linkedin {
-                                width: 1.5em;
-                                height: 1.5em;
-                                width: 2em;
-                                height: 2em;
-                            }
-                        }
+                    .copyrights {
+                        display: none;
                     }
                 }
-                .copyrights {
-                    display: flex;
-                    align-items: center;
-                    font-size: .7rem;
-                    font-size: .7rem;
-                    font-family: 'Inter', sans-serif;
-                    gap: .5em;
-                    margin: 6em 0 0 3em;
-                    #courdevelops {
-                        width: 2em;
-                        height: 2em;
-                    }
-                   }
             }
         }
     }
