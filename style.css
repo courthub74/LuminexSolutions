@@ -84,7 +84,7 @@
     left: 0;
     right: 0;
     height: 3px;
-    width: 69%;
+    width: 66%;
     background-color: white;
   }
   body .whole_page .top_page .right_square p {
@@ -549,13 +549,24 @@
     margin-top: 6em;
   }
   * body .whole_page .top_page .right_square .solutions {
-    font-family: "Inter", sans-serif;
-    margin: 2.5em 0 0 4.2em;
+    position: relative;
+    margin: 2.8em 0 0 4.2em;
   }
   * body .whole_page .top_page .right_square .solutions p {
     color: #66C7E5;
     font-weight: bold;
+    font-family: "Inter", sans-serif;
     font-size: 1.2rem;
+  }
+  * body .whole_page .top_page .right_square .solutions::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 34%;
+    background-color: white;
   }
   * body .whole_page .exec_summary {
     display: none;

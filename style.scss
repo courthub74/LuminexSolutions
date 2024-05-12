@@ -107,7 +107,7 @@ $borderfont: #dad3d35b;
                             left: 0;
                             right: 0;
                             height: 3px;
-                            width: 69%;
+                            width: 66%;
                             // width: 75%;
                             background-color: white;
                         }
@@ -635,13 +635,25 @@ $borderfont: #dad3d35b;
                         height: 100%;
                         margin-top: 6em;
                         .solutions {
-                            font-family: 'Inter', sans-serif;
-                            margin: 2.5em 0 0 4.2em;
+                            position: relative;
+                            margin: 2.8em 0 0 4.2em;
                             p {
                                 color: $bluetext;
                                 font-weight: bold;
+                                font-family: 'Inter', sans-serif;
                                 font-size: 1.2rem;
                             }
+                        }
+                        .solutions::before {
+                            content: '';
+                            position: absolute;
+                            bottom: -10px;
+                            left: 0;
+                            right: 0;
+                            height: 3px;
+                            width: 34%;
+                            // width: 75%;
+                            background-color: white;
                         }
                     }
                 }
