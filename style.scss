@@ -263,6 +263,7 @@ $borderfont: #dad3d35b;
                                     .insight_button_and_plus {
                                         display: flex;
                                         justify-content: space-between;
+                                        align-items: center;
                                         // Button-title styling
                                         .insight_button {
                                             font-family: 'Inter', sans-serif;
@@ -277,7 +278,17 @@ $borderfont: #dad3d35b;
                                         
                                     }
                                     .hover_boxes {
+                                        font-family: 'Inter', sans-serif;
                                         font-size: .8rem;
+                                        margin: 1em 0 0 0;
+                                    }
+                                    // Hover Boxes by ID
+                                    #box_one_words {
+                                        opacity: 0;
+                                    }
+                                    #box_one_words.appear {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
                                     }
                                 }
                             }

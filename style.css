@@ -214,6 +214,7 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .insight_button {
     font-family: "Inter", sans-serif;
@@ -224,7 +225,16 @@
     background: none;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
+    font-family: "Inter", sans-serif;
     font-size: 0.8rem;
+    margin: 1em 0 0 0;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_one_words {
+    opacity: 0;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_one_words.appear {
+    opacity: 1;
+    transition: 0.3s all ease-in;
   }
   body .whole_page .insight_section .insight_contents .insight_squares #square_one {
     background-image: url("./img/office_lights.png");
