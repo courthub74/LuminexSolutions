@@ -214,7 +214,7 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    background-color: blue;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline {
     display: flex;
