@@ -306,6 +306,33 @@ $borderfont: #dad3d35b;
                                         #sq_four_more.open {
                                             transform: rotate(45deg);
                                         }
+                                        // To disable the plus buttons
+                                        #sq_one_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_two_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_three_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_four_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        // For Button disables
+                                        // Each insights title
+                                        #button_one.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_two.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_three.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_four.disabled {
+                                            filter: opacity(40%);
+                                        }
                                     }
                                     .hover_boxes {
                                         font-family: 'Inter', sans-serif;
@@ -591,8 +618,8 @@ $borderfont: #dad3d35b;
             // display: none;
             background-color: $backgroundwhite;
             .whole_page {
-                height: 400vh;
-                height: 320vh;
+                height: 450vh;
+                // height: 320vh;
                 background-color: $backgroundwhite;
                 nav {
                     background-color: $newnav;
@@ -770,7 +797,7 @@ $borderfont: #dad3d35b;
                  // Insights
                  .insight_section {
                     // display: none;
-                    height: 700px;
+                    height: 900px;
                     // background-color: #668CF6;
                     .insight_contents {
                         display: flex;
@@ -792,7 +819,8 @@ $borderfont: #dad3d35b;
                             align-items: center;
                             gap: 2em;
                             .square {
-                                height: 5em;
+                                height: 10em;
+                                // height: 5em;
                                 width: 100%;
                                 .square_content {
                                     margin: 1em 3.5em 0 4.5em;
@@ -845,24 +873,33 @@ $borderfont: #dad3d35b;
                                         #sq_four_more.open {
                                             transform: rotate(45deg);
                                         }
-                                        // // Plus button styling
-                                        // .plus_button {
-                                        //     background: none;
-                                        //     border: none;
-                                        // }
-                                        // // Plus button by ID
-                                        // #sq_one_more.open {
-                                        //     transform: rotate(45deg);
-                                        // }
-                                        // #sq_two_more.open {
-                                        //     transform: rotate(45deg);
-                                        // }
-                                        // #sq_three_more.open {
-                                        //     transform: rotate(45deg);
-                                        // }
-                                        // #sq_four_more.open {
-                                        //     transform: rotate(45deg);
-                                        // }
+                                        // To disable the plus buttons
+                                        #sq_one_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_two_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_three_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #sq_four_more.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        // For Button disables
+                                        // Each insights title
+                                        #button_one.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_two.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_three.disabled {
+                                            filter: opacity(40%);
+                                        }
+                                        #button_four.disabled {
+                                            filter: opacity(40%);
+                                        }
                                     }
                                     .hover_boxes {
                                         font-family: 'Inter', sans-serif;
