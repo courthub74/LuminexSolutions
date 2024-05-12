@@ -677,7 +677,56 @@ $borderfont: #dad3d35b;
                 }
                 // Middle 
                 .exec_summary {
-                    display: none;
+                    height: 350px;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 6em 0 3em 4.2em;
+                    // background-color: #668CF6;
+                    .exec_words_and_lights {
+                        display: flex;
+                        // flex-direction: column;
+                        .exec_words {
+                            font-family: 'Inter', sans-serif;
+                            width: 75%;
+                            line-height: 1.5em;
+                            b {
+                                color: $newnav;
+                                font-size: 1rem;
+                            }
+                            p {
+                                color: $newnav;
+                                font-size: .85rem;
+                            }
+                        }
+                        .leds {
+                            display: flex;
+                            margin: 1em 0 0 0em;
+                            ul {
+                                display: none;
+                            }
+                            .led_one {
+                                z-index: 1;
+                                margin: 2em -1em 0 -.5em;
+                                #led_one {
+                                    border-radius: 50%;
+                                    border-radius: 10px;
+                                    box-shadow: 1px 1px 1px 1px $bluetext;
+                                    width: 4.5em;
+                                    height: 4.5em;
+                                }
+                            }
+                            .led_two {
+                                #led_two {
+                                    border-radius: 15px;
+                                    filter: brightness(70%);
+                                    box-shadow: 1px 1px 1px 1px $bluetext;
+                                    width: 4.5em;
+                                    height: 4.5em;
+                                    border-radius: 10px;
+                                } 
+                            }
+                        }
+                    }
                 }
                 .ul_bulb {
                     display: none;

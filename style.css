@@ -593,7 +593,52 @@
     background-color: white;
   }
   * body .whole_page .exec_summary {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 6em 0 3em 4.2em;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights {
+    display: flex;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .exec_words {
+    font-family: "Inter", sans-serif;
+    width: 75%;
+    line-height: 1.5em;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .exec_words b {
+    color: #06183A;
+    font-size: 1rem;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .exec_words p {
+    color: #06183A;
+    font-size: 0.85rem;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds {
+    display: flex;
+    margin: 1em 0 0 0em;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds ul {
     display: none;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one {
+    z-index: 1;
+    margin: 2em -1em 0 -0.5em;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds .led_one #led_one {
+    border-radius: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #66C7E5;
+    width: 4.5em;
+    height: 4.5em;
+  }
+  * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two #led_two {
+    border-radius: 15px;
+    filter: brightness(70%);
+    box-shadow: 1px 1px 1px 1px #66C7E5;
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 10px;
   }
   * body .whole_page .ul_bulb {
     display: none;
