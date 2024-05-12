@@ -684,6 +684,7 @@ $borderfont: #dad3d35b;
                     // background-color: #668CF6;
                     .exec_words_and_lights {
                         display: flex;
+                        gap: 1em;
                         // flex-direction: column;
                         .exec_words {
                             font-family: 'Inter', sans-serif;
@@ -695,12 +696,13 @@ $borderfont: #dad3d35b;
                             }
                             p {
                                 color: $newnav;
-                                font-size: .85rem;
+                                font-size: .8rem;
                             }
                         }
                         .leds {
                             display: flex;
                             margin: 1em 0 0 0em;
+                            // background-color: #1F3E7A;
                             ul {
                                 display: none;
                             }
@@ -713,6 +715,8 @@ $borderfont: #dad3d35b;
                                     box-shadow: 1px 1px 1px 1px $bluetext;
                                     width: 4.5em;
                                     height: 4.5em;
+                                    width: 8vw;
+                                    height: 8vw;
                                 }
                             }
                             .led_two {
@@ -722,6 +726,8 @@ $borderfont: #dad3d35b;
                                     box-shadow: 1px 1px 1px 1px $bluetext;
                                     width: 4.5em;
                                     height: 4.5em;
+                                    width: 8vw;
+                                    height: 8vw;
                                     border-radius: 10px;
                                 } 
                             }
