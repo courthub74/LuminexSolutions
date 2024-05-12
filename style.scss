@@ -743,15 +743,192 @@ $borderfont: #dad3d35b;
                     .insight_contents {
                         display: flex;
                         flex-direction: column;
-                        margin: 0 5em 0 4.5em;
+                        // margin: 0 5em 0 4.5em;
                         .insight_title {
                             display: flex;
+                            margin: 0 0 1em 4.5em;
                             // justify-content: center;
                             b {
                                 color: $newnav;
                                 font-size: 1em;
                                 font-family: 'Inter', sans-serif;
                             }
+                        }
+                        .insight_squares {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            gap: 2em;
+                            .square {
+                                height: 5em;
+                                width: 100%;
+                                .square_content {
+                                    margin: 1em 3.5em 0 4.5em;
+                                    .insight_button_and_plus {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        // Button-title styling
+                                        .insight_button {
+                                            font-family: 'Inter', sans-serif;
+                                            font-weight: bold;
+                                            font-size: .9rem;
+                                        }
+                                        // for Underline appearances
+                                        #button_one.tapped {
+                                            text-decoration: underline $bluetext;
+                                            text-decoration-thickness: 3px;
+                                            text-underline-offset: 5px;
+                                        }
+                                        #button_two.tapped {
+                                            text-decoration: underline $bluetext;
+                                            text-decoration-thickness: 3px;
+                                            text-underline-offset: 5px;
+                                        }
+                                        #button_three.tapped {
+                                            text-decoration: underline $bluetext;
+                                            text-decoration-thickness: 3px;
+                                            text-underline-offset: 5px;
+                                        }
+                                        #button_four.tapped {
+                                            text-decoration: underline $bluetext;
+                                            text-decoration-thickness: 3px;
+                                            text-underline-offset: 5px;
+                                        }
+                                        // Plus button styling
+                                        .plus_button {
+                                            background: none;
+                                            border: none;
+                                        }
+                                        // Plus button by ID
+                                        #sq_one_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_two_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_three_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_four_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        // // Plus button styling
+                                        // .plus_button {
+                                        //     background: none;
+                                        //     border: none;
+                                        // }
+                                        // // Plus button by ID
+                                        // #sq_one_more.open {
+                                        //     transform: rotate(45deg);
+                                        // }
+                                        // #sq_two_more.open {
+                                        //     transform: rotate(45deg);
+                                        // }
+                                        // #sq_three_more.open {
+                                        //     transform: rotate(45deg);
+                                        // }
+                                        // #sq_four_more.open {
+                                        //     transform: rotate(45deg);
+                                        // }
+                                    }
+                                    .hover_boxes {
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: .8rem;
+                                        margin: 1em 0 0 0;
+                                        width: 60%;
+                                        line-height: 1.5em;
+                                    }
+                                     // Hover Boxes by ID
+                                     #box_one_words {
+                                        opacity: 0;
+                                    }
+                                    #box_one_words.appear {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #box_two_words {
+                                        opacity: 0;
+                                    }
+                                    #box_two_words.appear {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #box_three_words {
+                                        opacity: 0;
+                                    }
+                                    #box_three_words.appear {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #box_four_words {
+                                        opacity: 0;
+                                    }
+                                    #box_four_words.appear {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                    }
+                                }
+                            }
+                            #square_one {
+                                background-image: url("./img/office_lights.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                                box-shadow: 2px 2px 2px 2px grey;
+                            }
+                            #square_one.touch {
+                                box-shadow: 2px 2px 2px 2px grey;
+                            }
+                            #square_two {
+                                background-image: url("./img/operations_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                                box-shadow: 2px 2px 2px 2px grey;
+                            }
+                            #square_two.touch {
+                                box-shadow: 2px 2px 2px 2px grey;
+                            }
+                            #square_three {
+                                background-image: url("./img/environ_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                                box-shadow: 2px 2px 2px 2px grey;
+                            }
+                            #square_three.touch {
+                                box-shadow: 2px 2px 2px 2px grey;
+                            }
+                            #square_four {
+                                background-image: url("./img/hand_light.png");
+                                box-shadow: 2px 2px 2px 2px $newnav;
+                                box-shadow: 2px 2px 2px 2px grey;
+                            }
+                            #square_four.touch {
+                                // box-shadow: 2px 2px 2px 2px $bluetext;
+                                box-shadow: 2px 2px 2px 2px grey;
+                            }
+                             // WHOLE SQUARE WHEN PRESSED
+                             // New length state for square after button is 
+                                // pressed
+                                #square_one.pressed {
+                                    height: 12em;
+                                    padding-bottom: 5em;
+                                    transition: .2s all ease-in-out;
+                                }
+                                #square_two.pressed {
+                                    height: 20em;
+                                    padding-bottom: 5em;
+                                    transition: .2s all ease-in-out;
+                                }
+                                #square_three.pressed {
+                                    height: 20em;
+                                    padding-bottom: 5em;
+                                    transition: .2s all ease-in-out;
+                                }
+                                #square_four.pressed {
+                                    height: 20em;
+                                    padding-bottom: 5em;
+                                    transition: .2s all ease-in-out;
+                                    // since it's at the bottom of page
+                                        // for when it hovers over the footer
+                                    z-index: 5;
+                                }
                         }
                     }
                 }
@@ -786,6 +963,25 @@ $borderfont: #dad3d35b;
                     display: none;
                 }
             }
+        }
+    }
+}
+
+// IPADS
+@media only screen and (width: 768px) {
+    body {
+        background-color: $newnav;
+        .whole_page {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (width: 810px) {
+    body {
+        background-color: $newnav;
+        .whole_page {
+            display: none;
         }
     }
 }

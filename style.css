@@ -652,15 +652,166 @@
   * body .whole_page .insight_section .insight_contents {
     display: flex;
     flex-direction: column;
-    margin: 0 5em 0 4.5em;
   }
   * body .whole_page .insight_section .insight_contents .insight_title {
     display: flex;
+    margin: 0 0 1em 4.5em;
   }
   * body .whole_page .insight_section .insight_contents .insight_title b {
     color: #06183A;
     font-size: 1em;
     font-family: "Inter", sans-serif;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square {
+    height: 5em;
+    width: 100%;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content {
+    margin: 1em 3.5em 0 4.5em;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .insight_button {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_one.tapped {
+    -webkit-text-decoration: underline #66C7E5;
+            text-decoration: underline #66C7E5;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_two.tapped {
+    -webkit-text-decoration: underline #66C7E5;
+            text-decoration: underline #66C7E5;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_three.tapped {
+    -webkit-text-decoration: underline #66C7E5;
+            text-decoration: underline #66C7E5;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #button_four.tapped {
+    -webkit-text-decoration: underline #66C7E5;
+            text-decoration: underline #66C7E5;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .plus_button {
+    background: none;
+    border: none;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more.open {
+    transform: rotate(45deg);
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_two_more.open {
+    transform: rotate(45deg);
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_three_more.open {
+    transform: rotate(45deg);
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_four_more.open {
+    transform: rotate(45deg);
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    margin: 1em 0 0 0;
+    width: 60%;
+    line-height: 1.5em;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_one_words {
+    opacity: 0;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_one_words.appear {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_two_words {
+    opacity: 0;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_two_words.appear {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_three_words {
+    opacity: 0;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_three_words.appear {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_four_words {
+    opacity: 0;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_four_words.appear {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_one {
+    background-image: url("./img/office_lights.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_one.touch {
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_two {
+    background-image: url("./img/operations_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_two.touch {
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_three {
+    background-image: url("./img/environ_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_three.touch {
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_four {
+    background-image: url("./img/hand_light.png");
+    box-shadow: 2px 2px 2px 2px #06183A;
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_four.touch {
+    box-shadow: 2px 2px 2px 2px grey;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_one.pressed {
+    height: 12em;
+    padding-bottom: 5em;
+    transition: 0.2s all ease-in-out;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_two.pressed {
+    height: 20em;
+    padding-bottom: 5em;
+    transition: 0.2s all ease-in-out;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_three.pressed {
+    height: 20em;
+    padding-bottom: 5em;
+    transition: 0.2s all ease-in-out;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares #square_four.pressed {
+    height: 20em;
+    padding-bottom: 5em;
+    transition: 0.2s all ease-in-out;
+    z-index: 5;
   }
   * body .whole_page .ul_bulb {
     display: none;
@@ -685,6 +836,22 @@
     height: 1.5em;
   }
   * body .whole_page footer {
+    display: none;
+  }
+}
+@media only screen and (width: 768px) {
+  body {
+    background-color: #06183A;
+  }
+  body .whole_page {
+    display: none;
+  }
+}
+@media only screen and (width: 810px) {
+  body {
+    background-color: #06183A;
+  }
+  body .whole_page {
     display: none;
   }
 }
