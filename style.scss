@@ -264,7 +264,17 @@ $borderfont: #dad3d35b;
                                         display: flex;
                                         justify-content: space-between;
                                         // Button-title styling
+                                        .insight_button {
+                                            background: none;
+                                        }
                                         // Plus button styling
+                                        .plus_button {
+                                            background: none;
+                                        }
+                                        // Plus button by ID
+                                        #sq_one_more {
+                                            // margin-left: -1em;
+                                        }
                                     }
                                     .hover_boxes {
                                         font-size: .8rem;

@@ -215,6 +215,12 @@
     display: flex;
     justify-content: space-between;
   }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .insight_button {
+    background: none;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .plus_button {
+    background: none;
+  }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     font-size: 0.8rem;
   }
