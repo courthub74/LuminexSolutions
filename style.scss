@@ -263,7 +263,7 @@ $borderfont: #dad3d35b;
                                     // background-color: green;
                                     .insight_button_and_plus {
                                         display: flex;
-                                        // justify-content: space-between;
+                                        justify-content: space-between;
                                         align-items: center;
                                         // width: 100%;
                                         // gap: 10.8em;
@@ -355,28 +355,18 @@ $borderfont: #dad3d35b;
                                             cursor: pointer;
                                         }
                                         // ID each plus button and move it
-                                        // #sq_one_more {
-                                        //     position: relative;
-                                        //     left: 10.5em;
-                                        //     left: 39vw;
-                                        //     // maybe make the title stiff here
-                                        // }
-                                        // #sq_two_more {
-                                        //     position: relative;
-                                        //     left: 12.8em;
-                                        //     left: 47vw;
-                                        // }
-                                        // #sq_three_more {
-                                        //     position: relative;
-                                        //     left: 10em;
-                                        //     left: 49vw;
-                                        //     // background-color: purple;
-                                        // }
-                                        // #sq_four_more {
-                                        //     position: relative;
-                                        //     left: 10em;
-                                        //     left: 54vw;
-                                        // }
+                                        #sq_one_more {
+                                            margin: 0 0 0 -6.5em;
+                                        }
+                                        #sq_two_more {
+                                            margin: 0 0 0 -6.5em;
+                                        }
+                                        #sq_three_more {
+                                            margin: 0 0 0 -6.5em;
+                                        }
+                                        #sq_four_more {
+                                            margin: 0 0 0 -6.5em;
+                                        }
                                         // Rotate the Plus button
                                         #sq_one_more.open {
                                             transform: rotate(45deg);

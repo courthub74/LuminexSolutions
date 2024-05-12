@@ -213,6 +213,7 @@
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus {
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline {
@@ -256,6 +257,18 @@
     background: none;
     border: none;
     cursor: pointer;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more {
+    margin: 0 0 0 -6.5em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_two_more {
+    margin: 0 0 0 -6.5em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_three_more {
+    margin: 0 0 0 -6.5em;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_four_more {
+    margin: 0 0 0 -6.5em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more.open {
     transform: rotate(45deg);
