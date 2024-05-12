@@ -224,15 +224,30 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .plus_button {
     background: none;
   }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more.open {
+    transform: rotate(45deg);
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_two_more.open {
+    transform: rotate(45deg);
+  }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .hover_boxes {
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
     margin: 1em 0 0 0;
+    width: 60%;
+    line-height: 1.5em;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_one_words {
     opacity: 0;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_one_words.appear {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_two_words {
+    opacity: 0;
+  }
+  body .whole_page .insight_section .insight_contents .insight_squares .square .square_content #box_two_words.appear {
     opacity: 1;
     transition: 0.3s all ease-in;
   }

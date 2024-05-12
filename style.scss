@@ -275,18 +275,32 @@ $borderfont: #dad3d35b;
                                             background: none;
                                         }
                                         // Plus button by ID
-                                        
+                                        #sq_one_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_two_more.open {
+                                            transform: rotate(45deg);
+                                        }
                                     }
                                     .hover_boxes {
                                         font-family: 'Inter', sans-serif;
                                         font-size: .8rem;
                                         margin: 1em 0 0 0;
+                                        width: 60%;
+                                        line-height: 1.5em;
                                     }
                                     // Hover Boxes by ID
                                     #box_one_words {
                                         opacity: 0;
                                     }
                                     #box_one_words.appear {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #box_two_words {
+                                        opacity: 0;
+                                    }
+                                    #box_two_words.appear {
                                         opacity: 1;
                                         transition: .3s all ease-in;
                                     }
