@@ -846,6 +846,14 @@
   }
   * body .whole_page footer .top_footer_contents {
     display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin: 0em 0 0 -2em;
+  }
+  * body .whole_page footer .top_footer_contents .co_name_logo {
+    margin: 4em 0 0 0;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
     display: flex;
@@ -868,12 +876,105 @@
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
     display: flex;
     flex-direction: column;
+    line-height: 1.5em;
+    margin: 1em 0 0 0.8em;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.7rem;
     text-decoration: none;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin: 3em 0 0 0;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications {
+    display: flex;
+    flex-direction: column;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications small {
+    color: #66C7E5;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input {
+    display: flex;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input input {
+    background-color: #F0F5FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 2em;
+    border: none;
+    width: 12em;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button {
+    background-color: #F0F5FF;
+    background-color: #06183A;
+    border: 2px solid #66C7E5;
+    color: #66C7E5;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    width: 8em;
+    height: 2.55em;
+    cursor: pointer;
+    font-size: 0.7em;
+  }
+  * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button:hover {
+    background-color: #06183A;
+    background-color: #F0F5FF;
+    color: #66C7E5;
+    color: #06183A;
+    transition: 0.1s all ease-in;
+    border: 2px solid #66C7E5;
+    border: none;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0em 0 0 0;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with small {
+    color: #668CF6;
+    color: #66C7E5;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with .socials {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with .socials #twitter {
+    width: 1.3em;
+    height: 1.3em;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with .socials #instagram {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with .socials #facebook {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  * body .whole_page footer .top_footer_contents .connect_with .socials #linkedin {
+    width: 1.5em;
+    height: 1.5em;
   }
   * body .whole_page footer .copyrights {
     display: none;

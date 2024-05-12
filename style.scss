@@ -971,8 +971,14 @@ $borderfont: #dad3d35b;
                     // display: none;
                     .top_footer_contents {
                         display: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 4em;
+                        margin: 0em 0 0 -2em;
                         .co_name_logo {
                             // display: none;
+                            margin: 4em 0 0 0;
                             .logo_name {
                                 display: flex;
                                 justify-content: center;
@@ -993,12 +999,124 @@ $borderfont: #dad3d35b;
                                 .footer_list_contents {
                                     display: flex;
                                     flex-direction: column;
+                                    line-height: 1.5em;
+                                    margin: 1em 0 0 .8em;
                                     a {
                                         color: white;
                                         font-family: 'Inter', sans-serif;
                                         font-size: .7rem;
                                         text-decoration: none;
                                     }
+                                }
+                            }
+                        }
+                        .sign_up_div {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 4em;
+                            margin: 3em 0 0 0;
+                            .email_notifications {
+                                display: flex;
+                                flex-direction: column;
+                                small {
+                                    color: $bluetext;
+                                    // color: $supportblue;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    font-size: .7em;
+                                }
+                                .email_input {
+                                    display: flex;
+                                    // flex-direction: column;
+                                    // any measurements below
+                                    input {
+                                        background-color: $backgroundwhite;
+                                        // background-color: #66C7E5;
+                                        border-top-left-radius: 5px;
+                                        border-bottom-left-radius: 5px;
+                                        border-top-right-radius: 0px;
+                                        border-bottom-right-radius: 0px;
+                                        height: 2em;
+                                        border: none;
+                                        width: 12em;
+                                    }
+                                    button {
+                                        background-color: $backgroundwhite;
+                                        background-color: $newnav;
+                                        border: 2px solid $bluetext;
+                                        // border: 2px solid $supportblue;
+                                        color: $bluetext;
+                                        // color: $supportblue;
+                                        // color: white;
+                                        border-top-left-radius: 0px;
+                                        border-bottom-left-radius: 0px;
+                                        border-top-right-radius: 5px;
+                                        border-bottom-right-radius: 5px;
+                                        // color: $newnav;
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: bold;
+                                        width: 8em;
+                                        height: 2.55em;
+                                        cursor: pointer;
+                                        font-size: .7em;
+                                    }
+                                    button:hover {
+                                        background-color: $newnav;
+                                        background-color: $backgroundwhite;
+                                        color: $bluetext;
+                                        color: $newnav;
+                                        transition: .1s all ease-in;
+                                        border: 2px solid $bluetext;
+                                        border: none;
+                                    }
+                                }
+                            }
+                        }
+                        .connect_with {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            margin: 0em 0 0 0;
+                            small {
+                                color: $supportblue;
+                                color: $bluetext;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: .9rem;
+                                font-size: .8rem;
+                            }
+                            .socials {
+                                display: flex;
+                                align-items: center;
+                                gap: 1em;
+                                // .soc_icon {
+                                //     filter: opacity(50%);
+                                // }
+                                #twitter {
+                                    width: 1.30em;
+                                    height: 1.30em;
+                                    // width: 1.80em;
+                                    // height: 1.80em;
+                                }
+                                #instagram {
+                                    width: 1.5em;
+                                    height: 1.5em;
+                                    // width: 2em;
+                                    // height: 2em;
+                                }
+                                #facebook {
+                                    width: 1.5em;
+                                    height: 1.5em;
+                                    // width: 2em;
+                                    // height: 2em;
+                                }
+                                #linkedin {
+                                    width: 1.5em;
+                                    height: 1.5em;
+                                    // width: 2em;
+                                    // height: 2em;
                                 }
                             }
                         }
