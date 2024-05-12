@@ -642,6 +642,25 @@
   }
   * body .whole_page .ul_bulb {
     display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    width: 100%;
+    height: 10%;
+    height: 40px;
+    margin: 2em 0 0 0;
+  }
+  * body .whole_page .ul_bulb ul {
+    width: 82%;
+    height: 2px;
+    margin: 0em 0 0 -4.2em;
+    background-color: #06183A;
+    border: 0 none;
+  }
+  * body .whole_page .ul_bulb #bulb {
+    width: 1.5em;
+    height: 1.5em;
   }
   * body .whole_page .insight_section {
     display: none;

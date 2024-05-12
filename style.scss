@@ -730,6 +730,28 @@ $borderfont: #dad3d35b;
                 }
                 .ul_bulb {
                     display: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5em;
+                    width: 100%;
+                    height: 10%;
+                    // above height in px
+                    height: 40px;
+                    // background-color: #66C7E5;
+                    margin: 2em 0 0 0;
+                    ul {
+                        width: 82%;
+                        // width: 65%;
+                        height: 2px;
+                        margin: 0em 0 0 -4.2em;
+                        background-color: $newnav;
+                        border: 0 none;
+                    }
+                    #bulb {
+                        width: 1.5em;
+                        height: 1.5em;
+                    }
                 }
                 // Insights
                 .insight_section {
