@@ -273,12 +273,19 @@ $borderfont: #dad3d35b;
                                         // Plus button styling
                                         .plus_button {
                                             background: none;
+                                            border: none;
                                         }
                                         // Plus button by ID
                                         #sq_one_more.open {
                                             transform: rotate(45deg);
                                         }
                                         #sq_two_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_three_more.open {
+                                            transform: rotate(45deg);
+                                        }
+                                        #sq_four_more.open {
                                             transform: rotate(45deg);
                                         }
                                     }
@@ -301,6 +308,20 @@ $borderfont: #dad3d35b;
                                         opacity: 0;
                                     }
                                     #box_two_words.appear {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #box_three_words {
+                                        opacity: 0;
+                                    }
+                                    #box_three_words.appear {
+                                        opacity: 1;
+                                        transition: .3s all ease-in;
+                                    }
+                                    #box_four_words {
+                                        opacity: 0;
+                                    }
+                                    #box_four_words.appear {
                                         opacity: 1;
                                         transition: .3s all ease-in;
                                     }
