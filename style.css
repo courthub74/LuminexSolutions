@@ -232,7 +232,7 @@
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #button_one.tapped {
     -webkit-text-decoration: underline #66C7E5;
             text-decoration: underline #66C7E5;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 6px;
     text-underline-offset: 5px;
   }
   body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .title_and_underline #button_two.tapped {
