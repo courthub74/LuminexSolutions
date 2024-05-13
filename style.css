@@ -900,7 +900,7 @@
     margin: 0em 0 0 -1.5em;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo {
-    margin: 4em 0 0 0;
+    margin: 4em -2em 0 0;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .logo_name {
     display: flex;
@@ -915,7 +915,7 @@
     color: #DAD3D3;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list {
     display: flex;
@@ -929,7 +929,7 @@
   * body .whole_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     text-decoration: none;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div {
@@ -937,11 +937,12 @@
     justify-content: center;
     align-items: center;
     gap: 4em;
-    margin: 3em 0 0 0;
+    margin: 3em 0 0 4em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications {
     display: flex;
     flex-direction: column;
+    gap: 0.5em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications small {
     color: #66C7E5;
@@ -959,8 +960,9 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     height: 2em;
+    height: 1.7em;
     border: none;
-    width: 13em;
+    width: 10em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button {
     background-color: #F0F5FF;
@@ -973,10 +975,9 @@
     border-bottom-right-radius: 5px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    width: 8em;
     height: 2.55em;
     cursor: pointer;
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
   * body .whole_page footer .top_footer_contents .sign_up_div .email_notifications .email_input button:hover {
     background-color: #06183A;

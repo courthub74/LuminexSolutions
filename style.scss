@@ -1015,7 +1015,7 @@ $borderfont: #dad3d35b;
                         margin: 0em 0 0 -1.5em;
                         .co_name_logo {
                             // display: none;
-                            margin: 4em 0 0 0;
+                            margin: 4em -2em 0 0;
                             .logo_name {
                                 display: flex;
                                 justify-content: center;
@@ -1028,7 +1028,7 @@ $borderfont: #dad3d35b;
                                     color: $headerfont;
                                     color: white;
                                     font-family: 'Inter', sans-serif;
-                                    font-size: .8rem;
+                                    font-size: .7rem;
                                 }
                             }
                             .footer_list {
@@ -1041,7 +1041,7 @@ $borderfont: #dad3d35b;
                                     a {
                                         color: white;
                                         font-family: 'Inter', sans-serif;
-                                        font-size: .7rem;
+                                        font-size: .6rem;
                                         text-decoration: none;
                                     }
                                 }
@@ -1052,10 +1052,11 @@ $borderfont: #dad3d35b;
                             justify-content: center;
                             align-items: center;
                             gap: 4em;
-                            margin: 3em 0 0 0;
+                            margin: 3em 0 0 4em;
                             .email_notifications {
                                 display: flex;
                                 flex-direction: column;
+                                gap: .5em;
                                 small {
                                     color: $bluetext;
                                     // color: $supportblue;
@@ -1075,8 +1076,9 @@ $borderfont: #dad3d35b;
                                         border-top-right-radius: 0px;
                                         border-bottom-right-radius: 0px;
                                         height: 2em;
+                                        height: 1.7em;
                                         border: none;
-                                        width: 13em;
+                                        width: 10em;
                                     }
                                     button {
                                         background-color: $backgroundwhite;
@@ -1093,10 +1095,10 @@ $borderfont: #dad3d35b;
                                         // color: $newnav;
                                         font-family: 'Inter', sans-serif;
                                         font-weight: bold;
-                                        width: 8em;
+                                        // width: 4em;
                                         height: 2.55em;
                                         cursor: pointer;
-                                        font-size: .7em;
+                                        font-size: .6em;
                                     }
                                     button:hover {
                                         background-color: $newnav;
