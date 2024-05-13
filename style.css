@@ -647,7 +647,7 @@
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds {
     display: flex;
-    margin: 1em 0 0 0em;
+    margin: 1em 0 0 -1.1em;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds ul {
     display: none;
@@ -687,8 +687,10 @@
   }
   * body .whole_page .ul_bulb ul {
     width: 82%;
+    width: 80%;
     height: 2px;
     margin: 0em 0 0 -4.2em;
+    margin: 0em 0 0 -5.2em;
     background-color: #06183A;
     border: 0 none;
   }
@@ -762,6 +764,18 @@
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus .plus_button {
     background: none;
     border: none;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more {
+    margin-left: -4.6em;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_two_more {
+    margin-left: -4.6em;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_three_more {
+    margin-left: -4.6em;
+  }
+  * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_four_more {
+    margin-left: -4.6em;
   }
   * body .whole_page .insight_section .insight_contents .insight_squares .square .square_content .insight_button_and_plus #sq_one_more.open {
     transform: rotate(45deg);
