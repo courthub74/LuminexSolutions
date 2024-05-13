@@ -647,7 +647,7 @@
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds {
     display: flex;
-    margin: 1em 0 0 -1.1em;
+    margin: 2em 0 0 0em;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds ul {
     display: none;
@@ -662,8 +662,8 @@
     box-shadow: 1px 1px 1px 1px #66C7E5;
     width: 4.5em;
     height: 4.5em;
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
   }
   * body .whole_page .exec_summary .exec_words_and_lights .leds .led_two #led_two {
     border-radius: 15px;
@@ -671,8 +671,8 @@
     box-shadow: 1px 1px 1px 1px #66C7E5;
     width: 4.5em;
     height: 4.5em;
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
     border-radius: 10px;
   }
   * body .whole_page .ul_bulb {
@@ -1060,7 +1060,7 @@
     display: none;
   }
 }
-@media only screen and (width: 810px) {
+@media only screen and (width: 820px) {
   body {
     background-color: #06183A;
   }

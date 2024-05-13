@@ -735,7 +735,8 @@ $borderfont: #dad3d35b;
                         }
                         .leds {
                             display: flex;
-                            margin: 1em 0 0 -1.1em;
+                            // display: none;
+                            margin: 2em 0 0 0em;
                             // background-color: #1F3E7A;
                             ul {
                                 display: none;
@@ -749,8 +750,8 @@ $borderfont: #dad3d35b;
                                     box-shadow: 1px 1px 1px 1px $bluetext;
                                     width: 4.5em;
                                     height: 4.5em;
-                                    width: 8vw;
-                                    height: 8vw;
+                                    width: 6vw;
+                                    height: 6vw;
                                 }
                             }
                             .led_two {
@@ -760,8 +761,8 @@ $borderfont: #dad3d35b;
                                     box-shadow: 1px 1px 1px 1px $bluetext;
                                     width: 4.5em;
                                     height: 4.5em;
-                                    width: 8vw;
-                                    height: 8vw;
+                                    width: 6vw;
+                                    height: 6vw;
                                     border-radius: 10px;
                                 } 
                             }
@@ -1202,7 +1203,7 @@ $borderfont: #dad3d35b;
     }
 }
 
-@media only screen and (width: 810px) {
+@media only screen and (width: 820px) {
     body {
         background-color: $newnav;
         .whole_page {
